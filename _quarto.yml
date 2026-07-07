@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Curso de demografía avanzada - Colmex 2026"
+  navbar:
+    left:
+      - text: "Inicio"
+        href: index.qmd
+      - text: "Programa"
+        href: programa.qmd
+      - text: "Calendario"
+        href: calendario.qmd
+      - text: "Preparación"
+        href: preparacion.qmd
+      - text: "Bibliografía"
+        href: bibliografia.qmd
+      - text: "Sesiones"
+        menu:
+          - text: "Día 1: Fundamentos de la descomposición"
+            href: sesiones/dia-01-fundamentos-descomposicion.qmd
+          - text: "Día 2: Tablas de vida y esperanza de vida"
+            href: sesiones/dia-02-tablas-vida-esperanza-vida.qmd
+          - text: "Día 3: Salud y esperanza de vida saludable"
+            href: sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.qmd
+          - text: "Día 4: Métodos avanzados y robustez"
+            href: sesiones/dia-04-metodos-avanzados-robustez.qmd
+          - text: "Día 5: Lee-Carter y forecasting"
+            href: sesiones/dia-05-lee-carter-forecasting.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    lang: es
+    date-format: long
+

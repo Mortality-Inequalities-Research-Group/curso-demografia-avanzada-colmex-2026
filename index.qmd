@@ -1,0 +1,46 @@
+---
+title: "Curso de demografía avanzada - Colmex 2026"
+---
+
+# Técnicas avanzadas de demografía aplicada al estudio de la salud y la población
+
+Bienvenida al sitio del curso **Técnicas avanzadas de demografía aplicada al estudio de la salud y la población**.
+
+Este taller presencial de 15 horas se realizará en **El Colegio de México** del **27 al 31 de julio de 2026**.
+
+## Equipo docente
+
+- [Dr. José Manuel Aburto](https://www.lshtm.ac.uk/aboutus/people/aburto.jose-manuel), Associate Professor in Demography - Brass Blacker, Department of Population Health, Faculty of Epidemiology and Population Health, London School of Hygiene & Tropical Medicine.
+- [Ana Cristina Gómez Ugarte Valerio](https://www.demogr.mpg.de/en/about_us_6113/staff_directory_1899/ana_cristina_gomez_ugarte_valerio_4245/), Doctoral Student, Laboratory of Population Dynamics and Sustainable Well-Being, Max Planck Institute for Demographic Research.
+
+## Resumen
+
+El taller introduce herramientas avanzadas de análisis demográfico aplicadas al estudio de la salud y la población, con énfasis en técnicas de descomposición e introducción al *forecasting*. A lo largo de cinco sesiones, las y los participantes aprenderán a separar cambios y diferencias demográficas en componentes atribuibles a edad, estructura poblacional, mortalidad, fecundidad, prevalencias de salud y causas de muerte.
+
+El curso combina fundamentos conceptuales, discusión metodológica y ejercicios prácticos en R, de modo que cada participante pueda implementar los métodos, producir resultados reproducibles e interpretarlos sustantivamente.
+
+## Información general
+
+- **Fechas:** 27 al 31 de julio de 2026
+- **Duración:** 15 horas
+- **Modalidad:** presencial
+- **Sede:** El Colegio de México
+- **Cupo:** 15-20 personas
+
+## Estructura del curso
+
+El curso está organizado en cinco sesiones. Cada sesión incluye:
+
+- Slides
+- Lab
+- Código
+- Datos
+- Lecturas
+
+## Sesiones
+
+1. [Fundamentos de la descomposición demográfica](sesiones/dia-01-fundamentos-descomposicion.qmd)
+2. [Tablas de vida y esperanza de vida](sesiones/dia-02-tablas-vida-esperanza-vida.qmd)
+3. [Salud, prevalencias y esperanza de vida saludable](sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.qmd)
+4. [Métodos avanzados, robustez e interpretación](sesiones/dia-04-metodos-avanzados-robustez.qmd)
+5. [Introducción al método de Lee-Carter y su interpretación](sesiones/dia-05-lee-carter-forecasting.qmd)

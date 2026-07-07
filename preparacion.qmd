@@ -1,0 +1,37 @@
+---
+title: "Preparación"
+---
+
+# Preparación
+
+## Antes del curso
+
+Se recomienda llegar al taller con una instalación funcional de R y RStudio, o con un entorno equivalente para ejecutar scripts en R.
+
+## Conocimientos previos recomendados
+
+- Conocimientos básicos de métodos demográficos.
+- Familiaridad con tablas de vida.
+- Lectura e interpretación de tasas específicas por edad.
+- Nociones elementales de crecimiento poblacional.
+- Comodidad con logaritmos, crecimiento exponencial y manipulación de datos.
+- Manejo básico o intermedio de R y RStudio.
+
+No es necesario contar con formación avanzada en cálculo.
+
+## Software y equipo
+
+- R
+- RStudio
+- Conexión a internet, preferentemente
+- Computadora portátil con R y RStudio instalados, si el curso no se realiza en sala de cómputo
+
+## Materiales
+
+Los materiales de cada día estarán disponibles en las páginas de sesión:
+
+- [Día 1](sesiones/dia-01-fundamentos-descomposicion.qmd)
+- [Día 2](sesiones/dia-02-tablas-vida-esperanza-vida.qmd)
+- [Día 3](sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.qmd)
+- [Día 4](sesiones/dia-04-metodos-avanzados-robustez.qmd)
+- [Día 5](sesiones/dia-05-lee-carter-forecasting.qmd)

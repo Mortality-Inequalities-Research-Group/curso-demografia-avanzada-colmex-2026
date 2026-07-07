@@ -1,0 +1,39 @@
+---
+title: "Día 1: Fundamentos de la descomposición demográfica"
+---
+
+# Fundamentos de la descomposición demográfica
+
+Motivación, diferencias entre componentes directos y composicionales, tasas agregadas, descomposición de Kitagawa y ejercicios con fecundidad o mortalidad por edad.
+
+## Docencia
+
+- Sesión: [Dr. José Manuel Aburto](https://www.lshtm.ac.uk/aboutus/people/aburto.jose-manuel)
+- Taller: [Ana Cristina Gómez Ugarte Valerio](https://www.demogr.mpg.de/en/about_us_6113/staff_directory_1899/ana_cristina_gomez_ugarte_valerio_4245/)
+
+## Objetivos de la sesión
+
+- Identificar el problema demográfico que motiva una descomposición.
+- Distinguir entre componentes directos y composicionales.
+- Aplicar la descomposición de Kitagawa a tasas agregadas.
+- Interpretar contribuciones por edad en ejercicios de fecundidad o mortalidad.
+
+## Slides
+
+Disponible próximamente.
+
+## Lab
+
+[Lab del día 1](../labs/dia-01-lab.qmd)
+
+## Código
+
+Disponible próximamente.
+
+## Datos
+
+Disponible próximamente.
+
+## Lecturas recomendadas
+
+Disponible próximamente.

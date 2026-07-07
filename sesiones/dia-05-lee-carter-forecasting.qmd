@@ -1,0 +1,40 @@
+---
+title: "Día 5: Introducción al método de Lee-Carter y su interpretación"
+---
+
+# Introducción al método de Lee-Carter y su interpretación
+
+Introducción al forecasting de mortalidad, interpretación de los parámetros de Lee-Carter e implementación básica en R.
+
+## Docencia
+
+- Sesión: [Ana Cristina Gómez Ugarte Valerio](https://www.demogr.mpg.de/en/about_us_6113/staff_directory_1899/ana_cristina_gomez_ugarte_valerio_4245/)
+- Taller: [Dr. José Manuel Aburto](https://www.lshtm.ac.uk/aboutus/people/aburto.jose-manuel)
+
+## Objetivos de la sesión
+
+- Introducir el forecasting de mortalidad.
+- Comprender la estructura del modelo Lee-Carter.
+- Interpretar los parámetros del modelo.
+- Implementar una versión básica del método en R.
+- Discutir alcances, supuestos y límites de la proyección.
+
+## Slides
+
+Disponible próximamente.
+
+## Lab
+
+[Lab del día 5](../labs/dia-05-lab.qmd)
+
+## Código
+
+Disponible próximamente.
+
+## Datos
+
+Disponible próximamente.
+
+## Lecturas recomendadas
+
+Disponible próximamente.

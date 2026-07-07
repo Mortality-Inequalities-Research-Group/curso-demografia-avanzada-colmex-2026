@@ -1,0 +1,20 @@
+---
+title: "Calendario"
+---
+
+# Calendario
+
+El taller se realizará del **lunes 27 al viernes 31 de julio de 2026**.
+
+| Fecha | Sesión | Tema |
+|---|---|---|
+| 27 de julio de 2026 | Día 1 | [Fundamentos de la descomposición demográfica](sesiones/dia-01-fundamentos-descomposicion.qmd) |
+| 28 de julio de 2026 | Día 2 | [Tablas de vida y esperanza de vida](sesiones/dia-02-tablas-vida-esperanza-vida.qmd) |
+| 29 de julio de 2026 | Día 3 | [Salud, prevalencias y esperanza de vida saludable](sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.qmd) |
+| 30 de julio de 2026 | Día 4 | [Métodos avanzados, robustez e interpretación](sesiones/dia-04-metodos-avanzados-robustez.qmd) |
+| 31 de julio de 2026 | Día 5 | [Introducción al método de Lee-Carter y su interpretación](sesiones/dia-05-lee-carter-forecasting.qmd) |
+
+## Formato
+
+Curso presencial de 15 horas en El Colegio de México.
+

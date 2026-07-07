@@ -1,0 +1,40 @@
+---
+title: "Día 4: Métodos avanzados, robustez e interpretación"
+---
+
+# Métodos avanzados, robustez e interpretación
+
+Descomposición lineal integral, dependencia del orden de reemplazo, ejercicios de sensibilidad e interpretación de resultados.
+
+## Docencia
+
+- Sesión: [Dr. José Manuel Aburto](https://www.lshtm.ac.uk/aboutus/people/aburto.jose-manuel)
+- Taller: [Ana Cristina Gómez Ugarte Valerio](https://www.demogr.mpg.de/en/about_us_6113/staff_directory_1899/ana_cristina_gomez_ugarte_valerio_4245/)
+
+## Objetivos de la sesión
+
+- Introducir la descomposición lineal integral.
+- Evaluar la dependencia del orden de reemplazo.
+- Diseñar ejercicios de sensibilidad.
+- Comparar resultados entre métodos de descomposición.
+- Fortalecer la interpretación sustantiva de los resultados.
+
+## Slides
+
+Disponible próximamente.
+
+## Lab
+
+[Lab del día 4](../labs/dia-04-lab.qmd)
+
+## Código
+
+Disponible próximamente.
+
+## Datos
+
+Disponible próximamente.
+
+## Lecturas recomendadas
+
+Disponible próximamente.

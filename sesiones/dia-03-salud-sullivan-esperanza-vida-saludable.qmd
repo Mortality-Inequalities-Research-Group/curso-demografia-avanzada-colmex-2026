@@ -1,0 +1,40 @@
+---
+title: "Día 3: Salud, prevalencias y esperanza de vida saludable"
+---
+
+# Salud, prevalencias y esperanza de vida saludable
+
+Método de Sullivan, incorporación de prevalencias por edad, cálculo de esperanza de vida saludable, descomposición de brechas de salud y métodos stepwise.
+
+## Docencia
+
+- Sesión: [Ana Cristina Gómez Ugarte Valerio](https://www.demogr.mpg.de/en/about_us_6113/staff_directory_1899/ana_cristina_gomez_ugarte_valerio_4245/)
+- Taller: [Dr. José Manuel Aburto](https://www.lshtm.ac.uk/aboutus/people/aburto.jose-manuel)
+
+## Objetivos de la sesión
+
+- Comprender la lógica del método de Sullivan.
+- Incorporar prevalencias por edad a una tabla de vida.
+- Calcular esperanza de vida saludable.
+- Descomponer brechas de salud entre poblaciones o periodos.
+- Explorar métodos stepwise para problemas de descomposición.
+
+## Slides
+
+Disponible próximamente.
+
+## Lab
+
+[Lab del día 3](../labs/dia-03-lab.qmd)
+
+## Código
+
+Disponible próximamente.
+
+## Datos
+
+Disponible próximamente.
+
+## Lecturas recomendadas
+
+Disponible próximamente.

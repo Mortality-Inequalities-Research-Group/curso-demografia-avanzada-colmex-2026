@@ -1,0 +1,44 @@
+---
+title: "Programa"
+---
+
+# Programa del curso
+
+## Descripción
+
+Este taller introduce herramientas avanzadas de análisis demográfico aplicadas al estudio de la salud y la población, con énfasis en técnicas de descomposición e introducción al *forecasting*. A lo largo de cinco sesiones, las y los participantes aprenderán a separar cambios y diferencias demográficas en componentes atribuibles a edad, estructura poblacional, mortalidad, fecundidad, prevalencias de salud y causas de muerte.
+
+El curso combina fundamentos conceptuales, discusión metodológica y ejercicios prácticos en R, de modo que cada participante pueda implementar los métodos, producir resultados reproducibles e interpretarlos sustantivamente. Se trabajará con aplicaciones a fecundidad, esperanza de vida, esperanza de vida saludable, causas de muerte y desigualdad en la duración de la vida.
+
+El taller es presencial y tiene una duración total de **15 horas**, distribuidas en cinco sesiones del **27 al 31 de julio de 2026** en **El Colegio de México**.
+
+## Equipo docente
+
+- [Dr. José Manuel Aburto](https://www.lshtm.ac.uk/aboutus/people/aburto.jose-manuel), Associate Professor in Demography - Brass Blacker, Department of Population Health, Faculty of Epidemiology and Population Health, London School of Hygiene & Tropical Medicine.
+- [Ana Cristina Gómez Ugarte Valerio](https://www.demogr.mpg.de/en/about_us_6113/staff_directory_1899/ana_cristina_gomez_ugarte_valerio_4245/), Doctoral Student, Laboratory of Population Dynamics and Sustainable Well-Being, Max Planck Institute for Demographic Research.
+
+## Objetivo general
+
+Proporcionar a las y los participantes una base conceptual y práctica para aplicar técnicas de descomposición en demografía y salud poblacional, con énfasis en la implementación computacional, la interpretación sustantiva y la comunicación clara de resultados.
+
+## Objetivos específicos
+
+- Distinguir entre cambios temporales, diferencias entre poblaciones y contrastes contrafactuales en demografía.
+- Aplicar la descomposición de Kitagawa para separar efectos de tasas específicas y estructura poblacional.
+- Construir e interpretar tablas de vida y descomponer cambios en esperanza de vida por edad.
+- Calcular esperanza de vida saludable mediante el método de Sullivan y descomponer brechas asociadas a mortalidad y prevalencias.
+- Analizar cambios por edad y causa de muerte, incluyendo ejercicios con tablas de vida de causa eliminada y riesgos competitivos.
+- Aplicar métodos stepwise y de descomposición lineal integral, evaluando la sensibilidad de los resultados al orden de reemplazo.
+- Elaborar gráficos, tablas e interpretaciones reproducibles en R.
+
+## Organización
+
+Cada sesión combina exposición conceptual, discusión metodológica y trabajo aplicado en laboratorio.
+
+| Día | Tema | Docencia | Materiales |
+|---|---|---|---|
+| 1 | Fundamentos de la descomposición demográfica | José Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio | [Sesión](sesiones/dia-01-fundamentos-descomposicion.qmd) |
+| 2 | Tablas de vida y esperanza de vida | José Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio | [Sesión](sesiones/dia-02-tablas-vida-esperanza-vida.qmd) |
+| 3 | Salud, prevalencias y esperanza de vida saludable | Ana Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto | [Sesión](sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.qmd) |
+| 4 | Métodos avanzados, robustez e interpretación | José Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio | [Sesión](sesiones/dia-04-metodos-avanzados-robustez.qmd) |
+| 5 | Introducción al método de Lee-Carter y su interpretación | Ana Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto | [Sesión](sesiones/dia-05-lee-carter-forecasting.qmd) |

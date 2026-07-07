@@ -1,0 +1,33 @@
+---
+title: "Bibliografía"
+---
+
+# Bibliografía
+
+Esta página reúne las referencias generales del curso. Las lecturas específicas de cada sesión se indicarán en las páginas correspondientes.
+
+## Lecturas por sesión
+
+- Día 1: lecturas sobre descomposición demográfica.
+- Día 2: lecturas sobre tablas de vida y esperanza de vida.
+- Día 3: lecturas sobre el método de Sullivan y esperanza de vida saludable.
+- Día 4: lecturas sobre métodos avanzados, robustez e interpretación.
+- Día 5: lecturas sobre Lee-Carter y forecasting de mortalidad.
+
+## Referencias
+
+- Aburto, José Manuel, and Hiram Beltrán-Sánchez. 2019. "Upsurge of Homicides and Its Impact on Life Expectancy and Life Span Inequality in Mexico, 2005-2015." *American Journal of Public Health* 109(3): 483-489.
+- Aburto, José Manuel, Francisco Villavicencio, Ugofilippo Basellini, Søren Kjærgaard, and James W. Vaupel. 2020. "Dynamics of Life Expectancy and Life Span Equality." *Proceedings of the National Academy of Sciences* 117(10): 5250-5259.
+- Arriaga, Eduardo E. 1984. "Measuring and Explaining the Change in Life Expectancies." *Demography* 21(1): 83-96.
+- Basellini, U., Camarda, C. G., & Booth, H. 2023. "Thirty Years On: A Review of the Lee-Carter Method for Forecasting Mortality." *International Journal of Forecasting* 39(3): 1033-1049. https://doi.org/10.1016/j.ijforecast.2022.11.002
+- Booth, H. 2006. "Demographic Forecasting: 1980 to 2005 in Review." *International Journal of Forecasting* 22(3): 547-581. https://doi.org/10.1016/j.ijforecast.2006.04.001
+- Horiuchi, Shiro, John R. Wilmoth, and Scott D. Pletcher. 2008. "A Decomposition Method Based on a Model of Continuous Change." *Demography* 45(4): 785-801.
+- Keyfitz, Nathan. 1977. "What Difference Would It Make If Cancer Were Eradicated? An Examination of the Taeuber Paradox." *Demography* 14(4): 411-418.
+- Kitagawa, Evelyn M. 1955. "Components of a Difference Between Two Rates." *Journal of the American Statistical Association* 50(272): 1168-1194.
+- Lee, R. D., & Carter, L. R. 1992. "Forecasting U.S. Mortality." *Journal of the American Statistical Association* 87(419): 659-671. https://doi.org/10.1080/01621459.1992.10475265
+- Preston, Samuel H., Patrick Heuveline, and Michel Guillot. 2001. *Demography: Measuring and Modeling Population Processes*. Malden, MA: Blackwell Publishers.
+- Sullivan, D. F. 1971. "A Single Index of Mortality and Morbidity." *HSMHA Health Reports* 86(4): 347-354.
+- Vaupel, James W., and Vladimir Canudas-Romo. 2002. "Decomposing Demographic Change into Direct vs. Compositional Components." *Demographic Research* 7(1): 1-14.
+- Vaupel, James W., and Vladimir Canudas-Romo. 2003. "Decomposing Change in Life Expectancy: A Bouquet of Formulas in Honor of Nathan Keyfitz's 90th Birthday." *Demography* 40(2): 201-216.
+- van Raalte, Alyson A., and Marília R. Nepomuceno. 2020. "Decomposing Gaps in Healthy Life Expectancy." In *International Handbook of Health Expectancies*, edited by Carol Jagger et al., 107-122. Cham: Springer.
+- Yang, Yang. 2008. "Long and Happy Living: Trends and Patterns of Happy Life Expectancy in the U.S., 1970-2000." *Social Science Research* 37(4): 1235-1252.

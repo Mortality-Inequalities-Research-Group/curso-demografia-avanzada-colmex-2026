@@ -1,0 +1,40 @@
+---
+title: "Día 2: Tablas de vida y esperanza de vida"
+---
+
+# Tablas de vida y esperanza de vida
+
+Repaso de funciones de la tabla de vida, descomposición del cambio en esperanza de vida por edad, método de Arriaga, visualización de contribuciones e introducción a lifespan inequality.
+
+## Docencia
+
+- Sesión: [Dr. José Manuel Aburto](https://www.lshtm.ac.uk/aboutus/people/aburto.jose-manuel)
+- Taller y ejemplo práctico: [Ana Cristina Gómez Ugarte Valerio](https://www.demogr.mpg.de/en/about_us_6113/staff_directory_1899/ana_cristina_gomez_ugarte_valerio_4245/)
+
+## Objetivos de la sesión
+
+- Repasar las funciones principales de la tabla de vida.
+- Descomponer cambios en esperanza de vida por edad.
+- Aplicar el método de Arriaga.
+- Visualizar e interpretar contribuciones por edad.
+- Introducir medidas de desigualdad en la duración de la vida.
+
+## Slides
+
+Disponible próximamente.
+
+## Lab
+
+[Lab del día 2](../labs/dia-02-lab.qmd)
+
+## Código
+
+Disponible próximamente.
+
+## Datos
+
+Disponible próximamente.
+
+## Lecturas recomendadas
+
+Disponible próximamente.

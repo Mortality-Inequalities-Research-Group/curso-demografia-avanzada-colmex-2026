@@ -1,0 +1,34 @@
+---
+title: "Lab día 2"
+---
+
+# Lab día 2
+
+## Objetivo del lab
+
+Pendiente: objetivo del lab sobre tablas de vida y esperanza de vida.
+
+## Paquetes necesarios
+
+Pendiente: lista de paquetes necesarios.
+
+## Datos
+
+Pendiente: descripción de los datos de práctica.
+
+## Ejercicio 1
+
+Pendiente: instrucciones del ejercicio.
+
+## Ejercicio 2
+
+Pendiente: instrucciones del ejercicio.
+
+## Ejercicio 3
+
+Pendiente: instrucciones del ejercicio.
+
+## Preguntas de interpretación
+
+Pendiente: preguntas para discusión e interpretación.
+
