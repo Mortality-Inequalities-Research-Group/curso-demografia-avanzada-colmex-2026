@@ -1,0 +1,716 @@
+[
+  {
+    "objectID": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html",
+    "href": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html",
+    "title": "Día 3: Salud, prevalencias y esperanza de vida saludable",
+    "section": "",
+    "text": "Método de Sullivan, incorporación de prevalencias por edad, cálculo de esperanza de vida saludable, descomposición de brechas de salud y métodos stepwise.\n\n\n\nSesión: Ana Cristina Gómez Ugarte Valerio\nTaller: Dr. José Manuel Aburto\n\n\n\n\n\nComprender la lógica del método de Sullivan.\nIncorporar prevalencias por edad a una tabla de vida.\nCalcular esperanza de vida saludable.\nDescomponer brechas de salud entre poblaciones o periodos.\nExplorar métodos stepwise para problemas de descomposición.\n\n\n\n\nDisponible próximamente.\n\n\n\nLab del día 3\n\n\n\nDisponible próximamente.\n\n\n\nDisponible próximamente.\n\n\n\nDisponible próximamente."
+  },
+  {
+    "objectID": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#docencia",
+    "href": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#docencia",
+    "title": "Día 3: Salud, prevalencias y esperanza de vida saludable",
+    "section": "",
+    "text": "Sesión: Ana Cristina Gómez Ugarte Valerio\nTaller: Dr. José Manuel Aburto"
+  },
+  {
+    "objectID": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#objetivos-de-la-sesión",
+    "href": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#objetivos-de-la-sesión",
+    "title": "Día 3: Salud, prevalencias y esperanza de vida saludable",
+    "section": "",
+    "text": "Comprender la lógica del método de Sullivan.\nIncorporar prevalencias por edad a una tabla de vida.\nCalcular esperanza de vida saludable.\nDescomponer brechas de salud entre poblaciones o periodos.\nExplorar métodos stepwise para problemas de descomposición."
+  },
+  {
+    "objectID": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#slides",
+    "href": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#slides",
+    "title": "Día 3: Salud, prevalencias y esperanza de vida saludable",
+    "section": "",
+    "text": "Disponible próximamente."
+  },
+  {
+    "objectID": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#lab",
+    "href": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#lab",
+    "title": "Día 3: Salud, prevalencias y esperanza de vida saludable",
+    "section": "",
+    "text": "Lab del día 3"
+  },
+  {
+    "objectID": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#código",
+    "href": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#código",
+    "title": "Día 3: Salud, prevalencias y esperanza de vida saludable",
+    "section": "",
+    "text": "Disponible próximamente."
+  },
+  {
+    "objectID": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#datos",
+    "href": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#datos",
+    "title": "Día 3: Salud, prevalencias y esperanza de vida saludable",
+    "section": "",
+    "text": "Disponible próximamente."
+  },
+  {
+    "objectID": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#lecturas-recomendadas",
+    "href": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#lecturas-recomendadas",
+    "title": "Día 3: Salud, prevalencias y esperanza de vida saludable",
+    "section": "",
+    "text": "Disponible próximamente."
+  },
+  {
+    "objectID": "sesiones/dia-05-lee-carter-forecasting.html",
+    "href": "sesiones/dia-05-lee-carter-forecasting.html",
+    "title": "Día 5: Introducción al método de Lee-Carter y su interpretación",
+    "section": "",
+    "text": "Introducción al forecasting de mortalidad, interpretación de los parámetros de Lee-Carter e implementación básica en R.\n\n\n\nSesión: Ana Cristina Gómez Ugarte Valerio\nTaller: Dr. José Manuel Aburto\n\n\n\n\n\nIntroducir el forecasting de mortalidad.\nComprender la estructura del modelo Lee-Carter.\nInterpretar los parámetros del modelo.\nImplementar una versión básica del método en R.\nDiscutir alcances, supuestos y límites de la proyección.\n\n\n\n\nDisponible próximamente.\n\n\n\nLab del día 5\n\n\n\nDisponible próximamente.\n\n\n\nDisponible próximamente.\n\n\n\nDisponible próximamente."
+  },
+  {
+    "objectID": "sesiones/dia-05-lee-carter-forecasting.html#docencia",
+    "href": "sesiones/dia-05-lee-carter-forecasting.html#docencia",
+    "title": "Día 5: Introducción al método de Lee-Carter y su interpretación",
+    "section": "",
+    "text": "Sesión: Ana Cristina Gómez Ugarte Valerio\nTaller: Dr. José Manuel Aburto"
+  },
+  {
+    "objectID": "sesiones/dia-05-lee-carter-forecasting.html#objetivos-de-la-sesión",
+    "href": "sesiones/dia-05-lee-carter-forecasting.html#objetivos-de-la-sesión",
+    "title": "Día 5: Introducción al método de Lee-Carter y su interpretación",
+    "section": "",
+    "text": "Introducir el forecasting de mortalidad.\nComprender la estructura del modelo Lee-Carter.\nInterpretar los parámetros del modelo.\nImplementar una versión básica del método en R.\nDiscutir alcances, supuestos y límites de la proyección."
+  },
+  {
+    "objectID": "sesiones/dia-05-lee-carter-forecasting.html#slides",
+    "href": "sesiones/dia-05-lee-carter-forecasting.html#slides",
+    "title": "Día 5: Introducción al método de Lee-Carter y su interpretación",
+    "section": "",
+    "text": "Disponible próximamente."
+  },
+  {
+    "objectID": "sesiones/dia-05-lee-carter-forecasting.html#lab",
+    "href": "sesiones/dia-05-lee-carter-forecasting.html#lab",
+    "title": "Día 5: Introducción al método de Lee-Carter y su interpretación",
+    "section": "",
+    "text": "Lab del día 5"
+  },
+  {
+    "objectID": "sesiones/dia-05-lee-carter-forecasting.html#código",
+    "href": "sesiones/dia-05-lee-carter-forecasting.html#código",
+    "title": "Día 5: Introducción al método de Lee-Carter y su interpretación",
+    "section": "",
+    "text": "Disponible próximamente."
+  },
+  {
+    "objectID": "sesiones/dia-05-lee-carter-forecasting.html#datos",
+    "href": "sesiones/dia-05-lee-carter-forecasting.html#datos",
+    "title": "Día 5: Introducción al método de Lee-Carter y su interpretación",
+    "section": "",
+    "text": "Disponible próximamente."
+  },
+  {
+    "objectID": "sesiones/dia-05-lee-carter-forecasting.html#lecturas-recomendadas",
+    "href": "sesiones/dia-05-lee-carter-forecasting.html#lecturas-recomendadas",
+    "title": "Día 5: Introducción al método de Lee-Carter y su interpretación",
+    "section": "",
+    "text": "Disponible próximamente."
+  },
+  {
+    "objectID": "sesiones/dia-02-tablas-vida-esperanza-vida.html",
+    "href": "sesiones/dia-02-tablas-vida-esperanza-vida.html",
+    "title": "Día 2: Tablas de vida y esperanza de vida",
+    "section": "",
+    "text": "Repaso de funciones de la tabla de vida, descomposición del cambio en esperanza de vida por edad, método de Arriaga, visualización de contribuciones e introducción a lifespan inequality.\n\n\n\nSesión: Dr. José Manuel Aburto\nTaller y ejemplo práctico: Ana Cristina Gómez Ugarte Valerio\n\n\n\n\n\nRepasar las funciones principales de la tabla de vida.\nDescomponer cambios en esperanza de vida por edad.\nAplicar el método de Arriaga.\nVisualizar e interpretar contribuciones por edad.\nIntroducir medidas de desigualdad en la duración de la vida.\n\n\n\n\nDisponible próximamente.\n\n\n\nLab del día 2\n\n\n\nDisponible próximamente.\n\n\n\nDisponible próximamente.\n\n\n\nDisponible próximamente."
+  },
+  {
+    "objectID": "sesiones/dia-02-tablas-vida-esperanza-vida.html#docencia",
+    "href": "sesiones/dia-02-tablas-vida-esperanza-vida.html#docencia",
+    "title": "Día 2: Tablas de vida y esperanza de vida",
+    "section": "",
+    "text": "Sesión: Dr. José Manuel Aburto\nTaller y ejemplo práctico: Ana Cristina Gómez Ugarte Valerio"
+  },
+  {
+    "objectID": "sesiones/dia-02-tablas-vida-esperanza-vida.html#objetivos-de-la-sesión",
+    "href": "sesiones/dia-02-tablas-vida-esperanza-vida.html#objetivos-de-la-sesión",
+    "title": "Día 2: Tablas de vida y esperanza de vida",
+    "section": "",
+    "text": "Repasar las funciones principales de la tabla de vida.\nDescomponer cambios en esperanza de vida por edad.\nAplicar el método de Arriaga.\nVisualizar e interpretar contribuciones por edad.\nIntroducir medidas de desigualdad en la duración de la vida."
+  },
+  {
+    "objectID": "sesiones/dia-02-tablas-vida-esperanza-vida.html#slides",
+    "href": "sesiones/dia-02-tablas-vida-esperanza-vida.html#slides",
+    "title": "Día 2: Tablas de vida y esperanza de vida",
+    "section": "",
+    "text": "Disponible próximamente."
+  },
+  {
+    "objectID": "sesiones/dia-02-tablas-vida-esperanza-vida.html#lab",
+    "href": "sesiones/dia-02-tablas-vida-esperanza-vida.html#lab",
+    "title": "Día 2: Tablas de vida y esperanza de vida",
+    "section": "",
+    "text": "Lab del día 2"
+  },
+  {
+    "objectID": "sesiones/dia-02-tablas-vida-esperanza-vida.html#código",
+    "href": "sesiones/dia-02-tablas-vida-esperanza-vida.html#código",
+    "title": "Día 2: Tablas de vida y esperanza de vida",
+    "section": "",
+    "text": "Disponible próximamente."
+  },
+  {
+    "objectID": "sesiones/dia-02-tablas-vida-esperanza-vida.html#datos",
+    "href": "sesiones/dia-02-tablas-vida-esperanza-vida.html#datos",
+    "title": "Día 2: Tablas de vida y esperanza de vida",
+    "section": "",
+    "text": "Disponible próximamente."
+  },
+  {
+    "objectID": "sesiones/dia-02-tablas-vida-esperanza-vida.html#lecturas-recomendadas",
+    "href": "sesiones/dia-02-tablas-vida-esperanza-vida.html#lecturas-recomendadas",
+    "title": "Día 2: Tablas de vida y esperanza de vida",
+    "section": "",
+    "text": "Disponible próximamente."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Curso de demografía avanzada - Colmex 2026",
+    "section": "",
+    "text": "Bienvenida al sitio del curso Técnicas avanzadas de demografía aplicada al estudio de la salud y la población.\nEste taller presencial de 15 horas se realizará en El Colegio de México del 27 al 31 de julio de 2026.\n\n\n\nDr. José Manuel Aburto, Associate Professor in Demography - Brass Blacker, Department of Population Health, Faculty of Epidemiology and Population Health, London School of Hygiene & Tropical Medicine.\nAna Cristina Gómez Ugarte Valerio, Doctoral Student, Laboratory of Population Dynamics and Sustainable Well-Being, Max Planck Institute for Demographic Research.\n\n\n\n\nEl taller introduce herramientas avanzadas de análisis demográfico aplicadas al estudio de la salud y la población, con énfasis en técnicas de descomposición e introducción al forecasting. A lo largo de cinco sesiones, las y los participantes aprenderán a separar cambios y diferencias demográficas en componentes atribuibles a edad, estructura poblacional, mortalidad, fecundidad, prevalencias de salud y causas de muerte.\nEl curso combina fundamentos conceptuales, discusión metodológica y ejercicios prácticos en R, de modo que cada participante pueda implementar los métodos, producir resultados reproducibles e interpretarlos sustantivamente.\n\n\n\n\nFechas: 27 al 31 de julio de 2026\nDuración: 15 horas\nModalidad: presencial\nSede: El Colegio de México\nCupo: 15-20 personas\n\n\n\n\nEl curso está organizado en cinco sesiones. Cada sesión incluye:\n\nSlides\nLab\nCódigo\nDatos\nLecturas\n\n\n\n\n\nFundamentos de la descomposición demográfica\nTablas de vida y esperanza de vida\nSalud, prevalencias y esperanza de vida saludable\nMétodos avanzados, robustez e interpretación\nIntroducción al método de Lee-Carter y su interpretación"
+  },
+  {
+    "objectID": "index.html#equipo-docente",
+    "href": "index.html#equipo-docente",
+    "title": "Curso de demografía avanzada - Colmex 2026",
+    "section": "",
+    "text": "Dr. José Manuel Aburto, Associate Professor in Demography - Brass Blacker, Department of Population Health, Faculty of Epidemiology and Population Health, London School of Hygiene & Tropical Medicine.\nAna Cristina Gómez Ugarte Valerio, Doctoral Student, Laboratory of Population Dynamics and Sustainable Well-Being, Max Planck Institute for Demographic Research."
+  },
+  {
+    "objectID": "index.html#resumen",
+    "href": "index.html#resumen",
+    "title": "Curso de demografía avanzada - Colmex 2026",
+    "section": "",
+    "text": "El taller introduce herramientas avanzadas de análisis demográfico aplicadas al estudio de la salud y la población, con énfasis en técnicas de descomposición e introducción al forecasting. A lo largo de cinco sesiones, las y los participantes aprenderán a separar cambios y diferencias demográficas en componentes atribuibles a edad, estructura poblacional, mortalidad, fecundidad, prevalencias de salud y causas de muerte.\nEl curso combina fundamentos conceptuales, discusión metodológica y ejercicios prácticos en R, de modo que cada participante pueda implementar los métodos, producir resultados reproducibles e interpretarlos sustantivamente."
+  },
+  {
+    "objectID": "index.html#información-general",
+    "href": "index.html#información-general",
+    "title": "Curso de demografía avanzada - Colmex 2026",
+    "section": "",
+    "text": "Fechas: 27 al 31 de julio de 2026\nDuración: 15 horas\nModalidad: presencial\nSede: El Colegio de México\nCupo: 15-20 personas"
+  },
+  {
+    "objectID": "index.html#estructura-del-curso",
+    "href": "index.html#estructura-del-curso",
+    "title": "Curso de demografía avanzada - Colmex 2026",
+    "section": "",
+    "text": "El curso está organizado en cinco sesiones. Cada sesión incluye:\n\nSlides\nLab\nCódigo\nDatos\nLecturas"
+  },
+  {
+    "objectID": "index.html#sesiones",
+    "href": "index.html#sesiones",
+    "title": "Curso de demografía avanzada - Colmex 2026",
+    "section": "",
+    "text": "Fundamentos de la descomposición demográfica\nTablas de vida y esperanza de vida\nSalud, prevalencias y esperanza de vida saludable\nMétodos avanzados, robustez e interpretación\nIntroducción al método de Lee-Carter y su interpretación"
+  },
+  {
+    "objectID": "bibliografia.html",
+    "href": "bibliografia.html",
+    "title": "Bibliografía",
+    "section": "",
+    "text": "Esta página reúne las referencias generales del curso. Las lecturas específicas de cada sesión se indicarán en las páginas correspondientes.\n\n\n\nDía 1: lecturas sobre descomposición demográfica.\nDía 2: lecturas sobre tablas de vida y esperanza de vida.\nDía 3: lecturas sobre el método de Sullivan y esperanza de vida saludable.\nDía 4: lecturas sobre métodos avanzados, robustez e interpretación.\nDía 5: lecturas sobre Lee-Carter y forecasting de mortalidad.\n\n\n\n\n\nAburto, José Manuel, and Hiram Beltrán-Sánchez. 2019. “Upsurge of Homicides and Its Impact on Life Expectancy and Life Span Inequality in Mexico, 2005-2015.” American Journal of Public Health 109(3): 483-489.\nAburto, José Manuel, Francisco Villavicencio, Ugofilippo Basellini, Søren Kjærgaard, and James W. Vaupel. 2020. “Dynamics of Life Expectancy and Life Span Equality.” Proceedings of the National Academy of Sciences 117(10): 5250-5259.\nArriaga, Eduardo E. 1984. “Measuring and Explaining the Change in Life Expectancies.” Demography 21(1): 83-96.\nBasellini, U., Camarda, C. G., & Booth, H. 2023. “Thirty Years On: A Review of the Lee-Carter Method for Forecasting Mortality.” International Journal of Forecasting 39(3): 1033-1049. https://doi.org/10.1016/j.ijforecast.2022.11.002\nBooth, H. 2006. “Demographic Forecasting: 1980 to 2005 in Review.” International Journal of Forecasting 22(3): 547-581. https://doi.org/10.1016/j.ijforecast.2006.04.001\nHoriuchi, Shiro, John R. Wilmoth, and Scott D. Pletcher. 2008. “A Decomposition Method Based on a Model of Continuous Change.” Demography 45(4): 785-801.\nKeyfitz, Nathan. 1977. “What Difference Would It Make If Cancer Were Eradicated? An Examination of the Taeuber Paradox.” Demography 14(4): 411-418.\nKitagawa, Evelyn M. 1955. “Components of a Difference Between Two Rates.” Journal of the American Statistical Association 50(272): 1168-1194.\nLee, R. D., & Carter, L. R. 1992. “Forecasting U.S. Mortality.” Journal of the American Statistical Association 87(419): 659-671. https://doi.org/10.1080/01621459.1992.10475265\nPreston, Samuel H., Patrick Heuveline, and Michel Guillot. 2001. Demography: Measuring and Modeling Population Processes. Malden, MA: Blackwell Publishers.\nSullivan, D. F. 1971. “A Single Index of Mortality and Morbidity.” HSMHA Health Reports 86(4): 347-354.\nVaupel, James W., and Vladimir Canudas-Romo. 2002. “Decomposing Demographic Change into Direct vs. Compositional Components.” Demographic Research 7(1): 1-14.\nVaupel, James W., and Vladimir Canudas-Romo. 2003. “Decomposing Change in Life Expectancy: A Bouquet of Formulas in Honor of Nathan Keyfitz’s 90th Birthday.” Demography 40(2): 201-216.\nvan Raalte, Alyson A., and Marília R. Nepomuceno. 2020. “Decomposing Gaps in Healthy Life Expectancy.” In International Handbook of Health Expectancies, edited by Carol Jagger et al., 107-122. Cham: Springer.\nYang, Yang. 2008. “Long and Happy Living: Trends and Patterns of Happy Life Expectancy in the U.S., 1970-2000.” Social Science Research 37(4): 1235-1252."
+  },
+  {
+    "objectID": "bibliografia.html#lecturas-por-sesión",
+    "href": "bibliografia.html#lecturas-por-sesión",
+    "title": "Bibliografía",
+    "section": "",
+    "text": "Día 1: lecturas sobre descomposición demográfica.\nDía 2: lecturas sobre tablas de vida y esperanza de vida.\nDía 3: lecturas sobre el método de Sullivan y esperanza de vida saludable.\nDía 4: lecturas sobre métodos avanzados, robustez e interpretación.\nDía 5: lecturas sobre Lee-Carter y forecasting de mortalidad."
+  },
+  {
+    "objectID": "bibliografia.html#referencias",
+    "href": "bibliografia.html#referencias",
+    "title": "Bibliografía",
+    "section": "",
+    "text": "Aburto, José Manuel, and Hiram Beltrán-Sánchez. 2019. “Upsurge of Homicides and Its Impact on Life Expectancy and Life Span Inequality in Mexico, 2005-2015.” American Journal of Public Health 109(3): 483-489.\nAburto, José Manuel, Francisco Villavicencio, Ugofilippo Basellini, Søren Kjærgaard, and James W. Vaupel. 2020. “Dynamics of Life Expectancy and Life Span Equality.” Proceedings of the National Academy of Sciences 117(10): 5250-5259.\nArriaga, Eduardo E. 1984. “Measuring and Explaining the Change in Life Expectancies.” Demography 21(1): 83-96.\nBasellini, U., Camarda, C. G., & Booth, H. 2023. “Thirty Years On: A Review of the Lee-Carter Method for Forecasting Mortality.” International Journal of Forecasting 39(3): 1033-1049. https://doi.org/10.1016/j.ijforecast.2022.11.002\nBooth, H. 2006. “Demographic Forecasting: 1980 to 2005 in Review.” International Journal of Forecasting 22(3): 547-581. https://doi.org/10.1016/j.ijforecast.2006.04.001\nHoriuchi, Shiro, John R. Wilmoth, and Scott D. Pletcher. 2008. “A Decomposition Method Based on a Model of Continuous Change.” Demography 45(4): 785-801.\nKeyfitz, Nathan. 1977. “What Difference Would It Make If Cancer Were Eradicated? An Examination of the Taeuber Paradox.” Demography 14(4): 411-418.\nKitagawa, Evelyn M. 1955. “Components of a Difference Between Two Rates.” Journal of the American Statistical Association 50(272): 1168-1194.\nLee, R. D., & Carter, L. R. 1992. “Forecasting U.S. Mortality.” Journal of the American Statistical Association 87(419): 659-671. https://doi.org/10.1080/01621459.1992.10475265\nPreston, Samuel H., Patrick Heuveline, and Michel Guillot. 2001. Demography: Measuring and Modeling Population Processes. Malden, MA: Blackwell Publishers.\nSullivan, D. F. 1971. “A Single Index of Mortality and Morbidity.” HSMHA Health Reports 86(4): 347-354.\nVaupel, James W., and Vladimir Canudas-Romo. 2002. “Decomposing Demographic Change into Direct vs. Compositional Components.” Demographic Research 7(1): 1-14.\nVaupel, James W., and Vladimir Canudas-Romo. 2003. “Decomposing Change in Life Expectancy: A Bouquet of Formulas in Honor of Nathan Keyfitz’s 90th Birthday.” Demography 40(2): 201-216.\nvan Raalte, Alyson A., and Marília R. Nepomuceno. 2020. “Decomposing Gaps in Healthy Life Expectancy.” In International Handbook of Health Expectancies, edited by Carol Jagger et al., 107-122. Cham: Springer.\nYang, Yang. 2008. “Long and Happy Living: Trends and Patterns of Happy Life Expectancy in the U.S., 1970-2000.” Social Science Research 37(4): 1235-1252."
+  },
+  {
+    "objectID": "labs/dia-01-lab.html",
+    "href": "labs/dia-01-lab.html",
+    "title": "Lab día 1",
+    "section": "",
+    "text": "Pendiente: objetivo del lab sobre fundamentos de la descomposición demográfica.\n\n\n\nPendiente: lista de paquetes necesarios.\n\n\n\nPendiente: descripción de los datos de práctica.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: preguntas para discusión e interpretación."
+  },
+  {
+    "objectID": "labs/dia-01-lab.html#objetivo-del-lab",
+    "href": "labs/dia-01-lab.html#objetivo-del-lab",
+    "title": "Lab día 1",
+    "section": "",
+    "text": "Pendiente: objetivo del lab sobre fundamentos de la descomposición demográfica."
+  },
+  {
+    "objectID": "labs/dia-01-lab.html#paquetes-necesarios",
+    "href": "labs/dia-01-lab.html#paquetes-necesarios",
+    "title": "Lab día 1",
+    "section": "",
+    "text": "Pendiente: lista de paquetes necesarios."
+  },
+  {
+    "objectID": "labs/dia-01-lab.html#datos",
+    "href": "labs/dia-01-lab.html#datos",
+    "title": "Lab día 1",
+    "section": "",
+    "text": "Pendiente: descripción de los datos de práctica."
+  },
+  {
+    "objectID": "labs/dia-01-lab.html#ejercicio-1",
+    "href": "labs/dia-01-lab.html#ejercicio-1",
+    "title": "Lab día 1",
+    "section": "",
+    "text": "Pendiente: instrucciones del ejercicio."
+  },
+  {
+    "objectID": "labs/dia-01-lab.html#ejercicio-2",
+    "href": "labs/dia-01-lab.html#ejercicio-2",
+    "title": "Lab día 1",
+    "section": "",
+    "text": "Pendiente: instrucciones del ejercicio."
+  },
+  {
+    "objectID": "labs/dia-01-lab.html#ejercicio-3",
+    "href": "labs/dia-01-lab.html#ejercicio-3",
+    "title": "Lab día 1",
+    "section": "",
+    "text": "Pendiente: instrucciones del ejercicio."
+  },
+  {
+    "objectID": "labs/dia-01-lab.html#preguntas-de-interpretación",
+    "href": "labs/dia-01-lab.html#preguntas-de-interpretación",
+    "title": "Lab día 1",
+    "section": "",
+    "text": "Pendiente: preguntas para discusión e interpretación."
+  },
+  {
+    "objectID": "labs/dia-02-lab.html",
+    "href": "labs/dia-02-lab.html",
+    "title": "Lab día 2",
+    "section": "",
+    "text": "Pendiente: objetivo del lab sobre tablas de vida y esperanza de vida.\n\n\n\nPendiente: lista de paquetes necesarios.\n\n\n\nPendiente: descripción de los datos de práctica.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: preguntas para discusión e interpretación."
+  },
+  {
+    "objectID": "labs/dia-02-lab.html#objetivo-del-lab",
+    "href": "labs/dia-02-lab.html#objetivo-del-lab",
+    "title": "Lab día 2",
+    "section": "",
+    "text": "Pendiente: objetivo del lab sobre tablas de vida y esperanza de vida."
+  },
+  {
+    "objectID": "labs/dia-02-lab.html#paquetes-necesarios",
+    "href": "labs/dia-02-lab.html#paquetes-necesarios",
+    "title": "Lab día 2",
+    "section": "",
+    "text": "Pendiente: lista de paquetes necesarios."
+  },
+  {
+    "objectID": "labs/dia-02-lab.html#datos",
+    "href": "labs/dia-02-lab.html#datos",
+    "title": "Lab día 2",
+    "section": "",
+    "text": "Pendiente: descripción de los datos de práctica."
+  },
+  {
+    "objectID": "labs/dia-02-lab.html#ejercicio-1",
+    "href": "labs/dia-02-lab.html#ejercicio-1",
+    "title": "Lab día 2",
+    "section": "",
+    "text": "Pendiente: instrucciones del ejercicio."
+  },
+  {
+    "objectID": "labs/dia-02-lab.html#ejercicio-2",
+    "href": "labs/dia-02-lab.html#ejercicio-2",
+    "title": "Lab día 2",
+    "section": "",
+    "text": "Pendiente: instrucciones del ejercicio."
+  },
+  {
+    "objectID": "labs/dia-02-lab.html#ejercicio-3",
+    "href": "labs/dia-02-lab.html#ejercicio-3",
+    "title": "Lab día 2",
+    "section": "",
+    "text": "Pendiente: instrucciones del ejercicio."
+  },
+  {
+    "objectID": "labs/dia-02-lab.html#preguntas-de-interpretación",
+    "href": "labs/dia-02-lab.html#preguntas-de-interpretación",
+    "title": "Lab día 2",
+    "section": "",
+    "text": "Pendiente: preguntas para discusión e interpretación."
+  },
+  {
+    "objectID": "labs/dia-05-lab.html",
+    "href": "labs/dia-05-lab.html",
+    "title": "Lab día 5",
+    "section": "",
+    "text": "Pendiente: objetivo del lab sobre Lee-Carter y forecasting de mortalidad.\n\n\n\nPendiente: lista de paquetes necesarios.\n\n\n\nPendiente: descripción de los datos de práctica.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: preguntas para discusión e interpretación."
+  },
+  {
+    "objectID": "labs/dia-05-lab.html#objetivo-del-lab",
+    "href": "labs/dia-05-lab.html#objetivo-del-lab",
+    "title": "Lab día 5",
+    "section": "",
+    "text": "Pendiente: objetivo del lab sobre Lee-Carter y forecasting de mortalidad."
+  },
+  {
+    "objectID": "labs/dia-05-lab.html#paquetes-necesarios",
+    "href": "labs/dia-05-lab.html#paquetes-necesarios",
+    "title": "Lab día 5",
+    "section": "",
+    "text": "Pendiente: lista de paquetes necesarios."
+  },
+  {
+    "objectID": "labs/dia-05-lab.html#datos",
+    "href": "labs/dia-05-lab.html#datos",
+    "title": "Lab día 5",
+    "section": "",
+    "text": "Pendiente: descripción de los datos de práctica."
+  },
+  {
+    "objectID": "labs/dia-05-lab.html#ejercicio-1",
+    "href": "labs/dia-05-lab.html#ejercicio-1",
+    "title": "Lab día 5",
+    "section": "",
+    "text": "Pendiente: instrucciones del ejercicio."
+  },
+  {
+    "objectID": "labs/dia-05-lab.html#ejercicio-2",
+    "href": "labs/dia-05-lab.html#ejercicio-2",
+    "title": "Lab día 5",
+    "section": "",
+    "text": "Pendiente: instrucciones del ejercicio."
+  },
+  {
+    "objectID": "labs/dia-05-lab.html#ejercicio-3",
+    "href": "labs/dia-05-lab.html#ejercicio-3",
+    "title": "Lab día 5",
+    "section": "",
+    "text": "Pendiente: instrucciones del ejercicio."
+  },
+  {
+    "objectID": "labs/dia-05-lab.html#preguntas-de-interpretación",
+    "href": "labs/dia-05-lab.html#preguntas-de-interpretación",
+    "title": "Lab día 5",
+    "section": "",
+    "text": "Pendiente: preguntas para discusión e interpretación."
+  },
+  {
+    "objectID": "labs/dia-04-lab.html",
+    "href": "labs/dia-04-lab.html",
+    "title": "Lab día 4",
+    "section": "",
+    "text": "Pendiente: objetivo del lab sobre métodos avanzados, robustez e interpretación.\n\n\n\nPendiente: lista de paquetes necesarios.\n\n\n\nPendiente: descripción de los datos de práctica.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: preguntas para discusión e interpretación."
+  },
+  {
+    "objectID": "labs/dia-04-lab.html#objetivo-del-lab",
+    "href": "labs/dia-04-lab.html#objetivo-del-lab",
+    "title": "Lab día 4",
+    "section": "",
+    "text": "Pendiente: objetivo del lab sobre métodos avanzados, robustez e interpretación."
+  },
+  {
+    "objectID": "labs/dia-04-lab.html#paquetes-necesarios",
+    "href": "labs/dia-04-lab.html#paquetes-necesarios",
+    "title": "Lab día 4",
+    "section": "",
+    "text": "Pendiente: lista de paquetes necesarios."
+  },
+  {
+    "objectID": "labs/dia-04-lab.html#datos",
+    "href": "labs/dia-04-lab.html#datos",
+    "title": "Lab día 4",
+    "section": "",
+    "text": "Pendiente: descripción de los datos de práctica."
+  },
+  {
+    "objectID": "labs/dia-04-lab.html#ejercicio-1",
+    "href": "labs/dia-04-lab.html#ejercicio-1",
+    "title": "Lab día 4",
+    "section": "",
+    "text": "Pendiente: instrucciones del ejercicio."
+  },
+  {
+    "objectID": "labs/dia-04-lab.html#ejercicio-2",
+    "href": "labs/dia-04-lab.html#ejercicio-2",
+    "title": "Lab día 4",
+    "section": "",
+    "text": "Pendiente: instrucciones del ejercicio."
+  },
+  {
+    "objectID": "labs/dia-04-lab.html#ejercicio-3",
+    "href": "labs/dia-04-lab.html#ejercicio-3",
+    "title": "Lab día 4",
+    "section": "",
+    "text": "Pendiente: instrucciones del ejercicio."
+  },
+  {
+    "objectID": "labs/dia-04-lab.html#preguntas-de-interpretación",
+    "href": "labs/dia-04-lab.html#preguntas-de-interpretación",
+    "title": "Lab día 4",
+    "section": "",
+    "text": "Pendiente: preguntas para discusión e interpretación."
+  },
+  {
+    "objectID": "labs/dia-03-lab.html",
+    "href": "labs/dia-03-lab.html",
+    "title": "Lab día 3",
+    "section": "",
+    "text": "Pendiente: objetivo del lab sobre salud, prevalencias y esperanza de vida saludable.\n\n\n\nPendiente: lista de paquetes necesarios.\n\n\n\nPendiente: descripción de los datos de práctica.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: preguntas para discusión e interpretación."
+  },
+  {
+    "objectID": "labs/dia-03-lab.html#objetivo-del-lab",
+    "href": "labs/dia-03-lab.html#objetivo-del-lab",
+    "title": "Lab día 3",
+    "section": "",
+    "text": "Pendiente: objetivo del lab sobre salud, prevalencias y esperanza de vida saludable."
+  },
+  {
+    "objectID": "labs/dia-03-lab.html#paquetes-necesarios",
+    "href": "labs/dia-03-lab.html#paquetes-necesarios",
+    "title": "Lab día 3",
+    "section": "",
+    "text": "Pendiente: lista de paquetes necesarios."
+  },
+  {
+    "objectID": "labs/dia-03-lab.html#datos",
+    "href": "labs/dia-03-lab.html#datos",
+    "title": "Lab día 3",
+    "section": "",
+    "text": "Pendiente: descripción de los datos de práctica."
+  },
+  {
+    "objectID": "labs/dia-03-lab.html#ejercicio-1",
+    "href": "labs/dia-03-lab.html#ejercicio-1",
+    "title": "Lab día 3",
+    "section": "",
+    "text": "Pendiente: instrucciones del ejercicio."
+  },
+  {
+    "objectID": "labs/dia-03-lab.html#ejercicio-2",
+    "href": "labs/dia-03-lab.html#ejercicio-2",
+    "title": "Lab día 3",
+    "section": "",
+    "text": "Pendiente: instrucciones del ejercicio."
+  },
+  {
+    "objectID": "labs/dia-03-lab.html#ejercicio-3",
+    "href": "labs/dia-03-lab.html#ejercicio-3",
+    "title": "Lab día 3",
+    "section": "",
+    "text": "Pendiente: instrucciones del ejercicio."
+  },
+  {
+    "objectID": "labs/dia-03-lab.html#preguntas-de-interpretación",
+    "href": "labs/dia-03-lab.html#preguntas-de-interpretación",
+    "title": "Lab día 3",
+    "section": "",
+    "text": "Pendiente: preguntas para discusión e interpretación."
+  },
+  {
+    "objectID": "preparacion.html",
+    "href": "preparacion.html",
+    "title": "Preparación",
+    "section": "",
+    "text": "Se recomienda llegar al taller con una instalación funcional de R y RStudio, o con un entorno equivalente para ejecutar scripts en R.\n\n\n\n\nConocimientos básicos de métodos demográficos.\nFamiliaridad con tablas de vida.\nLectura e interpretación de tasas específicas por edad.\nNociones elementales de crecimiento poblacional.\nComodidad con logaritmos, crecimiento exponencial y manipulación de datos.\nManejo básico o intermedio de R y RStudio.\n\nNo es necesario contar con formación avanzada en cálculo.\n\n\n\n\nR\nRStudio\nConexión a internet, preferentemente\nComputadora portátil con R y RStudio instalados, si el curso no se realiza en sala de cómputo\n\n\n\n\nLos materiales de cada día estarán disponibles en las páginas de sesión:\n\nDía 1\nDía 2\nDía 3\nDía 4\nDía 5"
+  },
+  {
+    "objectID": "preparacion.html#antes-del-curso",
+    "href": "preparacion.html#antes-del-curso",
+    "title": "Preparación",
+    "section": "",
+    "text": "Se recomienda llegar al taller con una instalación funcional de R y RStudio, o con un entorno equivalente para ejecutar scripts en R."
+  },
+  {
+    "objectID": "preparacion.html#conocimientos-previos-recomendados",
+    "href": "preparacion.html#conocimientos-previos-recomendados",
+    "title": "Preparación",
+    "section": "",
+    "text": "Conocimientos básicos de métodos demográficos.\nFamiliaridad con tablas de vida.\nLectura e interpretación de tasas específicas por edad.\nNociones elementales de crecimiento poblacional.\nComodidad con logaritmos, crecimiento exponencial y manipulación de datos.\nManejo básico o intermedio de R y RStudio.\n\nNo es necesario contar con formación avanzada en cálculo."
+  },
+  {
+    "objectID": "preparacion.html#software-y-equipo",
+    "href": "preparacion.html#software-y-equipo",
+    "title": "Preparación",
+    "section": "",
+    "text": "R\nRStudio\nConexión a internet, preferentemente\nComputadora portátil con R y RStudio instalados, si el curso no se realiza en sala de cómputo"
+  },
+  {
+    "objectID": "preparacion.html#materiales",
+    "href": "preparacion.html#materiales",
+    "title": "Preparación",
+    "section": "",
+    "text": "Los materiales de cada día estarán disponibles en las páginas de sesión:\n\nDía 1\nDía 2\nDía 3\nDía 4\nDía 5"
+  },
+  {
+    "objectID": "programa.html",
+    "href": "programa.html",
+    "title": "Programa",
+    "section": "",
+    "text": "Este taller introduce herramientas avanzadas de análisis demográfico aplicadas al estudio de la salud y la población, con énfasis en técnicas de descomposición e introducción al forecasting. A lo largo de cinco sesiones, las y los participantes aprenderán a separar cambios y diferencias demográficas en componentes atribuibles a edad, estructura poblacional, mortalidad, fecundidad, prevalencias de salud y causas de muerte.\nEl curso combina fundamentos conceptuales, discusión metodológica y ejercicios prácticos en R, de modo que cada participante pueda implementar los métodos, producir resultados reproducibles e interpretarlos sustantivamente. Se trabajará con aplicaciones a fecundidad, esperanza de vida, esperanza de vida saludable, causas de muerte y desigualdad en la duración de la vida.\nEl taller es presencial y tiene una duración total de 15 horas, distribuidas en cinco sesiones del 27 al 31 de julio de 2026 en El Colegio de México.\n\n\n\n\nDr. José Manuel Aburto, Associate Professor in Demography - Brass Blacker, Department of Population Health, Faculty of Epidemiology and Population Health, London School of Hygiene & Tropical Medicine.\nAna Cristina Gómez Ugarte Valerio, Doctoral Student, Laboratory of Population Dynamics and Sustainable Well-Being, Max Planck Institute for Demographic Research.\n\n\n\n\nProporcionar a las y los participantes una base conceptual y práctica para aplicar técnicas de descomposición en demografía y salud poblacional, con énfasis en la implementación computacional, la interpretación sustantiva y la comunicación clara de resultados.\n\n\n\n\nDistinguir entre cambios temporales, diferencias entre poblaciones y contrastes contrafactuales en demografía.\nAplicar la descomposición de Kitagawa para separar efectos de tasas específicas y estructura poblacional.\nConstruir e interpretar tablas de vida y descomponer cambios en esperanza de vida por edad.\nCalcular esperanza de vida saludable mediante el método de Sullivan y descomponer brechas asociadas a mortalidad y prevalencias.\nAnalizar cambios por edad y causa de muerte, incluyendo ejercicios con tablas de vida de causa eliminada y riesgos competitivos.\nAplicar métodos stepwise y de descomposición lineal integral, evaluando la sensibilidad de los resultados al orden de reemplazo.\nElaborar gráficos, tablas e interpretaciones reproducibles en R.\n\n\n\n\nCada sesión combina exposición conceptual, discusión metodológica y trabajo aplicado en laboratorio.\n\n\n\nDía\nTema\nDocencia\nMateriales\n\n\n\n\n1\nFundamentos de la descomposición demográfica\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n2\nTablas de vida y esperanza de vida\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n3\nSalud, prevalencias y esperanza de vida saludable\nAna Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto\nSesión\n\n\n4\nMétodos avanzados, robustez e interpretación\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n5\nIntroducción al método de Lee-Carter y su interpretación\nAna Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto\nSesión"
+  },
+  {
+    "objectID": "programa.html#descripción",
+    "href": "programa.html#descripción",
+    "title": "Programa",
+    "section": "",
+    "text": "Este taller introduce herramientas avanzadas de análisis demográfico aplicadas al estudio de la salud y la población, con énfasis en técnicas de descomposición e introducción al forecasting. A lo largo de cinco sesiones, las y los participantes aprenderán a separar cambios y diferencias demográficas en componentes atribuibles a edad, estructura poblacional, mortalidad, fecundidad, prevalencias de salud y causas de muerte.\nEl curso combina fundamentos conceptuales, discusión metodológica y ejercicios prácticos en R, de modo que cada participante pueda implementar los métodos, producir resultados reproducibles e interpretarlos sustantivamente. Se trabajará con aplicaciones a fecundidad, esperanza de vida, esperanza de vida saludable, causas de muerte y desigualdad en la duración de la vida.\nEl taller es presencial y tiene una duración total de 15 horas, distribuidas en cinco sesiones del 27 al 31 de julio de 2026 en El Colegio de México."
+  },
+  {
+    "objectID": "programa.html#equipo-docente",
+    "href": "programa.html#equipo-docente",
+    "title": "Programa",
+    "section": "",
+    "text": "Dr. José Manuel Aburto, Associate Professor in Demography - Brass Blacker, Department of Population Health, Faculty of Epidemiology and Population Health, London School of Hygiene & Tropical Medicine.\nAna Cristina Gómez Ugarte Valerio, Doctoral Student, Laboratory of Population Dynamics and Sustainable Well-Being, Max Planck Institute for Demographic Research."
+  },
+  {
+    "objectID": "programa.html#objetivo-general",
+    "href": "programa.html#objetivo-general",
+    "title": "Programa",
+    "section": "",
+    "text": "Proporcionar a las y los participantes una base conceptual y práctica para aplicar técnicas de descomposición en demografía y salud poblacional, con énfasis en la implementación computacional, la interpretación sustantiva y la comunicación clara de resultados."
+  },
+  {
+    "objectID": "programa.html#objetivos-específicos",
+    "href": "programa.html#objetivos-específicos",
+    "title": "Programa",
+    "section": "",
+    "text": "Distinguir entre cambios temporales, diferencias entre poblaciones y contrastes contrafactuales en demografía.\nAplicar la descomposición de Kitagawa para separar efectos de tasas específicas y estructura poblacional.\nConstruir e interpretar tablas de vida y descomponer cambios en esperanza de vida por edad.\nCalcular esperanza de vida saludable mediante el método de Sullivan y descomponer brechas asociadas a mortalidad y prevalencias.\nAnalizar cambios por edad y causa de muerte, incluyendo ejercicios con tablas de vida de causa eliminada y riesgos competitivos.\nAplicar métodos stepwise y de descomposición lineal integral, evaluando la sensibilidad de los resultados al orden de reemplazo.\nElaborar gráficos, tablas e interpretaciones reproducibles en R."
+  },
+  {
+    "objectID": "programa.html#organización",
+    "href": "programa.html#organización",
+    "title": "Programa",
+    "section": "",
+    "text": "Cada sesión combina exposición conceptual, discusión metodológica y trabajo aplicado en laboratorio.\n\n\n\nDía\nTema\nDocencia\nMateriales\n\n\n\n\n1\nFundamentos de la descomposición demográfica\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n2\nTablas de vida y esperanza de vida\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n3\nSalud, prevalencias y esperanza de vida saludable\nAna Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto\nSesión\n\n\n4\nMétodos avanzados, robustez e interpretación\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n5\nIntroducción al método de Lee-Carter y su interpretación\nAna Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto\nSesión"
+  },
+  {
+    "objectID": "calendario.html",
+    "href": "calendario.html",
+    "title": "Calendario",
+    "section": "",
+    "text": "El taller se realizará del lunes 27 al viernes 31 de julio de 2026.\n\n\n\nFecha\nSesión\nTema\n\n\n\n\n27 de julio de 2026\nDía 1\nFundamentos de la descomposición demográfica\n\n\n28 de julio de 2026\nDía 2\nTablas de vida y esperanza de vida\n\n\n29 de julio de 2026\nDía 3\nSalud, prevalencias y esperanza de vida saludable\n\n\n30 de julio de 2026\nDía 4\nMétodos avanzados, robustez e interpretación\n\n\n31 de julio de 2026\nDía 5\nIntroducción al método de Lee-Carter y su interpretación\n\n\n\n\n\nCurso presencial de 15 horas en El Colegio de México."
+  },
+  {
+    "objectID": "calendario.html#formato",
+    "href": "calendario.html#formato",
+    "title": "Calendario",
+    "section": "",
+    "text": "Curso presencial de 15 horas en El Colegio de México."
+  },
+  {
+    "objectID": "sesiones/dia-01-fundamentos-descomposicion.html",
+    "href": "sesiones/dia-01-fundamentos-descomposicion.html",
+    "title": "Día 1: Fundamentos de la descomposición demográfica",
+    "section": "",
+    "text": "Motivación, diferencias entre componentes directos y composicionales, tasas agregadas, descomposición de Kitagawa y ejercicios con fecundidad o mortalidad por edad.\n\n\n\nSesión: Dr. José Manuel Aburto\nTaller: Ana Cristina Gómez Ugarte Valerio\n\n\n\n\n\nIdentificar el problema demográfico que motiva una descomposición.\nDistinguir entre componentes directos y composicionales.\nAplicar la descomposición de Kitagawa a tasas agregadas.\nInterpretar contribuciones por edad en ejercicios de fecundidad o mortalidad.\n\n\n\n\nDisponible próximamente.\n\n\n\nLab del día 1\n\n\n\nDisponible próximamente.\n\n\n\nDisponible próximamente.\n\n\n\nDisponible próximamente."
+  },
+  {
+    "objectID": "sesiones/dia-01-fundamentos-descomposicion.html#docencia",
+    "href": "sesiones/dia-01-fundamentos-descomposicion.html#docencia",
+    "title": "Día 1: Fundamentos de la descomposición demográfica",
+    "section": "",
+    "text": "Sesión: Dr. José Manuel Aburto\nTaller: Ana Cristina Gómez Ugarte Valerio"
+  },
+  {
+    "objectID": "sesiones/dia-01-fundamentos-descomposicion.html#objetivos-de-la-sesión",
+    "href": "sesiones/dia-01-fundamentos-descomposicion.html#objetivos-de-la-sesión",
+    "title": "Día 1: Fundamentos de la descomposición demográfica",
+    "section": "",
+    "text": "Identificar el problema demográfico que motiva una descomposición.\nDistinguir entre componentes directos y composicionales.\nAplicar la descomposición de Kitagawa a tasas agregadas.\nInterpretar contribuciones por edad en ejercicios de fecundidad o mortalidad."
+  },
+  {
+    "objectID": "sesiones/dia-01-fundamentos-descomposicion.html#slides",
+    "href": "sesiones/dia-01-fundamentos-descomposicion.html#slides",
+    "title": "Día 1: Fundamentos de la descomposición demográfica",
+    "section": "",
+    "text": "Disponible próximamente."
+  },
+  {
+    "objectID": "sesiones/dia-01-fundamentos-descomposicion.html#lab",
+    "href": "sesiones/dia-01-fundamentos-descomposicion.html#lab",
+    "title": "Día 1: Fundamentos de la descomposición demográfica",
+    "section": "",
+    "text": "Lab del día 1"
+  },
+  {
+    "objectID": "sesiones/dia-01-fundamentos-descomposicion.html#código",
+    "href": "sesiones/dia-01-fundamentos-descomposicion.html#código",
+    "title": "Día 1: Fundamentos de la descomposición demográfica",
+    "section": "",
+    "text": "Disponible próximamente."
+  },
+  {
+    "objectID": "sesiones/dia-01-fundamentos-descomposicion.html#datos",
+    "href": "sesiones/dia-01-fundamentos-descomposicion.html#datos",
+    "title": "Día 1: Fundamentos de la descomposición demográfica",
+    "section": "",
+    "text": "Disponible próximamente."
+  },
+  {
+    "objectID": "sesiones/dia-01-fundamentos-descomposicion.html#lecturas-recomendadas",
+    "href": "sesiones/dia-01-fundamentos-descomposicion.html#lecturas-recomendadas",
+    "title": "Día 1: Fundamentos de la descomposición demográfica",
+    "section": "",
+    "text": "Disponible próximamente."
+  },
+  {
+    "objectID": "sesiones/dia-04-metodos-avanzados-robustez.html",
+    "href": "sesiones/dia-04-metodos-avanzados-robustez.html",
+    "title": "Día 4: Métodos avanzados, robustez e interpretación",
+    "section": "",
+    "text": "Descomposición lineal integral, dependencia del orden de reemplazo, ejercicios de sensibilidad e interpretación de resultados.\n\n\n\nSesión: Dr. José Manuel Aburto\nTaller: Ana Cristina Gómez Ugarte Valerio\n\n\n\n\n\nIntroducir la descomposición lineal integral.\nEvaluar la dependencia del orden de reemplazo.\nDiseñar ejercicios de sensibilidad.\nComparar resultados entre métodos de descomposición.\nFortalecer la interpretación sustantiva de los resultados.\n\n\n\n\nDisponible próximamente.\n\n\n\nLab del día 4\n\n\n\nDisponible próximamente.\n\n\n\nDisponible próximamente.\n\n\n\nDisponible próximamente."
+  },
+  {
+    "objectID": "sesiones/dia-04-metodos-avanzados-robustez.html#docencia",
+    "href": "sesiones/dia-04-metodos-avanzados-robustez.html#docencia",
+    "title": "Día 4: Métodos avanzados, robustez e interpretación",
+    "section": "",
+    "text": "Sesión: Dr. José Manuel Aburto\nTaller: Ana Cristina Gómez Ugarte Valerio"
+  },
+  {
+    "objectID": "sesiones/dia-04-metodos-avanzados-robustez.html#objetivos-de-la-sesión",
+    "href": "sesiones/dia-04-metodos-avanzados-robustez.html#objetivos-de-la-sesión",
+    "title": "Día 4: Métodos avanzados, robustez e interpretación",
+    "section": "",
+    "text": "Introducir la descomposición lineal integral.\nEvaluar la dependencia del orden de reemplazo.\nDiseñar ejercicios de sensibilidad.\nComparar resultados entre métodos de descomposición.\nFortalecer la interpretación sustantiva de los resultados."
+  },
+  {
+    "objectID": "sesiones/dia-04-metodos-avanzados-robustez.html#slides",
+    "href": "sesiones/dia-04-metodos-avanzados-robustez.html#slides",
+    "title": "Día 4: Métodos avanzados, robustez e interpretación",
+    "section": "",
+    "text": "Disponible próximamente."
+  },
+  {
+    "objectID": "sesiones/dia-04-metodos-avanzados-robustez.html#lab",
+    "href": "sesiones/dia-04-metodos-avanzados-robustez.html#lab",
+    "title": "Día 4: Métodos avanzados, robustez e interpretación",
+    "section": "",
+    "text": "Lab del día 4"
+  },
+  {
+    "objectID": "sesiones/dia-04-metodos-avanzados-robustez.html#código",
+    "href": "sesiones/dia-04-metodos-avanzados-robustez.html#código",
+    "title": "Día 4: Métodos avanzados, robustez e interpretación",
+    "section": "",
+    "text": "Disponible próximamente."
+  },
+  {
+    "objectID": "sesiones/dia-04-metodos-avanzados-robustez.html#datos",
+    "href": "sesiones/dia-04-metodos-avanzados-robustez.html#datos",
+    "title": "Día 4: Métodos avanzados, robustez e interpretación",
+    "section": "",
+    "text": "Disponible próximamente."
+  },
+  {
+    "objectID": "sesiones/dia-04-metodos-avanzados-robustez.html#lecturas-recomendadas",
+    "href": "sesiones/dia-04-metodos-avanzados-robustez.html#lecturas-recomendadas",
+    "title": "Día 4: Métodos avanzados, robustez e interpretación",
+    "section": "",
+    "text": "Disponible próximamente."
+  }
+]
