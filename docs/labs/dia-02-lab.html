@@ -157,11 +157,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#lab-día-2" id="toc-lab-día-2" class="nav-link active" data-scroll-target="#lab-día-2">Lab día 2</a>
   <ul class="collapse">
   <li><a href="#objetivo-del-lab" id="toc-objetivo-del-lab" class="nav-link" data-scroll-target="#objetivo-del-lab">Objetivo del lab</a></li>
+  <li><a href="#materiales" id="toc-materiales" class="nav-link" data-scroll-target="#materiales">Materiales</a></li>
   <li><a href="#paquetes-necesarios" id="toc-paquetes-necesarios" class="nav-link" data-scroll-target="#paquetes-necesarios">Paquetes necesarios</a></li>
-  <li><a href="#datos" id="toc-datos" class="nav-link" data-scroll-target="#datos">Datos</a></li>
-  <li><a href="#ejercicio-1" id="toc-ejercicio-1" class="nav-link" data-scroll-target="#ejercicio-1">Ejercicio 1</a></li>
-  <li><a href="#ejercicio-2" id="toc-ejercicio-2" class="nav-link" data-scroll-target="#ejercicio-2">Ejercicio 2</a></li>
-  <li><a href="#ejercicio-3" id="toc-ejercicio-3" class="nav-link" data-scroll-target="#ejercicio-3">Ejercicio 3</a></li>
+  <li><a href="#estructura-sugerida" id="toc-estructura-sugerida" class="nav-link" data-scroll-target="#estructura-sugerida">Estructura sugerida</a></li>
+  <li><a href="#ejercicio-1-años-de-vida-perdidos" id="toc-ejercicio-1-años-de-vida-perdidos" class="nav-link" data-scroll-target="#ejercicio-1-años-de-vida-perdidos">Ejercicio 1: años de vida perdidos</a></li>
+  <li><a href="#ejercicio-2-descomposición-de-arriaga" id="toc-ejercicio-2-descomposición-de-arriaga" class="nav-link" data-scroll-target="#ejercicio-2-descomposición-de-arriaga">Ejercicio 2: descomposición de Arriaga</a></li>
   <li><a href="#preguntas-de-interpretación" id="toc-preguntas-de-interpretación" class="nav-link" data-scroll-target="#preguntas-de-interpretación">Preguntas de interpretación</a></li>
   </ul></li>
   </ul>
@@ -193,31 +193,91 @@ ul.task-list li input[type="checkbox"] {
 <h1>Lab día 2</h1>
 <section id="objetivo-del-lab" class="level2">
 <h2 class="anchored" data-anchor-id="objetivo-del-lab">Objetivo del lab</h2>
-<p>Pendiente: objetivo del lab sobre tablas de vida y esperanza de vida.</p>
+<p>Repasar tablas de vida y esperanza de vida, calcular años de vida perdidos por edad y causa, y aplicar la descomposición de Arriaga para interpretar cambios en esperanza de vida.</p>
+</section>
+<section id="materiales" class="level2">
+<h2 class="anchored" data-anchor-id="materiales">Materiales</h2>
+<ul>
+<li><a href="../slides/dia-02-life-years-lost-arriaga-bridge.pdf">Puente: tablas de vida, años de vida perdidos y Arriaga</a></li>
+<li><a href="../slides/dia-02-arriaga.pdf">Diapositivas de Arriaga</a></li>
+<li><a href="../code/dia-02/quiz-kitagawa.docx">Quiz de repaso sobre Kitagawa</a></li>
+<li><a href="../code/dia-02/yll.R">Código del ejercicio 1: YLL</a></li>
+<li><a href="../code/dia-02/yll-functions.R">Funciones para YLL</a></li>
+<li><a href="../data/dia-02/yll-data.RData">Datos del ejercicio 1</a></li>
+<li><a href="../code/dia-02/arriaga-covid-usa.R">Código del ejercicio 2: Arriaga</a></li>
+<li><a href="../code/dia-02/arriaga-covid-usa-empty.R">Plantilla para estudiantes: Arriaga</a></li>
+<li><a href="../data/dia-02/arriaga-covid-usa-data.RData">Datos del ejercicio 2</a></li>
+</ul>
 </section>
 <section id="paquetes-necesarios" class="level2">
 <h2 class="anchored" data-anchor-id="paquetes-necesarios">Paquetes necesarios</h2>
-<p>Pendiente: lista de paquetes necesarios.</p>
+<ul>
+<li><code>tidyverse</code></li>
+<li><code>data.table</code></li>
+</ul>
 </section>
-<section id="datos" class="level2">
-<h2 class="anchored" data-anchor-id="datos">Datos</h2>
-<p>Pendiente: descripción de los datos de práctica.</p>
+<section id="estructura-sugerida" class="level2">
+<h2 class="anchored" data-anchor-id="estructura-sugerida">Estructura sugerida</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Bloque</th>
+<th>Actividad</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Repaso</td>
+<td>Funciones de la tabla de vida y esperanza de vida</td>
+</tr>
+<tr class="even">
+<td>Puente conceptual</td>
+<td>Años de vida perdidos por edad y causa</td>
+</tr>
+<tr class="odd">
+<td>Práctica 1</td>
+<td>Cálculo e interpretación de YLL</td>
+</tr>
+<tr class="even">
+<td>Clase teórica</td>
+<td>Descomposición de Arriaga por edad y causa</td>
+</tr>
+<tr class="odd">
+<td>Práctica 2</td>
+<td>Cambio en esperanza de vida en EE. UU., 2019-2020</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="ejercicio-1" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicio-1">Ejercicio 1</h2>
-<p>Pendiente: instrucciones del ejercicio.</p>
+<section id="ejercicio-1-años-de-vida-perdidos" class="level2">
+<h2 class="anchored" data-anchor-id="ejercicio-1-años-de-vida-perdidos">Ejercicio 1: años de vida perdidos</h2>
+<p>El ejercicio calcula años de vida perdidos usando información de tabla de vida y distribución de muertes por edad y causa. Los datos corresponden a mujeres de Arabia Saudita en 2005-2010, con causas de muerte provenientes del Global Burden of Disease y tabla de vida de Naciones Unidas.</p>
+<p>Preguntas guía:</p>
+<ul>
+<li>¿Cuántos años de vida se pierden antes de los 85 años?</li>
+<li>¿Qué causa contribuye más a los años de vida perdidos?</li>
+<li>¿Qué causa domina por debajo de los 50 años si excluimos la categoría residual?</li>
+<li>¿Cómo ayuda la función de supervivencia a interpretar visualmente los años perdidos?</li>
+</ul>
 </section>
-<section id="ejercicio-2" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicio-2">Ejercicio 2</h2>
-<p>Pendiente: instrucciones del ejercicio.</p>
-</section>
-<section id="ejercicio-3" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicio-3">Ejercicio 3</h2>
-<p>Pendiente: instrucciones del ejercicio.</p>
+<section id="ejercicio-2-descomposición-de-arriaga" class="level2">
+<h2 class="anchored" data-anchor-id="ejercicio-2-descomposición-de-arriaga">Ejercicio 2: descomposición de Arriaga</h2>
+<p>El ejercicio descompone por edad y causa el cambio en la esperanza de vida masculina al nacer en Estados Unidos entre 2019 y 2020, usando datos asociados al impacto de COVID-19.</p>
+<p>Preguntas guía:</p>
+<ul>
+<li>¿Cuál fue el cambio total en esperanza de vida masculina al nacer?</li>
+<li>¿Qué edades contribuyeron más al descenso?</li>
+<li>¿Cómo cambia la interpretación al agregar causas de muerte?</li>
+<li>¿Qué se gana al agrupar edades en intervalos quinquenales?</li>
+</ul>
 </section>
 <section id="preguntas-de-interpretación" class="level2">
 <h2 class="anchored" data-anchor-id="preguntas-de-interpretación">Preguntas de interpretación</h2>
-<p>Pendiente: preguntas para discusión e interpretación.</p>
+<ul>
+<li>¿Qué diferencia hay entre explicar una tasa agregada con Kitagawa y explicar esperanza de vida con Arriaga?</li>
+<li>¿Por qué los años de vida perdidos son un buen puente entre tablas de vida y descomposición por causa?</li>
+<li>¿Qué precauciones hacen falta al interpretar contribuciones por edad y causa con datos de un solo año?</li>
+</ul>
 
 
 </section>

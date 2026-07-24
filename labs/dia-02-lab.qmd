@@ -6,29 +6,59 @@ title: "Lab día 2"
 
 ## Objetivo del lab
 
-Pendiente: objetivo del lab sobre tablas de vida y esperanza de vida.
+Repasar tablas de vida y esperanza de vida, calcular años de vida perdidos por edad y causa, y aplicar la descomposición de Arriaga para interpretar cambios en esperanza de vida.
+
+## Materiales
+
+- [Puente: tablas de vida, años de vida perdidos y Arriaga](../slides/dia-02-life-years-lost-arriaga-bridge.pdf)
+- [Diapositivas de Arriaga](../slides/dia-02-arriaga.pdf)
+- [Quiz de repaso sobre Kitagawa](../code/dia-02/quiz-kitagawa.docx)
+- [Código del ejercicio 1: YLL](../code/dia-02/yll.R)
+- [Funciones para YLL](../code/dia-02/yll-functions.R)
+- [Datos del ejercicio 1](../data/dia-02/yll-data.RData)
+- [Código del ejercicio 2: Arriaga](../code/dia-02/arriaga-covid-usa.R)
+- [Plantilla para estudiantes: Arriaga](../code/dia-02/arriaga-covid-usa-empty.R)
+- [Datos del ejercicio 2](../data/dia-02/arriaga-covid-usa-data.RData)
 
 ## Paquetes necesarios
 
-Pendiente: lista de paquetes necesarios.
+- `tidyverse`
+- `data.table`
 
-## Datos
+## Estructura sugerida
 
-Pendiente: descripción de los datos de práctica.
+| Bloque | Actividad |
+|---|---|
+| Repaso | Funciones de la tabla de vida y esperanza de vida |
+| Puente conceptual | Años de vida perdidos por edad y causa |
+| Práctica 1 | Cálculo e interpretación de YLL |
+| Clase teórica | Descomposición de Arriaga por edad y causa |
+| Práctica 2 | Cambio en esperanza de vida en EE. UU., 2019-2020 |
 
-## Ejercicio 1
+## Ejercicio 1: años de vida perdidos
 
-Pendiente: instrucciones del ejercicio.
+El ejercicio calcula años de vida perdidos usando información de tabla de vida y distribución de muertes por edad y causa. Los datos corresponden a mujeres de Arabia Saudita en 2005-2010, con causas de muerte provenientes del Global Burden of Disease y tabla de vida de Naciones Unidas.
 
-## Ejercicio 2
+Preguntas guía:
 
-Pendiente: instrucciones del ejercicio.
+- ¿Cuántos años de vida se pierden antes de los 85 años?
+- ¿Qué causa contribuye más a los años de vida perdidos?
+- ¿Qué causa domina por debajo de los 50 años si excluimos la categoría residual?
+- ¿Cómo ayuda la función de supervivencia a interpretar visualmente los años perdidos?
 
-## Ejercicio 3
+## Ejercicio 2: descomposición de Arriaga
 
-Pendiente: instrucciones del ejercicio.
+El ejercicio descompone por edad y causa el cambio en la esperanza de vida masculina al nacer en Estados Unidos entre 2019 y 2020, usando datos asociados al impacto de COVID-19.
+
+Preguntas guía:
+
+- ¿Cuál fue el cambio total en esperanza de vida masculina al nacer?
+- ¿Qué edades contribuyeron más al descenso?
+- ¿Cómo cambia la interpretación al agregar causas de muerte?
+- ¿Qué se gana al agrupar edades en intervalos quinquenales?
 
 ## Preguntas de interpretación
 
-Pendiente: preguntas para discusión e interpretación.
-
+- ¿Qué diferencia hay entre explicar una tasa agregada con Kitagawa y explicar esperanza de vida con Arriaga?
+- ¿Por qué los años de vida perdidos son un buen puente entre tablas de vida y descomposición por causa?
+- ¿Qué precauciones hacen falta al interpretar contribuciones por edad y causa con datos de un solo año?

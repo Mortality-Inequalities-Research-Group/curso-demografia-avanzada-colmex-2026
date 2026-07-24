@@ -4,7 +4,7 @@ title: "Día 2: Tablas de vida y esperanza de vida"
 
 # Tablas de vida y esperanza de vida
 
-Repaso de funciones de la tabla de vida, descomposición del cambio en esperanza de vida por edad, método de Arriaga, visualización de contribuciones e introducción a lifespan inequality.
+Repaso de funciones de la tabla de vida, esperanza de vida, años de vida perdidos, descomposición del cambio en esperanza de vida por edad, método de Arriaga y visualización de contribuciones.
 
 ## Docencia
 
@@ -14,14 +14,15 @@ Repaso de funciones de la tabla de vida, descomposición del cambio en esperanza
 ## Objetivos de la sesión
 
 - Repasar las funciones principales de la tabla de vida.
+- Conectar la función de supervivencia con esperanza de vida y años de vida perdidos.
 - Descomponer cambios en esperanza de vida por edad.
 - Aplicar el método de Arriaga.
-- Visualizar e interpretar contribuciones por edad.
-- Introducir medidas de desigualdad en la duración de la vida.
+- Visualizar e interpretar contribuciones por edad y causa de muerte.
 
 ## Slides
 
-Disponible próximamente.
+- [Puente: tablas de vida, años de vida perdidos y Arriaga](../slides/dia-02-life-years-lost-arriaga-bridge.pdf)
+- [Diapositivas: descomposición de Arriaga](../slides/dia-02-arriaga.pdf)
 
 ## Lab
 
@@ -29,11 +30,16 @@ Disponible próximamente.
 
 ## Código
 
-Disponible próximamente.
+- [Quiz de repaso: Kitagawa](../code/dia-02/quiz-kitagawa.docx)
+- [Ejercicio 1: años de vida perdidos](../code/dia-02/yll.R)
+- [Funciones para el ejercicio de YLL](../code/dia-02/yll-functions.R)
+- [Ejercicio 2: Arriaga, COVID-19 y esperanza de vida](../code/dia-02/arriaga-covid-usa.R)
+- [Plantilla para estudiantes: Arriaga](../code/dia-02/arriaga-covid-usa-empty.R)
 
 ## Datos
 
-Disponible próximamente.
+- [Datos del ejercicio de YLL](../data/dia-02/yll-data.RData)
+- [Datos del ejercicio de Arriaga](../data/dia-02/arriaga-covid-usa-data.RData)
 
 ## Lecturas recomendadas
 
