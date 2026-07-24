@@ -157,11 +157,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#lab-día-1" id="toc-lab-día-1" class="nav-link active" data-scroll-target="#lab-día-1">Lab día 1</a>
   <ul class="collapse">
   <li><a href="#objetivo-del-lab" id="toc-objetivo-del-lab" class="nav-link" data-scroll-target="#objetivo-del-lab">Objetivo del lab</a></li>
+  <li><a href="#materiales" id="toc-materiales" class="nav-link" data-scroll-target="#materiales">Materiales</a></li>
   <li><a href="#paquetes-necesarios" id="toc-paquetes-necesarios" class="nav-link" data-scroll-target="#paquetes-necesarios">Paquetes necesarios</a></li>
-  <li><a href="#datos" id="toc-datos" class="nav-link" data-scroll-target="#datos">Datos</a></li>
-  <li><a href="#ejercicio-1" id="toc-ejercicio-1" class="nav-link" data-scroll-target="#ejercicio-1">Ejercicio 1</a></li>
-  <li><a href="#ejercicio-2" id="toc-ejercicio-2" class="nav-link" data-scroll-target="#ejercicio-2">Ejercicio 2</a></li>
-  <li><a href="#ejercicio-3" id="toc-ejercicio-3" class="nav-link" data-scroll-target="#ejercicio-3">Ejercicio 3</a></li>
+  <li><a href="#estructura-sugerida" id="toc-estructura-sugerida" class="nav-link" data-scroll-target="#estructura-sugerida">Estructura sugerida</a></li>
+  <li><a href="#ejercicio-1-tasa-general-de-fecundidad" id="toc-ejercicio-1-tasa-general-de-fecundidad" class="nav-link" data-scroll-target="#ejercicio-1-tasa-general-de-fecundidad">Ejercicio 1: tasa general de fecundidad</a></li>
+  <li><a href="#ejercicio-bonus-tfr-por-edad-y-situación-de-unión" id="toc-ejercicio-bonus-tfr-por-edad-y-situación-de-unión" class="nav-link" data-scroll-target="#ejercicio-bonus-tfr-por-edad-y-situación-de-unión">Ejercicio bonus: TFR por edad y situación de unión</a></li>
   <li><a href="#preguntas-de-interpretación" id="toc-preguntas-de-interpretación" class="nav-link" data-scroll-target="#preguntas-de-interpretación">Preguntas de interpretación</a></li>
   </ul></li>
   </ul>
@@ -193,31 +193,87 @@ ul.task-list li input[type="checkbox"] {
 <h1>Lab día 1</h1>
 <section id="objetivo-del-lab" class="level2">
 <h2 class="anchored" data-anchor-id="objetivo-del-lab">Objetivo del lab</h2>
-<p>Pendiente: objetivo del lab sobre fundamentos de la descomposición demográfica.</p>
+<p>Aplicar la descomposición de Kitagawa para separar diferencias en una tasa agregada en dos componentes: diferencias en tasas específicas y diferencias en la composición de la población.</p>
+</section>
+<section id="materiales" class="level2">
+<h2 class="anchored" data-anchor-id="materiales">Materiales</h2>
+<ul>
+<li><a href="../slides/dia-01-kitagawa.pdf">Diapositivas del día 1</a></li>
+<li><a href="../practicals/dia-01/kitagawa-gfr/kitagawa-gfr-es.html">Práctica 1: Kitagawa y GFR - HTML</a> | <a href="../practicals/dia-01/kitagawa-gfr/kitagawa-gfr-es.pdf">PDF</a></li>
+<li><a href="../practicals/dia-01/kitagawa-tfr-bonus/kitagawa-tfr-bonus-es.html">Práctica bonus: Kitagawa y TFR por edad y unión - HTML</a> | <a href="../practicals/dia-01/kitagawa-tfr-bonus/kitagawa-tfr-bonus-es.pdf">PDF</a></li>
+<li><a href="../code/dia-01/kitagawa-gfr.R">Código del ejercicio 1</a></li>
+<li><a href="../data/dia-01/kitagawa-gfr-data.RData">Datos del ejercicio 1</a></li>
+<li><a href="../code/dia-01/kitagawa-tfr-bonus.R">Código del ejercicio bonus</a></li>
+<li><a href="../data/dia-01/kitagawa-tfr-bonus-data.RData">Datos del ejercicio bonus</a></li>
+</ul>
 </section>
 <section id="paquetes-necesarios" class="level2">
 <h2 class="anchored" data-anchor-id="paquetes-necesarios">Paquetes necesarios</h2>
-<p>Pendiente: lista de paquetes necesarios.</p>
+<ul>
+<li><code>tidyverse</code></li>
+</ul>
 </section>
-<section id="datos" class="level2">
-<h2 class="anchored" data-anchor-id="datos">Datos</h2>
-<p>Pendiente: descripción de los datos de práctica.</p>
+<section id="estructura-sugerida" class="level2">
+<h2 class="anchored" data-anchor-id="estructura-sugerida">Estructura sugerida</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Bloque</th>
+<th>Actividad</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Clase teórica</td>
+<td>Motivación, estandarización y descomposición de Kitagawa</td>
+</tr>
+<tr class="even">
+<td>Práctica 1</td>
+<td>Descomposición de diferencias en la tasa general de fecundidad</td>
+</tr>
+<tr class="odd">
+<td>Discusión</td>
+<td>Interpretación de efectos de tasas y composición</td>
+</tr>
+<tr class="even">
+<td>Práctica opcional</td>
+<td>Extensión a fecundidad por edad y situación de unión</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="ejercicio-1" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicio-1">Ejercicio 1</h2>
-<p>Pendiente: instrucciones del ejercicio.</p>
+<section id="ejercicio-1-tasa-general-de-fecundidad" class="level2">
+<h2 class="anchored" data-anchor-id="ejercicio-1-tasa-general-de-fecundidad">Ejercicio 1: tasa general de fecundidad</h2>
+<p>El ejercicio usa datos de nacimientos y exposición para mujeres entre 12 y 55 años en Chile e Irlanda en 2020. El objetivo es descomponer la diferencia en la tasa general de fecundidad siguiendo el método de Kitagawa.</p>
+<p>Preguntas guía:</p>
+<ul>
+<li>¿Cuál es la diferencia observada en la tasa general de fecundidad?</li>
+<li>¿Cuánto de esa diferencia se debe a tasas específicas por edad?</li>
+<li>¿Cuánto se debe a la composición por edad de la población femenina?</li>
+<li>¿La interpretación sustantiva cambia después de la descomposición?</li>
+</ul>
 </section>
-<section id="ejercicio-2" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicio-2">Ejercicio 2</h2>
-<p>Pendiente: instrucciones del ejercicio.</p>
-</section>
-<section id="ejercicio-3" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicio-3">Ejercicio 3</h2>
-<p>Pendiente: instrucciones del ejercicio.</p>
+<section id="ejercicio-bonus-tfr-por-edad-y-situación-de-unión" class="level2">
+<h2 class="anchored" data-anchor-id="ejercicio-bonus-tfr-por-edad-y-situación-de-unión">Ejercicio bonus: TFR por edad y situación de unión</h2>
+<p>El ejercicio bonus extiende la lógica de Kitagawa a dos dimensiones: edad y situación de unión. Usa datos simulados de nacimientos y exposición para mujeres nacidas entre 1965 y 1969 en España y Suecia, inspirados en Nishikido, Cui y Esteve.</p>
+<p>Preguntas guía:</p>
+<ul>
+<li>¿Qué cambia al descomponer por dos dimensiones?</li>
+<li>¿Cómo se interpretan los efectos de tasas y composición cuando la composición incluye situación de unión?</li>
+<li>¿Qué aporta mirar las contribuciones por edad además de los efectos totales?</li>
+</ul>
 </section>
 <section id="preguntas-de-interpretación" class="level2">
 <h2 class="anchored" data-anchor-id="preguntas-de-interpretación">Preguntas de interpretación</h2>
-<p>Pendiente: preguntas para discusión e interpretación.</p>
+<ul>
+<li>¿Qué problema resuelve Kitagawa que la estandarización no resuelve por sí sola?</li>
+<li>¿En qué situaciones el efecto de composición podría dominar el resultado agregado?</li>
+<li>¿Qué decisiones de agrupación por edad o categoría podrían cambiar la interpretación?</li>
+</ul>
 
 
 </section>

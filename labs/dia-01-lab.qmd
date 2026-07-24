@@ -6,29 +6,54 @@ title: "Lab día 1"
 
 ## Objetivo del lab
 
-Pendiente: objetivo del lab sobre fundamentos de la descomposición demográfica.
+Aplicar la descomposición de Kitagawa para separar diferencias en una tasa agregada en dos componentes: diferencias en tasas específicas y diferencias en la composición de la población.
+
+## Materiales
+
+- [Diapositivas del día 1](../slides/dia-01-kitagawa.pdf)
+- [Práctica 1: Kitagawa y GFR - HTML](../practicals/dia-01/kitagawa-gfr/kitagawa-gfr-es.html) | [PDF](../practicals/dia-01/kitagawa-gfr/kitagawa-gfr-es.pdf)
+- [Práctica bonus: Kitagawa y TFR por edad y unión - HTML](../practicals/dia-01/kitagawa-tfr-bonus/kitagawa-tfr-bonus-es.html) | [PDF](../practicals/dia-01/kitagawa-tfr-bonus/kitagawa-tfr-bonus-es.pdf)
+- [Código del ejercicio 1](../code/dia-01/kitagawa-gfr.R)
+- [Datos del ejercicio 1](../data/dia-01/kitagawa-gfr-data.RData)
+- [Código del ejercicio bonus](../code/dia-01/kitagawa-tfr-bonus.R)
+- [Datos del ejercicio bonus](../data/dia-01/kitagawa-tfr-bonus-data.RData)
 
 ## Paquetes necesarios
 
-Pendiente: lista de paquetes necesarios.
+- `tidyverse`
 
-## Datos
+## Estructura sugerida
 
-Pendiente: descripción de los datos de práctica.
+| Bloque | Actividad |
+|---|---|
+| Clase teórica | Motivación, estandarización y descomposición de Kitagawa |
+| Práctica 1 | Descomposición de diferencias en la tasa general de fecundidad |
+| Discusión | Interpretación de efectos de tasas y composición |
+| Práctica opcional | Extensión a fecundidad por edad y situación de unión |
 
-## Ejercicio 1
+## Ejercicio 1: tasa general de fecundidad
 
-Pendiente: instrucciones del ejercicio.
+El ejercicio usa datos de nacimientos y exposición para mujeres entre 12 y 55 años en Chile e Irlanda en 2020. El objetivo es descomponer la diferencia en la tasa general de fecundidad siguiendo el método de Kitagawa.
 
-## Ejercicio 2
+Preguntas guía:
 
-Pendiente: instrucciones del ejercicio.
+- ¿Cuál es la diferencia observada en la tasa general de fecundidad?
+- ¿Cuánto de esa diferencia se debe a tasas específicas por edad?
+- ¿Cuánto se debe a la composición por edad de la población femenina?
+- ¿La interpretación sustantiva cambia después de la descomposición?
 
-## Ejercicio 3
+## Ejercicio bonus: TFR por edad y situación de unión
 
-Pendiente: instrucciones del ejercicio.
+El ejercicio bonus extiende la lógica de Kitagawa a dos dimensiones: edad y situación de unión. Usa datos simulados de nacimientos y exposición para mujeres nacidas entre 1965 y 1969 en España y Suecia, inspirados en Nishikido, Cui y Esteve.
+
+Preguntas guía:
+
+- ¿Qué cambia al descomponer por dos dimensiones?
+- ¿Cómo se interpretan los efectos de tasas y composición cuando la composición incluye situación de unión?
+- ¿Qué aporta mirar las contribuciones por edad además de los efectos totales?
 
 ## Preguntas de interpretación
 
-Pendiente: preguntas para discusión e interpretación.
-
+- ¿Qué problema resuelve Kitagawa que la estandarización no resuelve por sí sola?
+- ¿En qué situaciones el efecto de composición podría dominar el resultado agregado?
+- ¿Qué decisiones de agrupación por edad o categoría podrían cambiar la interpretación?

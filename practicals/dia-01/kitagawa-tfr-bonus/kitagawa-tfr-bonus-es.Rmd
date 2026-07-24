@@ -1,0 +1,182 @@
+---
+title: "Ejercicio adicional: Replicar a Nishikido, Cui y Esteve"
+author: "José Manuel Aburto y Ana Cristina Gómez Ugarte Valerio"
+date: "2026"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+En el ejercicio 1 usamos el método de Kitagawa para descomponer la tasa general de fecundidad por edad. Sin embargo, este método puede usarse para descomponer cualquier tasa bruta a lo largo de cualquier dimension. En este ejercicio usaremos la descomposición de Kitagawa para analizar diferencias en la TFR. Ademas, descompondremos a lo largo de dos dimensiones: edad y estado de unión. Este ejercicio se basa en Nishikido, Cui y Esteve (2022). Los datos fueron simulados por razones de privacidad.
+
+Los elementos que necesitamos son los mismos que en el ejercicio 1:
+
+* $t_1$ es el periodo inicial y $t_2$ es el periodo final
+* $b_{ix} =$ número de nacimientos para la edad $i$ y el grupo $x$
+* $ASFR_x =$ tasa específica de fecundidad por edad para el grupo $x$
+* $N_{ix} =$ población a mitad de año para la edad $i$ y el grupo $x$
+* $N = $ población total
+
+Sabemos que $TFR_x = \sum_x ASFR(x)$ y que la diferencia entre dos TFR puede expresarse como
+
+\begin{equation}
+\label{TFRDif}
+\Delta TFR = \sum_x \sum_p ASFR(x,p,t=t_2)\times\frac{N(x,p,t=t_2)}{N(p,t=t_2)} -\sum_x \sum_p ASFR(x,p,t=t_1)\times\frac{N(x,p,t=t_1)}{N(p,t=t_1)}
+\end{equation}
+
+Noten la doble sumatoria: una para edad y otra para estado de unión. Cómo estamos descomponiendo en dos dimensiones, también necesitamos una doble sumatoria en la fórmula de Kitagawa:
+
+\begin{equation}
+\label{TFRKit}
+\begin{aligned}
+\Delta TFR = \sum_x \sum_p (ASFR(x,p,t=t_2)-ASFR(x,p,t=t_1))\times(\frac{N(x,p,t=t_2)}{N(p,t=t_2)} + \frac{N(x,p,t=t_1)}{N(p,t=t_1)})\times 0.5 + \nonumber \\
+\sum_x \sum_p (ASFR(x,p,t=t_2)+ASFR(x,p,t=t_1))\times 0.5\times(\frac{N(x,p,t=t_2)}{N(p,t=t_2)} - \frac{N(x,p,t=t_1)}{N(p,t=t_1)})
+\end{aligned}
+\end{equation}
+
+Nota: En este caso la GFR y la TFR son idénticas, porque consideramos una cohorte de nacimiento sin mortalidad observada. Por lo tanto, las exposiciones totales no cambian por edad.
+
+El archivo `kitagawa-tfr-bonus-data.RData` contiene datos simulados sobre nacimientos y exposiciones para mujeres nacidas entre 1965 y 1969 en España y Suecia, por edad y estado de unión. El ejercicio consiste en descomponer los cambios en la TFR siguiendo a Kitagawa. Una vez más, el objetivo es separar la contribución de las diferencias en las tasas y la contribución de las diferencias en la composición de la población.
+
+Comiencen cargando los datos y el paquete `tidyverse`.
+
+```{r load, message=FALSE}
+load('kitagawa-tfr-bonus-data.RData')
+
+library(tidyverse)
+```
+
+Luego seleccionen los nacimientos y las exposiciones para cada país y guardenlos en vectores.
+
+```{r}
+# Seleccionar nacimientos para España, para mujeres sin pareja y con pareja
+bx0_ESP <- data %>% 
+  filter(pop=="ESP", partnered==0) %>% 
+  pull(births)
+bx1_ESP <- data %>% 
+  filter(pop=="ESP", partnered==1) %>% 
+  pull(births)
+# Seleccionar población para España, para mujeres sin pareja y con pareja
+Nx0_ESP <- data %>%
+  filter(pop=="ESP", partnered==0) %>% 
+  pull(exposure)
+Nx1_ESP <- data %>% 
+  filter(pop=="ESP", partnered==1) %>% 
+  pull(exposure)
+# Hacer lo mismo para Suecia
+bx0_SWE <- data %>% 
+  filter(pop=="SWE", partnered==0) %>% 
+  pull(births)
+bx1_SWE <- data %>% 
+  filter(pop=="SWE", partnered==1) %>% 
+  pull(births)
+Nx0_SWE <- data %>% 
+  filter(pop=="SWE", partnered==0) %>%
+  pull(exposure)
+Nx1_SWE <- data %>% 
+  filter(pop=="SWE", partnered==1) %>% 
+  pull(exposure)
+```
+
+Primero observamos la diferencia entre las TFR.
+
+```{r}
+# España
+TFR_ESP <- sum(bx1_ESP+bx0_ESP)/(Nx1_ESP+Nx0_ESP)[1]
+# lo mismo para Suecia
+TFR_SWE <- sum(bx1_SWE+bx0_SWE)/(Nx1_SWE+Nx0_SWE)[1]
+# diferencia en la TFR
+(diff <- TFR_SWE - TFR_ESP)
+```
+
+Descompongamos la diferencia para ver si la diferencia en la tasa de fecundidad entre España y Suecia se debe a un efecto de composición de la población o a diferencias en las tasas de fecundidad específicas por edad y estado de unión.
+
+Necesitamos calcular las tasas de fecundidad específicas por estado de unión y edad: el número de nacimientos por subpoblación dividido entre la exposición para ambos países. Tambien necesitamos las exposiciones por país, estado de unión y edad.
+
+```{r}
+# ASFR específicas por estado de unión para España
+ASFR0_ESP <- bx0_ESP/Nx0_ESP
+ASFR1_ESP <- bx1_ESP/Nx1_ESP
+# Y para Suecia
+ASFR0_SWE <- bx0_SWE/Nx0_SWE
+ASFR1_SWE <- bx1_SWE/Nx1_SWE
+```
+
+Ahora calculamos los componentes de Kitagawa. Deben ser específicos para cada combinacion de edad y estado de unión.
+
+```{r}
+# Mujeres sin pareja
+RC0 <- 0.5*(Nx0_SWE/(Nx0_SWE+Nx1_SWE) + Nx0_ESP/(Nx0_ESP+Nx1_ESP))*(ASFR0_SWE-ASFR0_ESP)
+CC0 <- 0.5*(ASFR0_SWE+ASFR0_ESP)*(Nx0_SWE/(Nx0_SWE+Nx1_SWE)-Nx0_ESP/(Nx0_ESP+Nx1_ESP))
+
+# Mujeres con pareja
+RC1 <- 0.5*(Nx1_SWE/(Nx0_SWE+Nx1_SWE) + Nx1_ESP/(Nx0_ESP+Nx1_ESP))*(ASFR1_SWE-ASFR1_ESP)
+CC1 <- 0.5*(ASFR1_SWE+ASFR1_ESP)*(Nx1_SWE/(Nx0_SWE+Nx1_SWE)-Nx1_ESP/(Nx0_ESP+Nx1_ESP))
+```
+
+Despues sumamos entre estados de unión. Esta es la primera sumatoria, la más interna.
+
+```{r}
+# Sumar entre estados de unión (primera sumatoria)
+RC_age <- RC0+RC1
+CC_age <- CC0+CC1
+```
+
+Luego sumamos entre edades para obtener los efectos totales de tasas y composición.
+
+```{r}
+# Sumar entre edades (segúnda sumatoria)
+RC <- sum(RC_age)
+CC <- sum(CC_age)
+```
+
+Comprobemos los resultados.
+```{r}
+RC+CC
+diff
+```
+
+Podemos gráficar estos resultados de muchas maneras. Podemos observar simplemente los efectos totales de tasas y composición.
+
+```{r}
+cbind(type="rate",effect=sum(RC0+RC1)) %>% 
+  rbind(cbind(type="composition",effect=sum(CC0+CC1))) %>%   
+  as.data.frame() %>% 
+  ggplot() +
+  geom_bar(aes(x=1, y=as.numeric(effect), fill=type), stat="identity", position="stack") +
+  scale_fill_manual(values=c(4,2))
+```
+
+O podemos observar los efectos de tasas y composición por estado de unión.
+
+```{r}
+cbind(partnership=0,type="rate",effect=sum(RC0)) %>% 
+  rbind(cbind(partnership=1,type="rate",effect=sum(RC1))) %>% 
+  rbind(cbind(partnership=0,type="composition",effect=sum(CC0))) %>%   
+  rbind(cbind(partnership=1,type="composition",effect=sum(CC1))) %>%   
+  as.data.frame() %>% 
+  ggplot() +
+  geom_bar(aes(x=partnership, y=as.numeric(effect), fill=type), stat="identity", position="stack") +
+  scale_fill_manual(values=c(4,2))
+
+```
+
+¿A qué se refiere el efecto de composición en este caso?
+
+Finalmente, podemos obtener las contribuciónes por edad, separadas en efectos de tasas y composición.
+
+```{r}
+cbind(age=18:40,type="rate",effect=RC_age) %>% 
+  rbind(cbind(age=18:40,type="composition",effect=CC_age)) %>% 
+  as.data.frame() %>% 
+ggplot() +
+  geom_bar(aes(x=age, y=as.numeric(effect), fill=type), stat="identity", position="stack") +
+  scale_fill_manual(values=c(4,2))
+```
+
+¿A qué se refiere aqui el efecto de composición?

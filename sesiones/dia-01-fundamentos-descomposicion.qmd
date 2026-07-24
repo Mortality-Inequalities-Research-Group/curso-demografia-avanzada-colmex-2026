@@ -20,19 +20,26 @@ Motivación, diferencias entre componentes directos y composicionales, tasas agr
 
 ## Slides
 
-Disponible próximamente.
+[Diapositivas: descomposición de Kitagawa](../slides/dia-01-kitagawa.pdf)
 
 ## Lab
 
 [Lab del día 1](../labs/dia-01-lab.qmd)
 
+## Prácticas
+
+- [Ejercicio 1: Kitagawa y GFR - HTML](../practicals/dia-01/kitagawa-gfr/kitagawa-gfr-es.html) | [PDF](../practicals/dia-01/kitagawa-gfr/kitagawa-gfr-es.pdf)
+- [Ejercicio bonus: Kitagawa y TFR por edad y unión - HTML](../practicals/dia-01/kitagawa-tfr-bonus/kitagawa-tfr-bonus-es.html) | [PDF](../practicals/dia-01/kitagawa-tfr-bonus/kitagawa-tfr-bonus-es.pdf)
+
 ## Código
 
-Disponible próximamente.
+- [Ejercicio 1: Kitagawa y GFR](../code/dia-01/kitagawa-gfr.R)
+- [Ejercicio bonus: Kitagawa y TFR por edad y unión](../code/dia-01/kitagawa-tfr-bonus.R)
 
 ## Datos
 
-Disponible próximamente.
+- [Datos del ejercicio 1](../data/dia-01/kitagawa-gfr-data.RData)
+- [Datos del ejercicio bonus](../data/dia-01/kitagawa-tfr-bonus-data.RData)
 
 ## Lecturas recomendadas
 

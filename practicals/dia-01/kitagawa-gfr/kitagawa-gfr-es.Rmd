@@ -1,0 +1,129 @@
+---
+title: "Día 1, ejercicio 1: Descomposición de la tasa general de fecundidad con el método de Kitagawa"
+author: "José Manuel Aburto y Ana Cristina Gómez Ugarte Valerio"
+date: "2026"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(results = TRUE)
+```
+
+* $t_1$ es el periodo inicial y $t_2$ es el periodo final
+* $B_x =$ número de nacimientos a la edad $x$
+* $ASFR_x =$ tasa específica de fecundidad por edad
+* $N_x =$ población a mitad de año
+* $N =$ población total en todas las edades
+
+Noten que $B_x = ASFR*N_x$ y que la diferencia entre dos tasas generales de fecundidad puede expresarse como
+
+\begin{equation}
+\label{GFRDif}
+\Delta GFR = \sum_x ASFR_x(t_2)\frac{N_x(t_2)}{N(t_2)} -\sum_x ASFR_x(t_1)\frac{N_x(t_1)}{N(t_1)}.
+\end{equation}
+
+El objetivo es separar el efecto de los cambios en las tasas del efecto de los cambios en la composición de la población.
+
+El archivo `kitagawa-gfr-data.RData` contiene datos de nacimientos y exposición (para mujeres entre 12 y 55 años) de Chile e Irlanda en 2020. El ejercicio consiste en descomponer los cambios en la GFR siguiendo el método de Kitagawa.
+
+Comiencen cargando los datos.
+
+```{r load, results=FALSE}
+load('kitagawa-gfr-data.RData')
+```
+
+Los ejercicios de este curso usaran el paquete `tidyverse`, que probablemente ya conocen.
+
+Tambien necesitamos cargar este paquete e instalarlo si todavía no lo tienen.
+
+```{r, results=FALSE}
+# install.packages("tidyverse") # para instalar el paquete
+
+library(tidyverse)
+```
+
+En este caso, la población 1 corresponde a Chile y la población 2 a Irlanda. Empiecen seleccionando los nacimientos y las exposiciones (normalmente aproximadas por la población a mitad de año) para cada población y guardenlos en vectores.
+
+```{r}
+# Seleccionar nacimientos para la población 1
+Bx1 <- data %>% 
+  filter(pop=="CHL") %>% 
+  pull(births)
+# Seleccionar población para la población 1
+Nx1 <- data %>% 
+  filter(pop=="CHL") %>% 
+  pull(exposure)
+# Hacer lo mismo para la población 2
+Bx2 <- data%>% 
+  filter(pop=="IRL") %>% 
+  pull(births)
+Nx2 <- data%>% 
+  filter(pop=="IRL") %>% 
+  pull(exposure)
+```
+
+Podemos calcular directamente las tasas generales de fecundidad a partir de estos datos.
+
+```{r}
+
+# obtener la tasa general de fecundidad en la población 1
+GFR1 <- sum(Bx1)/sum(Nx1)
+# tasa general de fecundidad expresada por 1000 en la población 1
+GFR1*1000
+# lo mismo para la población 2
+GFR2 <- sum(Bx2)/sum(Nx2)
+# tasa general de fecundidad expresada por 1000 en la población 2
+GFR2*1000
+
+# diferencia en la GFR
+(Diff <- (GFR2 - GFR1)*1000)
+```
+
+Qué habríamos esperado observar en este periodo? ¿Qué sugieren las GFR? ¿Tiene sentido?
+
+Descompongamos la diferencia para ver si las tasas de fecundidad efectivamente disminuyeron o si se trata de un efecto de composición.
+
+Recuerden la fórmula de Kitagawa:
+                                    
+\begin{equation}
+\label{eq.kitagawa2}
+\begin{split}
+\Delta GFR  = & \underbrace{\sum_x \left( \frac{ASFR_x(t_2)+ASFR_x(t_1)}{2} \right) \left( \frac{N_x(t_2)}{N(t_2)}-\frac{N_x(t_1)}{N(t_1)}\right) }_{\text{Cambios en la composición por edad}} +  \\
+& \underbrace{\sum_x \left( \frac{\frac{N_x(t_2)}{N(t_2)}+\frac{N_x(t_1)}{N(t_1)}}{2} \right) \left( ASFR_x(t_2) - ASFR_x(t_1) \right) }_{\text{Cambios en las tasas}}
+\end{split}
+\end{equation}
+                                  
+Necesitamos calcular las tasas específicas de fecundidad por edad, que son los nacimientos específicos por edad divididos entre las exposiciones específicas por edad para ambas poblaciones.
+                                  
+```{r}
+# población 1
+# seleccionar nacimientos para la primera población
+# obtener tasas específicas de fecundidad por edad
+ASFR1 <- Bx1/Nx1
+# reemplazar NA por cero (solo por simplicidad)
+ASFR1 <- ASFR1 %>% 
+  replace_na(replace=0)
+# hacer lo mismo para la segúnda población
+ASFR2 <- Bx2/Nx2
+ASFR2 <- ASFR2 %>% 
+  replace_na(replace=0)
+
+RC <- sum(0.5*(Nx2/sum(Nx2) + Nx1/sum(Nx1))*(ASFR2-ASFR1))
+RC*1000
+
+CC <- sum(0.5*(ASFR2+ASFR1)*(Nx2/sum(Nx2)-Nx1/sum(Nx1)))
+CC*1000
+```
+
+¿Qué nos dicen estos resultados sobre las diferencias de fecundidad entre Chile e Irlanda? ¿Cuál fue el papel de la composición de la población frente al de las tasas de fecundidad?
+                                    
+Comprobemos que los resultados de la descomposición coinciden con la diferencia original.
+                                  
+```{r}
+RC*1000 + CC*1000
+                                  
+Diff
+```
