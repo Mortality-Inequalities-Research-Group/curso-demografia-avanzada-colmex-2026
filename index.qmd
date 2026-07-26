@@ -38,9 +38,10 @@ El curso está organizado en cinco sesiones. Cada sesión incluye:
 
 - Slides
 - Lab
-- Código
 - Datos
 - Lecturas
+
+El código se compartirá al final del curso para favorecer que las y los estudiantes trabajen los ejercicios directamente en R durante las sesiones.
 
 ## Sesiones
 

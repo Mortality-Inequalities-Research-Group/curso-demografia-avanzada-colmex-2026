@@ -12,12 +12,7 @@ Repasar tablas de vida y esperanza de vida, calcular años de vida perdidos por 
 
 - [Puente: tablas de vida, años de vida perdidos y Arriaga](../slides/dia-02-life-years-lost-arriaga-bridge.pdf)
 - [Diapositivas de Arriaga](../slides/dia-02-arriaga.pdf)
-- [Quiz de repaso sobre Kitagawa](../code/dia-02/quiz-kitagawa.docx)
-- [Código del ejercicio 1: YLL](../code/dia-02/yll.R)
-- [Funciones para YLL](../code/dia-02/yll-functions.R)
 - [Datos del ejercicio 1](../data/dia-02/yll-data.RData)
-- [Código del ejercicio 2: Arriaga](../code/dia-02/arriaga-covid-usa.R)
-- [Plantilla para estudiantes: Arriaga](../code/dia-02/arriaga-covid-usa-empty.R)
 - [Datos del ejercicio 2](../data/dia-02/arriaga-covid-usa-data.RData)
 
 ## Paquetes necesarios

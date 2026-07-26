@@ -28,14 +28,6 @@ Repaso de funciones de la tabla de vida, esperanza de vida, años de vida perdid
 
 [Lab del día 2](../labs/dia-02-lab.qmd)
 
-## Código
-
-- [Quiz de repaso: Kitagawa](../code/dia-02/quiz-kitagawa.docx)
-- [Ejercicio 1: años de vida perdidos](../code/dia-02/yll.R)
-- [Funciones para el ejercicio de YLL](../code/dia-02/yll-functions.R)
-- [Ejercicio 2: Arriaga, COVID-19 y esperanza de vida](../code/dia-02/arriaga-covid-usa.R)
-- [Plantilla para estudiantes: Arriaga](../code/dia-02/arriaga-covid-usa-empty.R)
-
 ## Datos
 
 - [Datos del ejercicio de YLL](../data/dia-02/yll-data.RData)

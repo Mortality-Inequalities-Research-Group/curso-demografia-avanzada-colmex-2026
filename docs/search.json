@@ -11,7 +11,7 @@
     "href": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html",
     "title": "Día 3: Salud, prevalencias y esperanza de vida saludable",
     "section": "",
-    "text": "Método de Sullivan, incorporación de prevalencias por edad, cálculo de esperanza de vida saludable, descomposición de brechas de salud y métodos stepwise.\n\n\n\nSesión: Ana Cristina Gómez Ugarte Valerio\nTaller: Dr. José Manuel Aburto\n\n\n\n\n\nComprender la lógica del método de Sullivan.\nIncorporar prevalencias por edad a una tabla de vida.\nCalcular esperanza de vida saludable.\nDescomponer brechas de salud entre poblaciones o periodos.\nExplorar métodos stepwise para problemas de descomposición.\n\n\n\n\nDisponible próximamente.\n\n\n\nLab del día 3\n\n\n\nDisponible próximamente.\n\n\n\nDisponible próximamente.\n\n\n\nDisponible próximamente."
+    "text": "Método de Sullivan, incorporación de prevalencias por edad, cálculo de esperanza de vida saludable, descomposición de brechas de salud y métodos stepwise.\n\n\n\nSesión: Ana Cristina Gómez Ugarte Valerio\nTaller: Dr. José Manuel Aburto\n\n\n\n\n\nComprender la lógica del método de Sullivan.\nIncorporar prevalencias por edad a una tabla de vida.\nCalcular esperanza de vida saludable.\nDescomponer brechas de salud entre poblaciones o periodos.\nExplorar métodos stepwise para problemas de descomposición.\n\n\n\n\nDisponible próximamente.\n\n\n\nLab del día 3\n\n\n\nEl código se compartirá al final del curso.\n\n\n\nDisponible próximamente.\n\n\n\nDisponible próximamente."
   },
   {
     "objectID": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#docencia",
@@ -46,7 +46,7 @@
     "href": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#código",
     "title": "Día 3: Salud, prevalencias y esperanza de vida saludable",
     "section": "",
-    "text": "Disponible próximamente."
+    "text": "El código se compartirá al final del curso."
   },
   {
     "objectID": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#datos",
@@ -67,7 +67,7 @@
     "href": "sesiones/dia-05-lee-carter-forecasting.html",
     "title": "Día 5: Introducción al método de Lee-Carter y su interpretación",
     "section": "",
-    "text": "Introducción al forecasting de mortalidad, interpretación de los parámetros de Lee-Carter e implementación básica en R.\n\n\n\nSesión: Ana Cristina Gómez Ugarte Valerio\nTaller: Dr. José Manuel Aburto\n\n\n\n\n\nIntroducir el forecasting de mortalidad.\nComprender la estructura del modelo Lee-Carter.\nInterpretar los parámetros del modelo.\nImplementar una versión básica del método en R.\nDiscutir alcances, supuestos y límites de la proyección.\n\n\n\n\nDisponible próximamente.\n\n\n\nLab del día 5\n\n\n\nDisponible próximamente.\n\n\n\nDisponible próximamente.\n\n\n\nDisponible próximamente."
+    "text": "Introducción al forecasting de mortalidad, interpretación de los parámetros de Lee-Carter e implementación básica en R.\n\n\n\nSesión: Ana Cristina Gómez Ugarte Valerio\nTaller: Dr. José Manuel Aburto\n\n\n\n\n\nIntroducir el forecasting de mortalidad.\nComprender la estructura del modelo Lee-Carter.\nInterpretar los parámetros del modelo.\nImplementar una versión básica del método en R.\nDiscutir alcances, supuestos y límites de la proyección.\n\n\n\n\nDisponible próximamente.\n\n\n\nLab del día 5\n\n\n\nEl código se compartirá al final del curso.\n\n\n\nDisponible próximamente.\n\n\n\nDisponible próximamente."
   },
   {
     "objectID": "sesiones/dia-05-lee-carter-forecasting.html#docencia",
@@ -102,7 +102,7 @@
     "href": "sesiones/dia-05-lee-carter-forecasting.html#código",
     "title": "Día 5: Introducción al método de Lee-Carter y su interpretación",
     "section": "",
-    "text": "Disponible próximamente."
+    "text": "El código se compartirá al final del curso."
   },
   {
     "objectID": "sesiones/dia-05-lee-carter-forecasting.html#datos",
@@ -123,7 +123,7 @@
     "href": "sesiones/dia-02-tablas-vida-esperanza-vida.html",
     "title": "Día 2: Tablas de vida y esperanza de vida",
     "section": "",
-    "text": "Repaso de funciones de la tabla de vida, esperanza de vida, años de vida perdidos, descomposición del cambio en esperanza de vida por edad, método de Arriaga y visualización de contribuciones.\n\n\n\nSesión: Dr. José Manuel Aburto\nTaller y ejemplo práctico: Ana Cristina Gómez Ugarte Valerio\n\n\n\n\n\nRepasar las funciones principales de la tabla de vida.\nConectar la función de supervivencia con esperanza de vida y años de vida perdidos.\nDescomponer cambios en esperanza de vida por edad.\nAplicar el método de Arriaga.\nVisualizar e interpretar contribuciones por edad y causa de muerte.\n\n\n\n\n\nPuente: tablas de vida, años de vida perdidos y Arriaga\nDiapositivas: descomposición de Arriaga\n\n\n\n\nLab del día 2\n\n\n\n\nQuiz de repaso: Kitagawa\nEjercicio 1: años de vida perdidos\nFunciones para el ejercicio de YLL\nEjercicio 2: Arriaga, COVID-19 y esperanza de vida\nPlantilla para estudiantes: Arriaga\n\n\n\n\n\nDatos del ejercicio de YLL\nDatos del ejercicio de Arriaga\n\n\n\n\nDisponible próximamente."
+    "text": "Repaso de funciones de la tabla de vida, esperanza de vida, años de vida perdidos, descomposición del cambio en esperanza de vida por edad, método de Arriaga y visualización de contribuciones.\n\n\n\nSesión: Dr. José Manuel Aburto\nTaller y ejemplo práctico: Ana Cristina Gómez Ugarte Valerio\n\n\n\n\n\nRepasar las funciones principales de la tabla de vida.\nConectar la función de supervivencia con esperanza de vida y años de vida perdidos.\nDescomponer cambios en esperanza de vida por edad.\nAplicar el método de Arriaga.\nVisualizar e interpretar contribuciones por edad y causa de muerte.\n\n\n\n\n\nPuente: tablas de vida, años de vida perdidos y Arriaga\nDiapositivas: descomposición de Arriaga\n\n\n\n\nLab del día 2\n\n\n\n\nDatos del ejercicio de YLL\nDatos del ejercicio de Arriaga\n\n\n\n\nDisponible próximamente."
   },
   {
     "objectID": "sesiones/dia-02-tablas-vida-esperanza-vida.html#docencia",
@@ -154,13 +154,6 @@
     "text": "Lab del día 2"
   },
   {
-    "objectID": "sesiones/dia-02-tablas-vida-esperanza-vida.html#código",
-    "href": "sesiones/dia-02-tablas-vida-esperanza-vida.html#código",
-    "title": "Día 2: Tablas de vida y esperanza de vida",
-    "section": "",
-    "text": "Quiz de repaso: Kitagawa\nEjercicio 1: años de vida perdidos\nFunciones para el ejercicio de YLL\nEjercicio 2: Arriaga, COVID-19 y esperanza de vida\nPlantilla para estudiantes: Arriaga"
-  },
-  {
     "objectID": "sesiones/dia-02-tablas-vida-esperanza-vida.html#datos",
     "href": "sesiones/dia-02-tablas-vida-esperanza-vida.html#datos",
     "title": "Día 2: Tablas de vida y esperanza de vida",
@@ -179,7 +172,7 @@
     "href": "index.html",
     "title": "Curso de demografía avanzada - Colmex 2026",
     "section": "",
-    "text": "Bienvenida al sitio del curso Técnicas avanzadas de demografía aplicada al estudio de la salud y la población.\nEste taller presencial de 15 horas se realizará en El Colegio de México del 27 al 31 de julio de 2026.\n\n\n\n\nAssociate Professor in Demography - Brass Blacker en el Department of Population Health, Faculty of Epidemiology and Population Health, London School of Hygiene & Tropical Medicine. Su investigación se especializa en demografía formal, desigualdades en longevidad y salud poblacional, con trabajo aplicado sobre mortalidad, violencia, COVID-19 y desigualdades en América Latina y otras regiones.\n\n\n\nDoctoral Student en el Laboratory of Population Dynamics and Sustainable Well-Being del Max Planck Institute for Demographic Research. Su trabajo se centra en la relación entre logro educativo y mortalidad, con investigaciones sobre desigualdades socioeconómicas en mortalidad, medición de desigualdades educativas y aplicaciones a México y otros contextos poblacionales.\n\n\n\n\nEl taller introduce herramientas avanzadas de análisis demográfico aplicadas al estudio de la salud y la población, con énfasis en técnicas de descomposición e introducción al forecasting. A lo largo de cinco sesiones, las y los participantes aprenderán a separar cambios y diferencias demográficas en componentes atribuibles a edad, estructura poblacional, mortalidad, fecundidad, prevalencias de salud y causas de muerte.\nEl curso combina fundamentos conceptuales, discusión metodológica y ejercicios prácticos en R, de modo que cada participante pueda implementar los métodos, producir resultados reproducibles e interpretarlos sustantivamente.\n\n\n\n\nFechas: 27 al 31 de julio de 2026\nDuración: 15 horas\nModalidad: presencial\nSede: El Colegio de México\nCupo: 15-20 personas\n\n\n\n\nEl curso está organizado en cinco sesiones. Cada sesión incluye:\n\nSlides\nLab\nCódigo\nDatos\nLecturas\n\n\n\n\n\nFundamentos de la descomposición demográfica\nTablas de vida y esperanza de vida\nSalud, prevalencias y esperanza de vida saludable\nMétodos avanzados, robustez e interpretación\nIntroducción al método de Lee-Carter y su interpretación"
+    "text": "Bienvenida al sitio del curso Técnicas avanzadas de demografía aplicada al estudio de la salud y la población.\nEste taller presencial de 15 horas se realizará en El Colegio de México del 27 al 31 de julio de 2026.\n\n\n\n\nAssociate Professor in Demography - Brass Blacker en el Department of Population Health, Faculty of Epidemiology and Population Health, London School of Hygiene & Tropical Medicine. Su investigación se especializa en demografía formal, desigualdades en longevidad y salud poblacional, con trabajo aplicado sobre mortalidad, violencia, COVID-19 y desigualdades en América Latina y otras regiones.\n\n\n\nDoctoral Student en el Laboratory of Population Dynamics and Sustainable Well-Being del Max Planck Institute for Demographic Research. Su trabajo se centra en la relación entre logro educativo y mortalidad, con investigaciones sobre desigualdades socioeconómicas en mortalidad, medición de desigualdades educativas y aplicaciones a México y otros contextos poblacionales.\n\n\n\n\nEl taller introduce herramientas avanzadas de análisis demográfico aplicadas al estudio de la salud y la población, con énfasis en técnicas de descomposición e introducción al forecasting. A lo largo de cinco sesiones, las y los participantes aprenderán a separar cambios y diferencias demográficas en componentes atribuibles a edad, estructura poblacional, mortalidad, fecundidad, prevalencias de salud y causas de muerte.\nEl curso combina fundamentos conceptuales, discusión metodológica y ejercicios prácticos en R, de modo que cada participante pueda implementar los métodos, producir resultados reproducibles e interpretarlos sustantivamente.\n\n\n\n\nFechas: 27 al 31 de julio de 2026\nDuración: 15 horas\nModalidad: presencial\nSede: El Colegio de México\nCupo: 15-20 personas\n\n\n\n\nEl curso está organizado en cinco sesiones. Cada sesión incluye:\n\nSlides\nLab\nDatos\nLecturas\n\nEl código se compartirá al final del curso para favorecer que las y los estudiantes trabajen los ejercicios directamente en R durante las sesiones.\n\n\n\n\nFundamentos de la descomposición demográfica\nTablas de vida y esperanza de vida\nSalud, prevalencias y esperanza de vida saludable\nMétodos avanzados, robustez e interpretación\nIntroducción al método de Lee-Carter y su interpretación"
   },
   {
     "objectID": "index.html#equipo-docente",
@@ -207,7 +200,7 @@
     "href": "index.html#estructura-del-curso",
     "title": "Curso de demografía avanzada - Colmex 2026",
     "section": "",
-    "text": "El curso está organizado en cinco sesiones. Cada sesión incluye:\n\nSlides\nLab\nCódigo\nDatos\nLecturas"
+    "text": "El curso está organizado en cinco sesiones. Cada sesión incluye:\n\nSlides\nLab\nDatos\nLecturas\n\nEl código se compartirá al final del curso para favorecer que las y los estudiantes trabajen los ejercicios directamente en R durante las sesiones."
   },
   {
     "objectID": "index.html#sesiones",
@@ -242,7 +235,7 @@
     "href": "labs/dia-01-lab.html",
     "title": "Lab día 1",
     "section": "",
-    "text": "Aplicar la descomposición de Kitagawa para separar diferencias en una tasa agregada en dos componentes: diferencias en tasas específicas y diferencias en la composición de la población.\n\n\n\n\nDiapositivas del día 1\nPráctica 1: Kitagawa y GFR - HTML | PDF\nPráctica bonus: Kitagawa y TFR por edad y unión - HTML | PDF\nCódigo del ejercicio 1\nDatos del ejercicio 1\nCódigo del ejercicio bonus\nDatos del ejercicio bonus\n\n\n\n\n\ntidyverse\n\n\n\n\n\n\n\n\n\n\n\nBloque\nActividad\n\n\n\n\nClase teórica\nMotivación, estandarización y descomposición de Kitagawa\n\n\nPráctica 1\nDescomposición de diferencias en la tasa general de fecundidad\n\n\nDiscusión\nInterpretación de efectos de tasas y composición\n\n\nPráctica opcional\nExtensión a fecundidad por edad y situación de unión\n\n\n\n\n\n\nEl ejercicio usa datos de nacimientos y exposición para mujeres entre 12 y 55 años en Chile e Irlanda en 2020. El objetivo es descomponer la diferencia en la tasa general de fecundidad siguiendo el método de Kitagawa.\nPreguntas guía:\n\n¿Cuál es la diferencia observada en la tasa general de fecundidad?\n¿Cuánto de esa diferencia se debe a tasas específicas por edad?\n¿Cuánto se debe a la composición por edad de la población femenina?\n¿La interpretación sustantiva cambia después de la descomposición?\n\n\n\n\nEl ejercicio bonus extiende la lógica de Kitagawa a dos dimensiones: edad y situación de unión. Usa datos simulados de nacimientos y exposición para mujeres nacidas entre 1965 y 1969 en España y Suecia, inspirados en Nishikido, Cui y Esteve.\nPreguntas guía:\n\n¿Qué cambia al descomponer por dos dimensiones?\n¿Cómo se interpretan los efectos de tasas y composición cuando la composición incluye situación de unión?\n¿Qué aporta mirar las contribuciones por edad además de los efectos totales?\n\n\n\n\n\n¿Qué problema resuelve Kitagawa que la estandarización no resuelve por sí sola?\n¿En qué situaciones el efecto de composición podría dominar el resultado agregado?\n¿Qué decisiones de agrupación por edad o categoría podrían cambiar la interpretación?"
+    "text": "Aplicar la descomposición de Kitagawa para separar diferencias en una tasa agregada en dos componentes: diferencias en tasas específicas y diferencias en la composición de la población.\n\n\n\n\nDiapositivas del día 1\nPráctica 1: Kitagawa y GFR - HTML | PDF\nPráctica bonus: Kitagawa y TFR por edad y unión - HTML | PDF\nDatos del ejercicio 1\nDatos del ejercicio bonus\n\n\n\n\n\ntidyverse\n\n\n\n\n\n\n\n\n\n\n\nBloque\nActividad\n\n\n\n\nClase teórica\nMotivación, estandarización y descomposición de Kitagawa\n\n\nPráctica 1\nDescomposición de diferencias en la tasa general de fecundidad\n\n\nDiscusión\nInterpretación de efectos de tasas y composición\n\n\nPráctica opcional\nExtensión a fecundidad por edad y situación de unión\n\n\n\n\n\n\nEl ejercicio usa datos de nacimientos y exposición para mujeres entre 12 y 55 años en Chile e Irlanda en 2020. El objetivo es descomponer la diferencia en la tasa general de fecundidad siguiendo el método de Kitagawa.\nPreguntas guía:\n\n¿Cuál es la diferencia observada en la tasa general de fecundidad?\n¿Cuánto de esa diferencia se debe a tasas específicas por edad?\n¿Cuánto se debe a la composición por edad de la población femenina?\n¿La interpretación sustantiva cambia después de la descomposición?\n\n\n\n\nEl ejercicio bonus extiende la lógica de Kitagawa a dos dimensiones: edad y situación de unión. Usa datos simulados de nacimientos y exposición para mujeres nacidas entre 1965 y 1969 en España y Suecia, inspirados en Nishikido, Cui y Esteve.\nPreguntas guía:\n\n¿Qué cambia al descomponer por dos dimensiones?\n¿Cómo se interpretan los efectos de tasas y composición cuando la composición incluye situación de unión?\n¿Qué aporta mirar las contribuciones por edad además de los efectos totales?\n\n\n\n\n\n¿Qué problema resuelve Kitagawa que la estandarización no resuelve por sí sola?\n¿En qué situaciones el efecto de composición podría dominar el resultado agregado?\n¿Qué decisiones de agrupación por edad o categoría podrían cambiar la interpretación?"
   },
   {
     "objectID": "labs/dia-01-lab.html#objetivo-del-lab",
@@ -256,7 +249,7 @@
     "href": "labs/dia-01-lab.html#materiales",
     "title": "Lab día 1",
     "section": "",
-    "text": "Diapositivas del día 1\nPráctica 1: Kitagawa y GFR - HTML | PDF\nPráctica bonus: Kitagawa y TFR por edad y unión - HTML | PDF\nCódigo del ejercicio 1\nDatos del ejercicio 1\nCódigo del ejercicio bonus\nDatos del ejercicio bonus"
+    "text": "Diapositivas del día 1\nPráctica 1: Kitagawa y GFR - HTML | PDF\nPráctica bonus: Kitagawa y TFR por edad y unión - HTML | PDF\nDatos del ejercicio 1\nDatos del ejercicio bonus"
   },
   {
     "objectID": "labs/dia-01-lab.html#paquetes-necesarios",
@@ -298,7 +291,7 @@
     "href": "labs/dia-02-lab.html",
     "title": "Lab día 2",
     "section": "",
-    "text": "Repasar tablas de vida y esperanza de vida, calcular años de vida perdidos por edad y causa, y aplicar la descomposición de Arriaga para interpretar cambios en esperanza de vida.\n\n\n\n\nPuente: tablas de vida, años de vida perdidos y Arriaga\nDiapositivas de Arriaga\nQuiz de repaso sobre Kitagawa\nCódigo del ejercicio 1: YLL\nFunciones para YLL\nDatos del ejercicio 1\nCódigo del ejercicio 2: Arriaga\nPlantilla para estudiantes: Arriaga\nDatos del ejercicio 2\n\n\n\n\n\ntidyverse\ndata.table\n\n\n\n\n\n\n\nBloque\nActividad\n\n\n\n\nRepaso\nFunciones de la tabla de vida y esperanza de vida\n\n\nPuente conceptual\nAños de vida perdidos por edad y causa\n\n\nPráctica 1\nCálculo e interpretación de YLL\n\n\nClase teórica\nDescomposición de Arriaga por edad y causa\n\n\nPráctica 2\nCambio en esperanza de vida en EE. UU., 2019-2020\n\n\n\n\n\n\nEl ejercicio calcula años de vida perdidos usando información de tabla de vida y distribución de muertes por edad y causa. Los datos corresponden a mujeres de Arabia Saudita en 2005-2010, con causas de muerte provenientes del Global Burden of Disease y tabla de vida de Naciones Unidas.\nPreguntas guía:\n\n¿Cuántos años de vida se pierden antes de los 85 años?\n¿Qué causa contribuye más a los años de vida perdidos?\n¿Qué causa domina por debajo de los 50 años si excluimos la categoría residual?\n¿Cómo ayuda la función de supervivencia a interpretar visualmente los años perdidos?\n\n\n\n\nEl ejercicio descompone por edad y causa el cambio en la esperanza de vida masculina al nacer en Estados Unidos entre 2019 y 2020, usando datos asociados al impacto de COVID-19.\nPreguntas guía:\n\n¿Cuál fue el cambio total en esperanza de vida masculina al nacer?\n¿Qué edades contribuyeron más al descenso?\n¿Cómo cambia la interpretación al agregar causas de muerte?\n¿Qué se gana al agrupar edades en intervalos quinquenales?\n\n\n\n\n\n¿Qué diferencia hay entre explicar una tasa agregada con Kitagawa y explicar esperanza de vida con Arriaga?\n¿Por qué los años de vida perdidos son un buen puente entre tablas de vida y descomposición por causa?\n¿Qué precauciones hacen falta al interpretar contribuciones por edad y causa con datos de un solo año?"
+    "text": "Repasar tablas de vida y esperanza de vida, calcular años de vida perdidos por edad y causa, y aplicar la descomposición de Arriaga para interpretar cambios en esperanza de vida.\n\n\n\n\nPuente: tablas de vida, años de vida perdidos y Arriaga\nDiapositivas de Arriaga\nDatos del ejercicio 1\nDatos del ejercicio 2\n\n\n\n\n\ntidyverse\ndata.table\n\n\n\n\n\n\n\nBloque\nActividad\n\n\n\n\nRepaso\nFunciones de la tabla de vida y esperanza de vida\n\n\nPuente conceptual\nAños de vida perdidos por edad y causa\n\n\nPráctica 1\nCálculo e interpretación de YLL\n\n\nClase teórica\nDescomposición de Arriaga por edad y causa\n\n\nPráctica 2\nCambio en esperanza de vida en EE. UU., 2019-2020\n\n\n\n\n\n\nEl ejercicio calcula años de vida perdidos usando información de tabla de vida y distribución de muertes por edad y causa. Los datos corresponden a mujeres de Arabia Saudita en 2005-2010, con causas de muerte provenientes del Global Burden of Disease y tabla de vida de Naciones Unidas.\nPreguntas guía:\n\n¿Cuántos años de vida se pierden antes de los 85 años?\n¿Qué causa contribuye más a los años de vida perdidos?\n¿Qué causa domina por debajo de los 50 años si excluimos la categoría residual?\n¿Cómo ayuda la función de supervivencia a interpretar visualmente los años perdidos?\n\n\n\n\nEl ejercicio descompone por edad y causa el cambio en la esperanza de vida masculina al nacer en Estados Unidos entre 2019 y 2020, usando datos asociados al impacto de COVID-19.\nPreguntas guía:\n\n¿Cuál fue el cambio total en esperanza de vida masculina al nacer?\n¿Qué edades contribuyeron más al descenso?\n¿Cómo cambia la interpretación al agregar causas de muerte?\n¿Qué se gana al agrupar edades en intervalos quinquenales?\n\n\n\n\n\n¿Qué diferencia hay entre explicar una tasa agregada con Kitagawa y explicar esperanza de vida con Arriaga?\n¿Por qué los años de vida perdidos son un buen puente entre tablas de vida y descomposición por causa?\n¿Qué precauciones hacen falta al interpretar contribuciones por edad y causa con datos de un solo año?"
   },
   {
     "objectID": "labs/dia-02-lab.html#objetivo-del-lab",
@@ -312,7 +305,7 @@
     "href": "labs/dia-02-lab.html#materiales",
     "title": "Lab día 2",
     "section": "",
-    "text": "Puente: tablas de vida, años de vida perdidos y Arriaga\nDiapositivas de Arriaga\nQuiz de repaso sobre Kitagawa\nCódigo del ejercicio 1: YLL\nFunciones para YLL\nDatos del ejercicio 1\nCódigo del ejercicio 2: Arriaga\nPlantilla para estudiantes: Arriaga\nDatos del ejercicio 2"
+    "text": "Puente: tablas de vida, años de vida perdidos y Arriaga\nDiapositivas de Arriaga\nDatos del ejercicio 1\nDatos del ejercicio 2"
   },
   {
     "objectID": "labs/dia-02-lab.html#paquetes-necesarios",
@@ -613,7 +606,7 @@
     "href": "sesiones/dia-01-fundamentos-descomposicion.html",
     "title": "Día 1: Fundamentos de la descomposición demográfica",
     "section": "",
-    "text": "Motivación, diferencias entre componentes directos y composicionales, tasas agregadas, descomposición de Kitagawa y ejercicios con fecundidad o mortalidad por edad.\n\n\n\nSesión: Dr. José Manuel Aburto\nTaller: Ana Cristina Gómez Ugarte Valerio\n\n\n\n\n\nIdentificar el problema demográfico que motiva una descomposición.\nDistinguir entre componentes directos y composicionales.\nAplicar la descomposición de Kitagawa a tasas agregadas.\nInterpretar contribuciones por edad en ejercicios de fecundidad o mortalidad.\n\n\n\n\nDiapositivas: descomposición de Kitagawa\n\n\n\nLab del día 1\n\n\n\n\nEjercicio 1: Kitagawa y GFR - HTML | PDF\nEjercicio bonus: Kitagawa y TFR por edad y unión - HTML | PDF\n\n\n\n\n\nEjercicio 1: Kitagawa y GFR\nEjercicio bonus: Kitagawa y TFR por edad y unión\n\n\n\n\n\nDatos del ejercicio 1\nDatos del ejercicio bonus\n\n\n\n\nDisponible próximamente."
+    "text": "Motivación, diferencias entre componentes directos y composicionales, tasas agregadas, descomposición de Kitagawa y ejercicios con fecundidad o mortalidad por edad.\n\n\n\nSesión: Dr. José Manuel Aburto\nTaller: Ana Cristina Gómez Ugarte Valerio\n\n\n\n\n\nIdentificar el problema demográfico que motiva una descomposición.\nDistinguir entre componentes directos y composicionales.\nAplicar la descomposición de Kitagawa a tasas agregadas.\nInterpretar contribuciones por edad en ejercicios de fecundidad o mortalidad.\n\n\n\n\nDiapositivas: descomposición de Kitagawa\n\n\n\nLab del día 1\n\n\n\n\nEjercicio 1: Kitagawa y GFR - HTML | PDF\nEjercicio bonus: Kitagawa y TFR por edad y unión - HTML | PDF\n\n\n\n\n\nDatos del ejercicio 1\nDatos del ejercicio bonus\n\n\n\n\nDisponible próximamente."
   },
   {
     "objectID": "sesiones/dia-01-fundamentos-descomposicion.html#docencia",
@@ -651,13 +644,6 @@
     "text": "Ejercicio 1: Kitagawa y GFR - HTML | PDF\nEjercicio bonus: Kitagawa y TFR por edad y unión - HTML | PDF"
   },
   {
-    "objectID": "sesiones/dia-01-fundamentos-descomposicion.html#código",
-    "href": "sesiones/dia-01-fundamentos-descomposicion.html#código",
-    "title": "Día 1: Fundamentos de la descomposición demográfica",
-    "section": "",
-    "text": "Ejercicio 1: Kitagawa y GFR\nEjercicio bonus: Kitagawa y TFR por edad y unión"
-  },
-  {
     "objectID": "sesiones/dia-01-fundamentos-descomposicion.html#datos",
     "href": "sesiones/dia-01-fundamentos-descomposicion.html#datos",
     "title": "Día 1: Fundamentos de la descomposición demográfica",
@@ -676,7 +662,7 @@
     "href": "sesiones/dia-04-metodos-avanzados-robustez.html",
     "title": "Día 4: Métodos avanzados, robustez e interpretación",
     "section": "",
-    "text": "Descomposición lineal integral, dependencia del orden de reemplazo, ejercicios de sensibilidad e interpretación de resultados.\n\n\n\nSesión: Dr. José Manuel Aburto\nTaller: Ana Cristina Gómez Ugarte Valerio\n\n\n\n\n\nIntroducir la descomposición lineal integral.\nEvaluar la dependencia del orden de reemplazo.\nDiseñar ejercicios de sensibilidad.\nComparar resultados entre métodos de descomposición.\nFortalecer la interpretación sustantiva de los resultados.\n\n\n\n\nDisponible próximamente.\n\n\n\nLab del día 4\n\n\n\nDisponible próximamente.\n\n\n\nDisponible próximamente.\n\n\n\nDisponible próximamente."
+    "text": "Descomposición lineal integral, dependencia del orden de reemplazo, ejercicios de sensibilidad e interpretación de resultados.\n\n\n\nSesión: Dr. José Manuel Aburto\nTaller: Ana Cristina Gómez Ugarte Valerio\n\n\n\n\n\nIntroducir la descomposición lineal integral.\nEvaluar la dependencia del orden de reemplazo.\nDiseñar ejercicios de sensibilidad.\nComparar resultados entre métodos de descomposición.\nFortalecer la interpretación sustantiva de los resultados.\n\n\n\n\nDisponible próximamente.\n\n\n\nLab del día 4\n\n\n\nEl código se compartirá al final del curso.\n\n\n\nDisponible próximamente.\n\n\n\nDisponible próximamente."
   },
   {
     "objectID": "sesiones/dia-04-metodos-avanzados-robustez.html#docencia",
@@ -711,7 +697,7 @@
     "href": "sesiones/dia-04-metodos-avanzados-robustez.html#código",
     "title": "Día 4: Métodos avanzados, robustez e interpretación",
     "section": "",
-    "text": "Disponible próximamente."
+    "text": "El código se compartirá al final del curso."
   },
   {
     "objectID": "sesiones/dia-04-metodos-avanzados-robustez.html#datos",
