@@ -1,10 +1,10 @@
 ---
-title: "Día 2: Tablas de vida y esperanza de vida"
+title: "Día 2: Modelación de la mortalidad y descomposición"
 ---
 
-# Tablas de vida y esperanza de vida
+# Modelación de la mortalidad y descomposición
 
-Repaso de funciones de la tabla de vida, esperanza de vida, años de vida perdidos, descomposición del cambio en esperanza de vida por edad, método de Arriaga y visualización de contribuciones.
+Modelación paramétrica de la mortalidad adulta, comparación de leyes de mortalidad y descomposición del cambio en esperanza de vida por edad y causa de muerte.
 
 ## Docencia
 
@@ -13,25 +13,28 @@ Repaso de funciones de la tabla de vida, esperanza de vida, años de vida perdid
 
 ## Objetivos de la sesión
 
-- Repasar las funciones principales de la tabla de vida.
-- Conectar la función de supervivencia con esperanza de vida y años de vida perdidos.
-- Descomponer cambios en esperanza de vida por edad.
-- Aplicar el método de Arriaga.
-- Visualizar e interpretar contribuciones por edad y causa de muerte.
+- Identificar patrones regulares de la mortalidad adulta.
+- Ajustar y comparar modelos de Gompertz, Weibull y Heligman-Pollard.
+- Interpretar parámetros y predicciones de modelos de mortalidad.
+- Construir funciones de tabla de vida a partir de tasas específicas por edad.
+- Descomponer cambios en esperanza de vida por edad y causa de muerte.
 
 ## Slides
 
-- [Puente: tablas de vida, años de vida perdidos y Arriaga](../slides/dia-02-life-years-lost-arriaga-bridge.pdf)
-- [Diapositivas: descomposición de Arriaga](../slides/dia-02-arriaga.pdf)
+[Diapositivas: modelación de la mortalidad y descomposición](../slides/dia-02-modelacion-mortalidad-descomposicion.pdf)
 
 ## Lab
 
 [Lab del día 2](../labs/dia-02-lab.qmd)
 
+## Práctica
+
+[Práctica: modelación de la mortalidad y descomposición - HTML](../practicals/dia-02/mortality-modeling-decomposition/dia-02-modelacion-mortalidad-descomposicion-es.html) | [PDF](../practicals/dia-02/mortality-modeling-decomposition/dia-02-modelacion-mortalidad-descomposicion-es.pdf)
+
 ## Datos
 
-- [Datos del ejercicio de YLL](../data/dia-02/yll-data.RData)
-- [Datos del ejercicio de Arriaga](../data/dia-02/arriaga-covid-usa-data.RData)
+- [Datos del ejercicio de modelación y descomposición](../data/dia-02/mortality-modeling-decomposition-data.RData)
+- [Tabla de mortalidad de Estados Unidos](../data/dia-02/USAfltper_1x1.txt)
 
 ## Lecturas recomendadas
 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Día 2: Tablas de vida y esperanza de vida – Curso de demografía avanzada - Colmex 2026</title>
+<title>Día 2: Modelación de la mortalidad y descomposición – Curso de demografía avanzada - Colmex 2026</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -122,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="../sesiones/dia-02-tablas-vida-esperanza-vida.html">
- <span class="dropdown-text">Día 2: Tablas de vida y esperanza de vida</span></a>
+ <span class="dropdown-text">Día 2: Modelación de la mortalidad y descomposición</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html">
@@ -154,12 +154,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#tablas-de-vida-y-esperanza-de-vida" id="toc-tablas-de-vida-y-esperanza-de-vida" class="nav-link active" data-scroll-target="#tablas-de-vida-y-esperanza-de-vida">Tablas de vida y esperanza de vida</a>
+  <li><a href="#modelación-de-la-mortalidad-y-descomposición" id="toc-modelación-de-la-mortalidad-y-descomposición" class="nav-link active" data-scroll-target="#modelación-de-la-mortalidad-y-descomposición">Modelación de la mortalidad y descomposición</a>
   <ul class="collapse">
   <li><a href="#docencia" id="toc-docencia" class="nav-link" data-scroll-target="#docencia">Docencia</a></li>
   <li><a href="#objetivos-de-la-sesión" id="toc-objetivos-de-la-sesión" class="nav-link" data-scroll-target="#objetivos-de-la-sesión">Objetivos de la sesión</a></li>
   <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
   <li><a href="#lab" id="toc-lab" class="nav-link" data-scroll-target="#lab">Lab</a></li>
+  <li><a href="#práctica" id="toc-práctica" class="nav-link" data-scroll-target="#práctica">Práctica</a></li>
   <li><a href="#datos" id="toc-datos" class="nav-link" data-scroll-target="#datos">Datos</a></li>
   <li><a href="#lecturas-recomendadas" id="toc-lecturas-recomendadas" class="nav-link" data-scroll-target="#lecturas-recomendadas">Lecturas recomendadas</a></li>
   </ul></li>
@@ -171,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Día 2: Tablas de vida y esperanza de vida</h1>
+<h1 class="title">Día 2: Modelación de la mortalidad y descomposición</h1>
 </div>
 
 
@@ -188,9 +189,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="tablas-de-vida-y-esperanza-de-vida" class="level1">
-<h1>Tablas de vida y esperanza de vida</h1>
-<p>Repaso de funciones de la tabla de vida, esperanza de vida, años de vida perdidos, descomposición del cambio en esperanza de vida por edad, método de Arriaga y visualización de contribuciones.</p>
+<section id="modelación-de-la-mortalidad-y-descomposición" class="level1">
+<h1>Modelación de la mortalidad y descomposición</h1>
+<p>Modelación paramétrica de la mortalidad adulta, comparación de leyes de mortalidad y descomposición del cambio en esperanza de vida por edad y causa de muerte.</p>
 <section id="docencia" class="level2">
 <h2 class="anchored" data-anchor-id="docencia">Docencia</h2>
 <ul>
@@ -201,29 +202,30 @@ ul.task-list li input[type="checkbox"] {
 <section id="objetivos-de-la-sesión" class="level2">
 <h2 class="anchored" data-anchor-id="objetivos-de-la-sesión">Objetivos de la sesión</h2>
 <ul>
-<li>Repasar las funciones principales de la tabla de vida.</li>
-<li>Conectar la función de supervivencia con esperanza de vida y años de vida perdidos.</li>
-<li>Descomponer cambios en esperanza de vida por edad.</li>
-<li>Aplicar el método de Arriaga.</li>
-<li>Visualizar e interpretar contribuciones por edad y causa de muerte.</li>
+<li>Identificar patrones regulares de la mortalidad adulta.</li>
+<li>Ajustar y comparar modelos de Gompertz, Weibull y Heligman-Pollard.</li>
+<li>Interpretar parámetros y predicciones de modelos de mortalidad.</li>
+<li>Construir funciones de tabla de vida a partir de tasas específicas por edad.</li>
+<li>Descomponer cambios en esperanza de vida por edad y causa de muerte.</li>
 </ul>
 </section>
 <section id="slides" class="level2">
 <h2 class="anchored" data-anchor-id="slides">Slides</h2>
-<ul>
-<li><a href="../slides/dia-02-life-years-lost-arriaga-bridge.pdf">Puente: tablas de vida, años de vida perdidos y Arriaga</a></li>
-<li><a href="../slides/dia-02-arriaga.pdf">Diapositivas: descomposición de Arriaga</a></li>
-</ul>
+<p><a href="../slides/dia-02-modelacion-mortalidad-descomposicion.pdf">Diapositivas: modelación de la mortalidad y descomposición</a></p>
 </section>
 <section id="lab" class="level2">
 <h2 class="anchored" data-anchor-id="lab">Lab</h2>
 <p><a href="../labs/dia-02-lab.html">Lab del día 2</a></p>
 </section>
+<section id="práctica" class="level2">
+<h2 class="anchored" data-anchor-id="práctica">Práctica</h2>
+<p><a href="../practicals/dia-02/mortality-modeling-decomposition/dia-02-modelacion-mortalidad-descomposicion-es.html">Práctica: modelación de la mortalidad y descomposición - HTML</a> | <a href="../practicals/dia-02/mortality-modeling-decomposition/dia-02-modelacion-mortalidad-descomposicion-es.pdf">PDF</a></p>
+</section>
 <section id="datos" class="level2">
 <h2 class="anchored" data-anchor-id="datos">Datos</h2>
 <ul>
-<li><a href="../data/dia-02/yll-data.RData">Datos del ejercicio de YLL</a></li>
-<li><a href="../data/dia-02/arriaga-covid-usa-data.RData">Datos del ejercicio de Arriaga</a></li>
+<li><a href="../data/dia-02/mortality-modeling-decomposition-data.RData">Datos del ejercicio de modelación y descomposición</a></li>
+<li><a href="../data/dia-02/USAfltper_1x1.txt">Tabla de mortalidad de Estados Unidos</a></li>
 </ul>
 </section>
 <section id="lecturas-recomendadas" class="level2">

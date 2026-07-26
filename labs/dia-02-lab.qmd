@@ -6,54 +6,56 @@ title: "Lab día 2"
 
 ## Objetivo del lab
 
-Repasar tablas de vida y esperanza de vida, calcular años de vida perdidos por edad y causa, y aplicar la descomposición de Arriaga para interpretar cambios en esperanza de vida.
+Ajustar modelos paramétricos de mortalidad adulta, comparar predicciones entre modelos y aplicar una descomposición de cambios en esperanza de vida por edad y causa.
 
 ## Materiales
 
-- [Puente: tablas de vida, años de vida perdidos y Arriaga](../slides/dia-02-life-years-lost-arriaga-bridge.pdf)
-- [Diapositivas de Arriaga](../slides/dia-02-arriaga.pdf)
-- [Datos del ejercicio 1](../data/dia-02/yll-data.RData)
-- [Datos del ejercicio 2](../data/dia-02/arriaga-covid-usa-data.RData)
+- [Diapositivas del día 2](../slides/dia-02-modelacion-mortalidad-descomposicion.pdf)
+- [Práctica: modelación de la mortalidad y descomposición - HTML](../practicals/dia-02/mortality-modeling-decomposition/dia-02-modelacion-mortalidad-descomposicion-es.html) | [PDF](../practicals/dia-02/mortality-modeling-decomposition/dia-02-modelacion-mortalidad-descomposicion-es.pdf)
+- [Datos del ejercicio de modelación y descomposición](../data/dia-02/mortality-modeling-decomposition-data.RData)
+- [Tabla de mortalidad de Estados Unidos](../data/dia-02/USAfltper_1x1.txt)
 
 ## Paquetes necesarios
 
 - `tidyverse`
-- `data.table`
+- `HMDHFDplus`
+- `MortalityLaws`
+- `reshape2`
 
 ## Estructura sugerida
 
 | Bloque | Actividad |
 |---|---|
-| Repaso | Funciones de la tabla de vida y esperanza de vida |
-| Puente conceptual | Años de vida perdidos por edad y causa |
-| Práctica 1 | Cálculo e interpretación de YLL |
-| Clase teórica | Descomposición de Arriaga por edad y causa |
-| Práctica 2 | Cambio en esperanza de vida en EE. UU., 2019-2020 |
+| Clase teórica | Regularidades de la mortalidad adulta y leyes de mortalidad |
+| Práctica 1 | Preparación y visualización de tasas de mortalidad |
+| Práctica 2 | Ajuste de modelos de Gompertz, Weibull y Heligman-Pollard |
+| Clase aplicada | Descomposición del cambio en esperanza de vida |
+| Práctica 3 | Contribuciones por edad y causa de muerte |
 
-## Ejercicio 1: años de vida perdidos
+## Ejercicio 1: modelos de mortalidad
 
-El ejercicio calcula años de vida perdidos usando información de tabla de vida y distribución de muertes por edad y causa. Los datos corresponden a mujeres de Arabia Saudita en 2005-2010, con causas de muerte provenientes del Global Burden of Disease y tabla de vida de Naciones Unidas.
-
-Preguntas guía:
-
-- ¿Cuántos años de vida se pierden antes de los 85 años?
-- ¿Qué causa contribuye más a los años de vida perdidos?
-- ¿Qué causa domina por debajo de los 50 años si excluimos la categoría residual?
-- ¿Cómo ayuda la función de supervivencia a interpretar visualmente los años perdidos?
-
-## Ejercicio 2: descomposición de Arriaga
-
-El ejercicio descompone por edad y causa el cambio en la esperanza de vida masculina al nacer en Estados Unidos entre 2019 y 2020, usando datos asociados al impacto de COVID-19.
+El ejercicio usa tasas de mortalidad femenina de Estados Unidos para ajustar y comparar modelos paramétricos de mortalidad. La práctica trabaja con Gompertz, Weibull y Heligman-Pollard, y compara sus ajustes en edades adultas y en el rango completo de edad.
 
 Preguntas guía:
 
-- ¿Cuál fue el cambio total en esperanza de vida masculina al nacer?
-- ¿Qué edades contribuyeron más al descenso?
-- ¿Cómo cambia la interpretación al agregar causas de muerte?
-- ¿Qué se gana al agrupar edades en intervalos quinquenales?
+- ¿Qué forma tiene la curva de mortalidad por edad en escala logarítmica?
+- ¿Qué modelo se ajusta mejor a la mortalidad adulta?
+- ¿Qué limitaciones aparecen cuando se intenta cubrir todo el rango de edades?
+- ¿Cómo cambian las predicciones al modificar el rango de ajuste?
+
+## Ejercicio 2: descomposición por edad y causa
+
+El ejercicio descompone el cambio en esperanza de vida en Venezuela entre 1980 y 2013 usando contribuciones por edad y causa de muerte. El objetivo es conectar tasas específicas, tablas de vida e interpretación sustantiva de contribuciones.
+
+Preguntas guía:
+
+- ¿Cuál es el cambio total en esperanza de vida?
+- ¿Qué edades explican la mayor parte del cambio?
+- ¿Qué causas de muerte contribuyen positiva o negativamente?
+- ¿Cómo se interpreta una contribución negativa por edad o causa?
 
 ## Preguntas de interpretación
 
-- ¿Qué diferencia hay entre explicar una tasa agregada con Kitagawa y explicar esperanza de vida con Arriaga?
-- ¿Por qué los años de vida perdidos son un buen puente entre tablas de vida y descomposición por causa?
-- ¿Qué precauciones hacen falta al interpretar contribuciones por edad y causa con datos de un solo año?
+- ¿Qué se gana y qué se pierde al resumir la mortalidad con un modelo paramétrico?
+- ¿Por qué la esperanza de vida requiere una lógica de descomposición distinta a una tasa agregada?
+- ¿Qué decisiones de edad, causa y periodo podrían cambiar la interpretación de las contribuciones?

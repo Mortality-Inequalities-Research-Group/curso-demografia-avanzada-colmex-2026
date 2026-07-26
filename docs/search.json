@@ -121,49 +121,56 @@
   {
     "objectID": "sesiones/dia-02-tablas-vida-esperanza-vida.html",
     "href": "sesiones/dia-02-tablas-vida-esperanza-vida.html",
-    "title": "Día 2: Tablas de vida y esperanza de vida",
+    "title": "Día 2: Modelación de la mortalidad y descomposición",
     "section": "",
-    "text": "Repaso de funciones de la tabla de vida, esperanza de vida, años de vida perdidos, descomposición del cambio en esperanza de vida por edad, método de Arriaga y visualización de contribuciones.\n\n\n\nSesión: Dr. José Manuel Aburto\nTaller y ejemplo práctico: Ana Cristina Gómez Ugarte Valerio\n\n\n\n\n\nRepasar las funciones principales de la tabla de vida.\nConectar la función de supervivencia con esperanza de vida y años de vida perdidos.\nDescomponer cambios en esperanza de vida por edad.\nAplicar el método de Arriaga.\nVisualizar e interpretar contribuciones por edad y causa de muerte.\n\n\n\n\n\nPuente: tablas de vida, años de vida perdidos y Arriaga\nDiapositivas: descomposición de Arriaga\n\n\n\n\nLab del día 2\n\n\n\n\nDatos del ejercicio de YLL\nDatos del ejercicio de Arriaga\n\n\n\n\nDisponible próximamente."
+    "text": "Modelación paramétrica de la mortalidad adulta, comparación de leyes de mortalidad y descomposición del cambio en esperanza de vida por edad y causa de muerte.\n\n\n\nSesión: Dr. José Manuel Aburto\nTaller y ejemplo práctico: Ana Cristina Gómez Ugarte Valerio\n\n\n\n\n\nIdentificar patrones regulares de la mortalidad adulta.\nAjustar y comparar modelos de Gompertz, Weibull y Heligman-Pollard.\nInterpretar parámetros y predicciones de modelos de mortalidad.\nConstruir funciones de tabla de vida a partir de tasas específicas por edad.\nDescomponer cambios en esperanza de vida por edad y causa de muerte.\n\n\n\n\nDiapositivas: modelación de la mortalidad y descomposición\n\n\n\nLab del día 2\n\n\n\nPráctica: modelación de la mortalidad y descomposición - HTML | PDF\n\n\n\n\nDatos del ejercicio de modelación y descomposición\nTabla de mortalidad de Estados Unidos\n\n\n\n\nDisponible próximamente."
   },
   {
     "objectID": "sesiones/dia-02-tablas-vida-esperanza-vida.html#docencia",
     "href": "sesiones/dia-02-tablas-vida-esperanza-vida.html#docencia",
-    "title": "Día 2: Tablas de vida y esperanza de vida",
+    "title": "Día 2: Modelación de la mortalidad y descomposición",
     "section": "",
     "text": "Sesión: Dr. José Manuel Aburto\nTaller y ejemplo práctico: Ana Cristina Gómez Ugarte Valerio"
   },
   {
     "objectID": "sesiones/dia-02-tablas-vida-esperanza-vida.html#objetivos-de-la-sesión",
     "href": "sesiones/dia-02-tablas-vida-esperanza-vida.html#objetivos-de-la-sesión",
-    "title": "Día 2: Tablas de vida y esperanza de vida",
+    "title": "Día 2: Modelación de la mortalidad y descomposición",
     "section": "",
-    "text": "Repasar las funciones principales de la tabla de vida.\nConectar la función de supervivencia con esperanza de vida y años de vida perdidos.\nDescomponer cambios en esperanza de vida por edad.\nAplicar el método de Arriaga.\nVisualizar e interpretar contribuciones por edad y causa de muerte."
+    "text": "Identificar patrones regulares de la mortalidad adulta.\nAjustar y comparar modelos de Gompertz, Weibull y Heligman-Pollard.\nInterpretar parámetros y predicciones de modelos de mortalidad.\nConstruir funciones de tabla de vida a partir de tasas específicas por edad.\nDescomponer cambios en esperanza de vida por edad y causa de muerte."
   },
   {
     "objectID": "sesiones/dia-02-tablas-vida-esperanza-vida.html#slides",
     "href": "sesiones/dia-02-tablas-vida-esperanza-vida.html#slides",
-    "title": "Día 2: Tablas de vida y esperanza de vida",
+    "title": "Día 2: Modelación de la mortalidad y descomposición",
     "section": "",
-    "text": "Puente: tablas de vida, años de vida perdidos y Arriaga\nDiapositivas: descomposición de Arriaga"
+    "text": "Diapositivas: modelación de la mortalidad y descomposición"
   },
   {
     "objectID": "sesiones/dia-02-tablas-vida-esperanza-vida.html#lab",
     "href": "sesiones/dia-02-tablas-vida-esperanza-vida.html#lab",
-    "title": "Día 2: Tablas de vida y esperanza de vida",
+    "title": "Día 2: Modelación de la mortalidad y descomposición",
     "section": "",
     "text": "Lab del día 2"
   },
   {
+    "objectID": "sesiones/dia-02-tablas-vida-esperanza-vida.html#práctica",
+    "href": "sesiones/dia-02-tablas-vida-esperanza-vida.html#práctica",
+    "title": "Día 2: Modelación de la mortalidad y descomposición",
+    "section": "",
+    "text": "Práctica: modelación de la mortalidad y descomposición - HTML | PDF"
+  },
+  {
     "objectID": "sesiones/dia-02-tablas-vida-esperanza-vida.html#datos",
     "href": "sesiones/dia-02-tablas-vida-esperanza-vida.html#datos",
-    "title": "Día 2: Tablas de vida y esperanza de vida",
+    "title": "Día 2: Modelación de la mortalidad y descomposición",
     "section": "",
-    "text": "Datos del ejercicio de YLL\nDatos del ejercicio de Arriaga"
+    "text": "Datos del ejercicio de modelación y descomposición\nTabla de mortalidad de Estados Unidos"
   },
   {
     "objectID": "sesiones/dia-02-tablas-vida-esperanza-vida.html#lecturas-recomendadas",
     "href": "sesiones/dia-02-tablas-vida-esperanza-vida.html#lecturas-recomendadas",
-    "title": "Día 2: Tablas de vida y esperanza de vida",
+    "title": "Día 2: Modelación de la mortalidad y descomposición",
     "section": "",
     "text": "Disponible próximamente."
   },
@@ -172,7 +179,7 @@
     "href": "index.html",
     "title": "Curso de demografía avanzada - Colmex 2026",
     "section": "",
-    "text": "Bienvenida al sitio del curso Técnicas avanzadas de demografía aplicada al estudio de la salud y la población.\nEste taller presencial de 15 horas se realizará en El Colegio de México del 27 al 31 de julio de 2026.\n\n\n\n\nAssociate Professor in Demography - Brass Blacker en el Department of Population Health, Faculty of Epidemiology and Population Health, London School of Hygiene & Tropical Medicine. Su investigación se especializa en demografía formal, desigualdades en longevidad y salud poblacional, con trabajo aplicado sobre mortalidad, violencia, COVID-19 y desigualdades en América Latina y otras regiones.\n\n\n\nDoctoral Student en el Laboratory of Population Dynamics and Sustainable Well-Being del Max Planck Institute for Demographic Research. Su trabajo se centra en la relación entre logro educativo y mortalidad, con investigaciones sobre desigualdades socioeconómicas en mortalidad, medición de desigualdades educativas y aplicaciones a México y otros contextos poblacionales.\n\n\n\n\nEl taller introduce herramientas avanzadas de análisis demográfico aplicadas al estudio de la salud y la población, con énfasis en técnicas de descomposición e introducción al forecasting. A lo largo de cinco sesiones, las y los participantes aprenderán a separar cambios y diferencias demográficas en componentes atribuibles a edad, estructura poblacional, mortalidad, fecundidad, prevalencias de salud y causas de muerte.\nEl curso combina fundamentos conceptuales, discusión metodológica y ejercicios prácticos en R, de modo que cada participante pueda implementar los métodos, producir resultados reproducibles e interpretarlos sustantivamente.\n\n\n\n\nFechas: 27 al 31 de julio de 2026\nDuración: 15 horas\nModalidad: presencial\nSede: El Colegio de México\nCupo: 15-20 personas\n\n\n\n\nEl curso está organizado en cinco sesiones. Cada sesión incluye:\n\nSlides\nLab\nDatos\nLecturas\n\nEl código se compartirá al final del curso para favorecer que las y los estudiantes trabajen los ejercicios directamente en R durante las sesiones.\n\n\n\n\nFundamentos de la descomposición demográfica\nTablas de vida y esperanza de vida\nSalud, prevalencias y esperanza de vida saludable\nMétodos avanzados, robustez e interpretación\nIntroducción al método de Lee-Carter y su interpretación"
+    "text": "Bienvenida al sitio del curso Técnicas avanzadas de demografía aplicada al estudio de la salud y la población.\nEste taller presencial de 15 horas se realizará en El Colegio de México del 27 al 31 de julio de 2026.\n\n\n\n\nAssociate Professor in Demography - Brass Blacker en el Department of Population Health, Faculty of Epidemiology and Population Health, London School of Hygiene & Tropical Medicine. Su investigación se especializa en demografía formal, desigualdades en longevidad y salud poblacional, con trabajo aplicado sobre mortalidad, violencia, COVID-19 y desigualdades en América Latina y otras regiones.\n\n\n\nDoctoral Student en el Laboratory of Population Dynamics and Sustainable Well-Being del Max Planck Institute for Demographic Research. Su trabajo se centra en la relación entre logro educativo y mortalidad, con investigaciones sobre desigualdades socioeconómicas en mortalidad, medición de desigualdades educativas y aplicaciones a México y otros contextos poblacionales.\n\n\n\n\nEl taller introduce herramientas avanzadas de análisis demográfico aplicadas al estudio de la salud y la población, con énfasis en técnicas de descomposición e introducción al forecasting. A lo largo de cinco sesiones, las y los participantes aprenderán a separar cambios y diferencias demográficas en componentes atribuibles a edad, estructura poblacional, mortalidad, fecundidad, prevalencias de salud y causas de muerte.\nEl curso combina fundamentos conceptuales, discusión metodológica y ejercicios prácticos en R, de modo que cada participante pueda implementar los métodos, producir resultados reproducibles e interpretarlos sustantivamente.\n\n\n\n\nFechas: 27 al 31 de julio de 2026\nDuración: 15 horas\nModalidad: presencial\nSede: El Colegio de México\nCupo: 15-20 personas\n\n\n\n\nEl curso está organizado en cinco sesiones. Cada sesión incluye:\n\nSlides\nLab\nDatos\nLecturas\n\nEl código se compartirá al final del curso para favorecer que las y los estudiantes trabajen los ejercicios directamente en R durante las sesiones.\n\n\n\n\nFundamentos de la descomposición demográfica\nModelación de la mortalidad y descomposición\nSalud, prevalencias y esperanza de vida saludable\nMétodos avanzados, robustez e interpretación\nIntroducción al método de Lee-Carter y su interpretación"
   },
   {
     "objectID": "index.html#equipo-docente",
@@ -207,7 +214,7 @@
     "href": "index.html#sesiones",
     "title": "Curso de demografía avanzada - Colmex 2026",
     "section": "",
-    "text": "Fundamentos de la descomposición demográfica\nTablas de vida y esperanza de vida\nSalud, prevalencias y esperanza de vida saludable\nMétodos avanzados, robustez e interpretación\nIntroducción al método de Lee-Carter y su interpretación"
+    "text": "Fundamentos de la descomposición demográfica\nModelación de la mortalidad y descomposición\nSalud, prevalencias y esperanza de vida saludable\nMétodos avanzados, robustez e interpretación\nIntroducción al método de Lee-Carter y su interpretación"
   },
   {
     "objectID": "bibliografia.html",
@@ -291,56 +298,56 @@
     "href": "labs/dia-02-lab.html",
     "title": "Lab día 2",
     "section": "",
-    "text": "Repasar tablas de vida y esperanza de vida, calcular años de vida perdidos por edad y causa, y aplicar la descomposición de Arriaga para interpretar cambios en esperanza de vida.\n\n\n\n\nPuente: tablas de vida, años de vida perdidos y Arriaga\nDiapositivas de Arriaga\nDatos del ejercicio 1\nDatos del ejercicio 2\n\n\n\n\n\ntidyverse\ndata.table\n\n\n\n\n\n\n\nBloque\nActividad\n\n\n\n\nRepaso\nFunciones de la tabla de vida y esperanza de vida\n\n\nPuente conceptual\nAños de vida perdidos por edad y causa\n\n\nPráctica 1\nCálculo e interpretación de YLL\n\n\nClase teórica\nDescomposición de Arriaga por edad y causa\n\n\nPráctica 2\nCambio en esperanza de vida en EE. UU., 2019-2020\n\n\n\n\n\n\nEl ejercicio calcula años de vida perdidos usando información de tabla de vida y distribución de muertes por edad y causa. Los datos corresponden a mujeres de Arabia Saudita en 2005-2010, con causas de muerte provenientes del Global Burden of Disease y tabla de vida de Naciones Unidas.\nPreguntas guía:\n\n¿Cuántos años de vida se pierden antes de los 85 años?\n¿Qué causa contribuye más a los años de vida perdidos?\n¿Qué causa domina por debajo de los 50 años si excluimos la categoría residual?\n¿Cómo ayuda la función de supervivencia a interpretar visualmente los años perdidos?\n\n\n\n\nEl ejercicio descompone por edad y causa el cambio en la esperanza de vida masculina al nacer en Estados Unidos entre 2019 y 2020, usando datos asociados al impacto de COVID-19.\nPreguntas guía:\n\n¿Cuál fue el cambio total en esperanza de vida masculina al nacer?\n¿Qué edades contribuyeron más al descenso?\n¿Cómo cambia la interpretación al agregar causas de muerte?\n¿Qué se gana al agrupar edades en intervalos quinquenales?\n\n\n\n\n\n¿Qué diferencia hay entre explicar una tasa agregada con Kitagawa y explicar esperanza de vida con Arriaga?\n¿Por qué los años de vida perdidos son un buen puente entre tablas de vida y descomposición por causa?\n¿Qué precauciones hacen falta al interpretar contribuciones por edad y causa con datos de un solo año?"
+    "text": "Ajustar modelos paramétricos de mortalidad adulta, comparar predicciones entre modelos y aplicar una descomposición de cambios en esperanza de vida por edad y causa.\n\n\n\n\nDiapositivas del día 2\nPráctica: modelación de la mortalidad y descomposición - HTML | PDF\nDatos del ejercicio de modelación y descomposición\nTabla de mortalidad de Estados Unidos\n\n\n\n\n\ntidyverse\nHMDHFDplus\nMortalityLaws\nreshape2\n\n\n\n\n\n\n\n\n\n\n\nBloque\nActividad\n\n\n\n\nClase teórica\nRegularidades de la mortalidad adulta y leyes de mortalidad\n\n\nPráctica 1\nPreparación y visualización de tasas de mortalidad\n\n\nPráctica 2\nAjuste de modelos de Gompertz, Weibull y Heligman-Pollard\n\n\nClase aplicada\nDescomposición del cambio en esperanza de vida\n\n\nPráctica 3\nContribuciones por edad y causa de muerte\n\n\n\n\n\n\nEl ejercicio usa tasas de mortalidad femenina de Estados Unidos para ajustar y comparar modelos paramétricos de mortalidad. La práctica trabaja con Gompertz, Weibull y Heligman-Pollard, y compara sus ajustes en edades adultas y en el rango completo de edad.\nPreguntas guía:\n\n¿Qué forma tiene la curva de mortalidad por edad en escala logarítmica?\n¿Qué modelo se ajusta mejor a la mortalidad adulta?\n¿Qué limitaciones aparecen cuando se intenta cubrir todo el rango de edades?\n¿Cómo cambian las predicciones al modificar el rango de ajuste?\n\n\n\n\nEl ejercicio descompone el cambio en esperanza de vida en Venezuela entre 1980 y 2013 usando contribuciones por edad y causa de muerte. El objetivo es conectar tasas específicas, tablas de vida e interpretación sustantiva de contribuciones.\nPreguntas guía:\n\n¿Cuál es el cambio total en esperanza de vida?\n¿Qué edades explican la mayor parte del cambio?\n¿Qué causas de muerte contribuyen positiva o negativamente?\n¿Cómo se interpreta una contribución negativa por edad o causa?\n\n\n\n\n\n¿Qué se gana y qué se pierde al resumir la mortalidad con un modelo paramétrico?\n¿Por qué la esperanza de vida requiere una lógica de descomposición distinta a una tasa agregada?\n¿Qué decisiones de edad, causa y periodo podrían cambiar la interpretación de las contribuciones?"
   },
   {
     "objectID": "labs/dia-02-lab.html#objetivo-del-lab",
     "href": "labs/dia-02-lab.html#objetivo-del-lab",
     "title": "Lab día 2",
     "section": "",
-    "text": "Repasar tablas de vida y esperanza de vida, calcular años de vida perdidos por edad y causa, y aplicar la descomposición de Arriaga para interpretar cambios en esperanza de vida."
+    "text": "Ajustar modelos paramétricos de mortalidad adulta, comparar predicciones entre modelos y aplicar una descomposición de cambios en esperanza de vida por edad y causa."
   },
   {
     "objectID": "labs/dia-02-lab.html#materiales",
     "href": "labs/dia-02-lab.html#materiales",
     "title": "Lab día 2",
     "section": "",
-    "text": "Puente: tablas de vida, años de vida perdidos y Arriaga\nDiapositivas de Arriaga\nDatos del ejercicio 1\nDatos del ejercicio 2"
+    "text": "Diapositivas del día 2\nPráctica: modelación de la mortalidad y descomposición - HTML | PDF\nDatos del ejercicio de modelación y descomposición\nTabla de mortalidad de Estados Unidos"
   },
   {
     "objectID": "labs/dia-02-lab.html#paquetes-necesarios",
     "href": "labs/dia-02-lab.html#paquetes-necesarios",
     "title": "Lab día 2",
     "section": "",
-    "text": "tidyverse\ndata.table"
+    "text": "tidyverse\nHMDHFDplus\nMortalityLaws\nreshape2"
   },
   {
     "objectID": "labs/dia-02-lab.html#estructura-sugerida",
     "href": "labs/dia-02-lab.html#estructura-sugerida",
     "title": "Lab día 2",
     "section": "",
-    "text": "Bloque\nActividad\n\n\n\n\nRepaso\nFunciones de la tabla de vida y esperanza de vida\n\n\nPuente conceptual\nAños de vida perdidos por edad y causa\n\n\nPráctica 1\nCálculo e interpretación de YLL\n\n\nClase teórica\nDescomposición de Arriaga por edad y causa\n\n\nPráctica 2\nCambio en esperanza de vida en EE. UU., 2019-2020"
+    "text": "Bloque\nActividad\n\n\n\n\nClase teórica\nRegularidades de la mortalidad adulta y leyes de mortalidad\n\n\nPráctica 1\nPreparación y visualización de tasas de mortalidad\n\n\nPráctica 2\nAjuste de modelos de Gompertz, Weibull y Heligman-Pollard\n\n\nClase aplicada\nDescomposición del cambio en esperanza de vida\n\n\nPráctica 3\nContribuciones por edad y causa de muerte"
   },
   {
-    "objectID": "labs/dia-02-lab.html#ejercicio-1-años-de-vida-perdidos",
-    "href": "labs/dia-02-lab.html#ejercicio-1-años-de-vida-perdidos",
+    "objectID": "labs/dia-02-lab.html#ejercicio-1-modelos-de-mortalidad",
+    "href": "labs/dia-02-lab.html#ejercicio-1-modelos-de-mortalidad",
     "title": "Lab día 2",
     "section": "",
-    "text": "El ejercicio calcula años de vida perdidos usando información de tabla de vida y distribución de muertes por edad y causa. Los datos corresponden a mujeres de Arabia Saudita en 2005-2010, con causas de muerte provenientes del Global Burden of Disease y tabla de vida de Naciones Unidas.\nPreguntas guía:\n\n¿Cuántos años de vida se pierden antes de los 85 años?\n¿Qué causa contribuye más a los años de vida perdidos?\n¿Qué causa domina por debajo de los 50 años si excluimos la categoría residual?\n¿Cómo ayuda la función de supervivencia a interpretar visualmente los años perdidos?"
+    "text": "El ejercicio usa tasas de mortalidad femenina de Estados Unidos para ajustar y comparar modelos paramétricos de mortalidad. La práctica trabaja con Gompertz, Weibull y Heligman-Pollard, y compara sus ajustes en edades adultas y en el rango completo de edad.\nPreguntas guía:\n\n¿Qué forma tiene la curva de mortalidad por edad en escala logarítmica?\n¿Qué modelo se ajusta mejor a la mortalidad adulta?\n¿Qué limitaciones aparecen cuando se intenta cubrir todo el rango de edades?\n¿Cómo cambian las predicciones al modificar el rango de ajuste?"
   },
   {
-    "objectID": "labs/dia-02-lab.html#ejercicio-2-descomposición-de-arriaga",
-    "href": "labs/dia-02-lab.html#ejercicio-2-descomposición-de-arriaga",
+    "objectID": "labs/dia-02-lab.html#ejercicio-2-descomposición-por-edad-y-causa",
+    "href": "labs/dia-02-lab.html#ejercicio-2-descomposición-por-edad-y-causa",
     "title": "Lab día 2",
     "section": "",
-    "text": "El ejercicio descompone por edad y causa el cambio en la esperanza de vida masculina al nacer en Estados Unidos entre 2019 y 2020, usando datos asociados al impacto de COVID-19.\nPreguntas guía:\n\n¿Cuál fue el cambio total en esperanza de vida masculina al nacer?\n¿Qué edades contribuyeron más al descenso?\n¿Cómo cambia la interpretación al agregar causas de muerte?\n¿Qué se gana al agrupar edades en intervalos quinquenales?"
+    "text": "El ejercicio descompone el cambio en esperanza de vida en Venezuela entre 1980 y 2013 usando contribuciones por edad y causa de muerte. El objetivo es conectar tasas específicas, tablas de vida e interpretación sustantiva de contribuciones.\nPreguntas guía:\n\n¿Cuál es el cambio total en esperanza de vida?\n¿Qué edades explican la mayor parte del cambio?\n¿Qué causas de muerte contribuyen positiva o negativamente?\n¿Cómo se interpreta una contribución negativa por edad o causa?"
   },
   {
     "objectID": "labs/dia-02-lab.html#preguntas-de-interpretación",
     "href": "labs/dia-02-lab.html#preguntas-de-interpretación",
     "title": "Lab día 2",
     "section": "",
-    "text": "¿Qué diferencia hay entre explicar una tasa agregada con Kitagawa y explicar esperanza de vida con Arriaga?\n¿Por qué los años de vida perdidos son un buen puente entre tablas de vida y descomposición por causa?\n¿Qué precauciones hacen falta al interpretar contribuciones por edad y causa con datos de un solo año?"
+    "text": "¿Qué se gana y qué se pierde al resumir la mortalidad con un modelo paramétrico?\n¿Por qué la esperanza de vida requiere una lógica de descomposición distinta a una tasa agregada?\n¿Qué decisiones de edad, causa y periodo podrían cambiar la interpretación de las contribuciones?"
   },
   {
     "objectID": "labs/dia-05-lab.html",
@@ -550,7 +557,7 @@
     "href": "programa.html",
     "title": "Programa",
     "section": "",
-    "text": "Este taller introduce herramientas avanzadas de análisis demográfico aplicadas al estudio de la salud y la población, con énfasis en técnicas de descomposición e introducción al forecasting. A lo largo de cinco sesiones, las y los participantes aprenderán a separar cambios y diferencias demográficas en componentes atribuibles a edad, estructura poblacional, mortalidad, fecundidad, prevalencias de salud y causas de muerte.\nEl curso combina fundamentos conceptuales, discusión metodológica y ejercicios prácticos en R, de modo que cada participante pueda implementar los métodos, producir resultados reproducibles e interpretarlos sustantivamente. Se trabajará con aplicaciones a fecundidad, esperanza de vida, esperanza de vida saludable, causas de muerte y desigualdad en la duración de la vida.\nEl taller es presencial y tiene una duración total de 15 horas, distribuidas en cinco sesiones del 27 al 31 de julio de 2026 en El Colegio de México.\n\n\n\n\n\nAssociate Professor in Demography - Brass Blacker en el Department of Population Health, Faculty of Epidemiology and Population Health, London School of Hygiene & Tropical Medicine. Su investigación se especializa en demografía formal, desigualdades en longevidad y salud poblacional, con trabajo aplicado sobre mortalidad, violencia, COVID-19 y desigualdades en América Latina y otras regiones.\n\n\n\nDoctoral Student en el Laboratory of Population Dynamics and Sustainable Well-Being del Max Planck Institute for Demographic Research. Su trabajo se centra en la relación entre logro educativo y mortalidad, con investigaciones sobre desigualdades socioeconómicas en mortalidad, medición de desigualdades educativas y aplicaciones a México y otros contextos poblacionales.\n\n\n\n\nProporcionar a las y los participantes una base conceptual y práctica para aplicar técnicas de descomposición en demografía y salud poblacional, con énfasis en la implementación computacional, la interpretación sustantiva y la comunicación clara de resultados.\n\n\n\n\nDistinguir entre cambios temporales, diferencias entre poblaciones y contrastes contrafactuales en demografía.\nAplicar la descomposición de Kitagawa para separar efectos de tasas específicas y estructura poblacional.\nConstruir e interpretar tablas de vida y descomponer cambios en esperanza de vida por edad.\nCalcular esperanza de vida saludable mediante el método de Sullivan y descomponer brechas asociadas a mortalidad y prevalencias.\nAnalizar cambios por edad y causa de muerte, incluyendo ejercicios con tablas de vida de causa eliminada y riesgos competitivos.\nAplicar métodos stepwise y de descomposición lineal integral, evaluando la sensibilidad de los resultados al orden de reemplazo.\nElaborar gráficos, tablas e interpretaciones reproducibles en R.\n\n\n\n\nCada sesión combina exposición conceptual, discusión metodológica y trabajo aplicado en laboratorio.\n\n\n\nDía\nTema\nDocencia\nMateriales\n\n\n\n\n1\nFundamentos de la descomposición demográfica\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n2\nTablas de vida y esperanza de vida\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n3\nSalud, prevalencias y esperanza de vida saludable\nAna Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto\nSesión\n\n\n4\nMétodos avanzados, robustez e interpretación\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n5\nIntroducción al método de Lee-Carter y su interpretación\nAna Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto\nSesión"
+    "text": "Este taller introduce herramientas avanzadas de análisis demográfico aplicadas al estudio de la salud y la población, con énfasis en técnicas de descomposición e introducción al forecasting. A lo largo de cinco sesiones, las y los participantes aprenderán a separar cambios y diferencias demográficas en componentes atribuibles a edad, estructura poblacional, mortalidad, fecundidad, prevalencias de salud y causas de muerte.\nEl curso combina fundamentos conceptuales, discusión metodológica y ejercicios prácticos en R, de modo que cada participante pueda implementar los métodos, producir resultados reproducibles e interpretarlos sustantivamente. Se trabajará con aplicaciones a fecundidad, esperanza de vida, esperanza de vida saludable, causas de muerte y desigualdad en la duración de la vida.\nEl taller es presencial y tiene una duración total de 15 horas, distribuidas en cinco sesiones del 27 al 31 de julio de 2026 en El Colegio de México.\n\n\n\n\n\nAssociate Professor in Demography - Brass Blacker en el Department of Population Health, Faculty of Epidemiology and Population Health, London School of Hygiene & Tropical Medicine. Su investigación se especializa en demografía formal, desigualdades en longevidad y salud poblacional, con trabajo aplicado sobre mortalidad, violencia, COVID-19 y desigualdades en América Latina y otras regiones.\n\n\n\nDoctoral Student en el Laboratory of Population Dynamics and Sustainable Well-Being del Max Planck Institute for Demographic Research. Su trabajo se centra en la relación entre logro educativo y mortalidad, con investigaciones sobre desigualdades socioeconómicas en mortalidad, medición de desigualdades educativas y aplicaciones a México y otros contextos poblacionales.\n\n\n\n\nProporcionar a las y los participantes una base conceptual y práctica para aplicar técnicas de descomposición en demografía y salud poblacional, con énfasis en la implementación computacional, la interpretación sustantiva y la comunicación clara de resultados.\n\n\n\n\nDistinguir entre cambios temporales, diferencias entre poblaciones y contrastes contrafactuales en demografía.\nAplicar la descomposición de Kitagawa para separar efectos de tasas específicas y estructura poblacional.\nConstruir e interpretar tablas de vida y descomponer cambios en esperanza de vida por edad.\nCalcular esperanza de vida saludable mediante el método de Sullivan y descomponer brechas asociadas a mortalidad y prevalencias.\nAnalizar cambios por edad y causa de muerte, incluyendo ejercicios con tablas de vida de causa eliminada y riesgos competitivos.\nAplicar métodos stepwise y de descomposición lineal integral, evaluando la sensibilidad de los resultados al orden de reemplazo.\nElaborar gráficos, tablas e interpretaciones reproducibles en R.\n\n\n\n\nCada sesión combina exposición conceptual, discusión metodológica y trabajo aplicado en laboratorio.\n\n\n\nDía\nTema\nDocencia\nMateriales\n\n\n\n\n1\nFundamentos de la descomposición demográfica\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n2\nModelación de la mortalidad y descomposición\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n3\nSalud, prevalencias y esperanza de vida saludable\nAna Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto\nSesión\n\n\n4\nMétodos avanzados, robustez e interpretación\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n5\nIntroducción al método de Lee-Carter y su interpretación\nAna Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto\nSesión"
   },
   {
     "objectID": "programa.html#descripción",
@@ -585,14 +592,14 @@
     "href": "programa.html#organización",
     "title": "Programa",
     "section": "",
-    "text": "Cada sesión combina exposición conceptual, discusión metodológica y trabajo aplicado en laboratorio.\n\n\n\nDía\nTema\nDocencia\nMateriales\n\n\n\n\n1\nFundamentos de la descomposición demográfica\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n2\nTablas de vida y esperanza de vida\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n3\nSalud, prevalencias y esperanza de vida saludable\nAna Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto\nSesión\n\n\n4\nMétodos avanzados, robustez e interpretación\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n5\nIntroducción al método de Lee-Carter y su interpretación\nAna Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto\nSesión"
+    "text": "Cada sesión combina exposición conceptual, discusión metodológica y trabajo aplicado en laboratorio.\n\n\n\nDía\nTema\nDocencia\nMateriales\n\n\n\n\n1\nFundamentos de la descomposición demográfica\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n2\nModelación de la mortalidad y descomposición\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n3\nSalud, prevalencias y esperanza de vida saludable\nAna Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto\nSesión\n\n\n4\nMétodos avanzados, robustez e interpretación\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n5\nIntroducción al método de Lee-Carter y su interpretación\nAna Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto\nSesión"
   },
   {
     "objectID": "calendario.html",
     "href": "calendario.html",
     "title": "Calendario",
     "section": "",
-    "text": "El taller se realizará del lunes 27 al viernes 31 de julio de 2026.\n\n\n\nFecha\nSesión\nTema\n\n\n\n\n27 de julio de 2026\nDía 1\nFundamentos de la descomposición demográfica\n\n\n28 de julio de 2026\nDía 2\nTablas de vida y esperanza de vida\n\n\n29 de julio de 2026\nDía 3\nSalud, prevalencias y esperanza de vida saludable\n\n\n30 de julio de 2026\nDía 4\nMétodos avanzados, robustez e interpretación\n\n\n31 de julio de 2026\nDía 5\nIntroducción al método de Lee-Carter y su interpretación\n\n\n\n\n\nCurso presencial de 15 horas en El Colegio de México."
+    "text": "El taller se realizará del lunes 27 al viernes 31 de julio de 2026.\n\n\n\nFecha\nSesión\nTema\n\n\n\n\n27 de julio de 2026\nDía 1\nFundamentos de la descomposición demográfica\n\n\n28 de julio de 2026\nDía 2\nModelación de la mortalidad y descomposición\n\n\n29 de julio de 2026\nDía 3\nSalud, prevalencias y esperanza de vida saludable\n\n\n30 de julio de 2026\nDía 4\nMétodos avanzados, robustez e interpretación\n\n\n31 de julio de 2026\nDía 5\nIntroducción al método de Lee-Carter y su interpretación\n\n\n\n\n\nCurso presencial de 15 horas en El Colegio de México."
   },
   {
     "objectID": "calendario.html#formato",

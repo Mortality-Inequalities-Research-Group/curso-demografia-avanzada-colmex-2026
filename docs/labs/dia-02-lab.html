@@ -122,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="../sesiones/dia-02-tablas-vida-esperanza-vida.html">
- <span class="dropdown-text">Día 2: Tablas de vida y esperanza de vida</span></a>
+ <span class="dropdown-text">Día 2: Modelación de la mortalidad y descomposición</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html">
@@ -160,8 +160,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#materiales" id="toc-materiales" class="nav-link" data-scroll-target="#materiales">Materiales</a></li>
   <li><a href="#paquetes-necesarios" id="toc-paquetes-necesarios" class="nav-link" data-scroll-target="#paquetes-necesarios">Paquetes necesarios</a></li>
   <li><a href="#estructura-sugerida" id="toc-estructura-sugerida" class="nav-link" data-scroll-target="#estructura-sugerida">Estructura sugerida</a></li>
-  <li><a href="#ejercicio-1-años-de-vida-perdidos" id="toc-ejercicio-1-años-de-vida-perdidos" class="nav-link" data-scroll-target="#ejercicio-1-años-de-vida-perdidos">Ejercicio 1: años de vida perdidos</a></li>
-  <li><a href="#ejercicio-2-descomposición-de-arriaga" id="toc-ejercicio-2-descomposición-de-arriaga" class="nav-link" data-scroll-target="#ejercicio-2-descomposición-de-arriaga">Ejercicio 2: descomposición de Arriaga</a></li>
+  <li><a href="#ejercicio-1-modelos-de-mortalidad" id="toc-ejercicio-1-modelos-de-mortalidad" class="nav-link" data-scroll-target="#ejercicio-1-modelos-de-mortalidad">Ejercicio 1: modelos de mortalidad</a></li>
+  <li><a href="#ejercicio-2-descomposición-por-edad-y-causa" id="toc-ejercicio-2-descomposición-por-edad-y-causa" class="nav-link" data-scroll-target="#ejercicio-2-descomposición-por-edad-y-causa">Ejercicio 2: descomposición por edad y causa</a></li>
   <li><a href="#preguntas-de-interpretación" id="toc-preguntas-de-interpretación" class="nav-link" data-scroll-target="#preguntas-de-interpretación">Preguntas de interpretación</a></li>
   </ul></li>
   </ul>
@@ -193,27 +193,33 @@ ul.task-list li input[type="checkbox"] {
 <h1>Lab día 2</h1>
 <section id="objetivo-del-lab" class="level2">
 <h2 class="anchored" data-anchor-id="objetivo-del-lab">Objetivo del lab</h2>
-<p>Repasar tablas de vida y esperanza de vida, calcular años de vida perdidos por edad y causa, y aplicar la descomposición de Arriaga para interpretar cambios en esperanza de vida.</p>
+<p>Ajustar modelos paramétricos de mortalidad adulta, comparar predicciones entre modelos y aplicar una descomposición de cambios en esperanza de vida por edad y causa.</p>
 </section>
 <section id="materiales" class="level2">
 <h2 class="anchored" data-anchor-id="materiales">Materiales</h2>
 <ul>
-<li><a href="../slides/dia-02-life-years-lost-arriaga-bridge.pdf">Puente: tablas de vida, años de vida perdidos y Arriaga</a></li>
-<li><a href="../slides/dia-02-arriaga.pdf">Diapositivas de Arriaga</a></li>
-<li><a href="../data/dia-02/yll-data.RData">Datos del ejercicio 1</a></li>
-<li><a href="../data/dia-02/arriaga-covid-usa-data.RData">Datos del ejercicio 2</a></li>
+<li><a href="../slides/dia-02-modelacion-mortalidad-descomposicion.pdf">Diapositivas del día 2</a></li>
+<li><a href="../practicals/dia-02/mortality-modeling-decomposition/dia-02-modelacion-mortalidad-descomposicion-es.html">Práctica: modelación de la mortalidad y descomposición - HTML</a> | <a href="../practicals/dia-02/mortality-modeling-decomposition/dia-02-modelacion-mortalidad-descomposicion-es.pdf">PDF</a></li>
+<li><a href="../data/dia-02/mortality-modeling-decomposition-data.RData">Datos del ejercicio de modelación y descomposición</a></li>
+<li><a href="../data/dia-02/USAfltper_1x1.txt">Tabla de mortalidad de Estados Unidos</a></li>
 </ul>
 </section>
 <section id="paquetes-necesarios" class="level2">
 <h2 class="anchored" data-anchor-id="paquetes-necesarios">Paquetes necesarios</h2>
 <ul>
 <li><code>tidyverse</code></li>
-<li><code>data.table</code></li>
+<li><code>HMDHFDplus</code></li>
+<li><code>MortalityLaws</code></li>
+<li><code>reshape2</code></li>
 </ul>
 </section>
 <section id="estructura-sugerida" class="level2">
 <h2 class="anchored" data-anchor-id="estructura-sugerida">Estructura sugerida</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Bloque</th>
@@ -222,56 +228,56 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Repaso</td>
-<td>Funciones de la tabla de vida y esperanza de vida</td>
-</tr>
-<tr class="even">
-<td>Puente conceptual</td>
-<td>Años de vida perdidos por edad y causa</td>
-</tr>
-<tr class="odd">
-<td>Práctica 1</td>
-<td>Cálculo e interpretación de YLL</td>
-</tr>
-<tr class="even">
 <td>Clase teórica</td>
-<td>Descomposición de Arriaga por edad y causa</td>
+<td>Regularidades de la mortalidad adulta y leyes de mortalidad</td>
+</tr>
+<tr class="even">
+<td>Práctica 1</td>
+<td>Preparación y visualización de tasas de mortalidad</td>
 </tr>
 <tr class="odd">
 <td>Práctica 2</td>
-<td>Cambio en esperanza de vida en EE. UU., 2019-2020</td>
+<td>Ajuste de modelos de Gompertz, Weibull y Heligman-Pollard</td>
+</tr>
+<tr class="even">
+<td>Clase aplicada</td>
+<td>Descomposición del cambio en esperanza de vida</td>
+</tr>
+<tr class="odd">
+<td>Práctica 3</td>
+<td>Contribuciones por edad y causa de muerte</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="ejercicio-1-años-de-vida-perdidos" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicio-1-años-de-vida-perdidos">Ejercicio 1: años de vida perdidos</h2>
-<p>El ejercicio calcula años de vida perdidos usando información de tabla de vida y distribución de muertes por edad y causa. Los datos corresponden a mujeres de Arabia Saudita en 2005-2010, con causas de muerte provenientes del Global Burden of Disease y tabla de vida de Naciones Unidas.</p>
+<section id="ejercicio-1-modelos-de-mortalidad" class="level2">
+<h2 class="anchored" data-anchor-id="ejercicio-1-modelos-de-mortalidad">Ejercicio 1: modelos de mortalidad</h2>
+<p>El ejercicio usa tasas de mortalidad femenina de Estados Unidos para ajustar y comparar modelos paramétricos de mortalidad. La práctica trabaja con Gompertz, Weibull y Heligman-Pollard, y compara sus ajustes en edades adultas y en el rango completo de edad.</p>
 <p>Preguntas guía:</p>
 <ul>
-<li>¿Cuántos años de vida se pierden antes de los 85 años?</li>
-<li>¿Qué causa contribuye más a los años de vida perdidos?</li>
-<li>¿Qué causa domina por debajo de los 50 años si excluimos la categoría residual?</li>
-<li>¿Cómo ayuda la función de supervivencia a interpretar visualmente los años perdidos?</li>
+<li>¿Qué forma tiene la curva de mortalidad por edad en escala logarítmica?</li>
+<li>¿Qué modelo se ajusta mejor a la mortalidad adulta?</li>
+<li>¿Qué limitaciones aparecen cuando se intenta cubrir todo el rango de edades?</li>
+<li>¿Cómo cambian las predicciones al modificar el rango de ajuste?</li>
 </ul>
 </section>
-<section id="ejercicio-2-descomposición-de-arriaga" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicio-2-descomposición-de-arriaga">Ejercicio 2: descomposición de Arriaga</h2>
-<p>El ejercicio descompone por edad y causa el cambio en la esperanza de vida masculina al nacer en Estados Unidos entre 2019 y 2020, usando datos asociados al impacto de COVID-19.</p>
+<section id="ejercicio-2-descomposición-por-edad-y-causa" class="level2">
+<h2 class="anchored" data-anchor-id="ejercicio-2-descomposición-por-edad-y-causa">Ejercicio 2: descomposición por edad y causa</h2>
+<p>El ejercicio descompone el cambio en esperanza de vida en Venezuela entre 1980 y 2013 usando contribuciones por edad y causa de muerte. El objetivo es conectar tasas específicas, tablas de vida e interpretación sustantiva de contribuciones.</p>
 <p>Preguntas guía:</p>
 <ul>
-<li>¿Cuál fue el cambio total en esperanza de vida masculina al nacer?</li>
-<li>¿Qué edades contribuyeron más al descenso?</li>
-<li>¿Cómo cambia la interpretación al agregar causas de muerte?</li>
-<li>¿Qué se gana al agrupar edades en intervalos quinquenales?</li>
+<li>¿Cuál es el cambio total en esperanza de vida?</li>
+<li>¿Qué edades explican la mayor parte del cambio?</li>
+<li>¿Qué causas de muerte contribuyen positiva o negativamente?</li>
+<li>¿Cómo se interpreta una contribución negativa por edad o causa?</li>
 </ul>
 </section>
 <section id="preguntas-de-interpretación" class="level2">
 <h2 class="anchored" data-anchor-id="preguntas-de-interpretación">Preguntas de interpretación</h2>
 <ul>
-<li>¿Qué diferencia hay entre explicar una tasa agregada con Kitagawa y explicar esperanza de vida con Arriaga?</li>
-<li>¿Por qué los años de vida perdidos son un buen puente entre tablas de vida y descomposición por causa?</li>
-<li>¿Qué precauciones hacen falta al interpretar contribuciones por edad y causa con datos de un solo año?</li>
+<li>¿Qué se gana y qué se pierde al resumir la mortalidad con un modelo paramétrico?</li>
+<li>¿Por qué la esperanza de vida requiere una lógica de descomposición distinta a una tasa agregada?</li>
+<li>¿Qué decisiones de edad, causa y periodo podrían cambiar la interpretación de las contribuciones?</li>
 </ul>
 
 

@@ -46,7 +46,7 @@ El código se compartirá al final del curso para favorecer que las y los estudi
 ## Sesiones
 
 1. [Fundamentos de la descomposición demográfica](sesiones/dia-01-fundamentos-descomposicion.qmd)
-2. [Tablas de vida y esperanza de vida](sesiones/dia-02-tablas-vida-esperanza-vida.qmd)
+2. [Modelación de la mortalidad y descomposición](sesiones/dia-02-tablas-vida-esperanza-vida.qmd)
 3. [Salud, prevalencias y esperanza de vida saludable](sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.qmd)
 4. [Métodos avanzados, robustez e interpretación](sesiones/dia-04-metodos-avanzados-robustez.qmd)
 5. [Introducción al método de Lee-Carter y su interpretación](sesiones/dia-05-lee-carter-forecasting.qmd)
