@@ -20,7 +20,8 @@ Motivación, diferencias entre componentes directos y composicionales, tasas agr
 
 ## Slides
 
-[Diapositivas: descomposición de Kitagawa](../slides/dia-01-kitagawa.pdf)
+- [Diapositivas: descomposición de Kitagawa](../slides/dia-01-kitagawa.pdf)
+- [Diapositivas: años de vida perdidos](../slides/dia-01-years-life-lost.pdf)
 
 ## Lab
 
