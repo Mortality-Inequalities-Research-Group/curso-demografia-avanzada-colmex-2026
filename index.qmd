@@ -43,6 +43,11 @@ El curso está organizado en cinco sesiones. Cada sesión incluye:
 
 El código se compartirá al final del curso para favorecer que las y los estudiantes trabajen los ejercicios directamente en R durante las sesiones.
 
+## Materiales destacados
+
+- [Día 1: diapositivas de descomposición de Kitagawa](slides/dia-01-kitagawa.pdf)
+- [Día 1: diapositivas de años de vida perdidos](slides/dia-01-years-life-lost.pdf)
+
 ## Sesiones
 
 1. [Fundamentos de la descomposición demográfica](sesiones/dia-01-fundamentos-descomposicion.qmd)
@@ -50,3 +55,15 @@ El código se compartirá al final del curso para favorecer que las y los estudi
 3. [Salud, prevalencias y esperanza de vida saludable](sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.qmd)
 4. [Métodos avanzados, robustez e interpretación](sesiones/dia-04-metodos-avanzados-robustez.qmd)
 5. [Introducción al método de Lee-Carter y su interpretación](sesiones/dia-05-lee-carter-forecasting.qmd)
+
+## Instituciones y financiamiento
+
+::: {.course-logo-panel}
+::: {.course-logo-row}
+[![](assets/logos/logo-lshtm.png){fig-alt="London School of Hygiene & Tropical Medicine" .course-logo .course-logo-lshtm}](https://www.lshtm.ac.uk/)
+
+[![](assets/logos/logo-mpidr.png){fig-alt="Max Planck Institute for Demographic Research" .course-logo .course-logo-mpidr}](https://www.demogr.mpg.de/)
+
+[![](assets/logos/logo-wellcome.png){fig-alt="Wellcome" .course-logo .course-logo-wellcome}](https://wellcome.org/)
+:::
+:::

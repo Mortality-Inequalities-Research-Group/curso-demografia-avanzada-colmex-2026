@@ -32,6 +32,7 @@ website:
 format:
   html:
     theme: cosmo
+    css: assets/styles.css
     toc: true
     lang: es
     date-format: long

@@ -1,0 +1,51 @@
+.course-logo-panel {
+  margin: 1.5rem 0 2rem;
+  padding: 1.1rem 1.2rem;
+  border: 1px solid #e4e7eb;
+  border-radius: 6px;
+  background: #ffffff;
+}
+
+.course-logo-row {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+.course-logo-row p {
+  margin: 0;
+}
+
+.course-logo {
+  display: block;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.course-logo-lshtm {
+  height: 70px;
+}
+
+.course-logo-mpidr {
+  height: 68px;
+}
+
+.course-logo-wellcome {
+  height: 72px;
+}
+
+@media (max-width: 640px) {
+  .course-logo-row {
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .course-logo-lshtm,
+  .course-logo-mpidr,
+  .course-logo-wellcome {
+    height: auto;
+    width: min(240px, 100%);
+  }
+}
