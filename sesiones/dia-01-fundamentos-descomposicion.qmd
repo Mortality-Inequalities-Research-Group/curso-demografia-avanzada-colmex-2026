@@ -31,6 +31,7 @@ Motivación, diferencias entre componentes directos y composicionales, tasas agr
 
 - [Ejercicio 1: Kitagawa y GFR - HTML](../practicals/dia-01/kitagawa-gfr/kitagawa-gfr-es.html) | [PDF](../practicals/dia-01/kitagawa-gfr/kitagawa-gfr-es.pdf)
 - [Ejercicio bonus: Kitagawa y TFR por edad y unión - HTML](../practicals/dia-01/kitagawa-tfr-bonus/kitagawa-tfr-bonus-es.html) | [PDF](../practicals/dia-01/kitagawa-tfr-bonus/kitagawa-tfr-bonus-es.pdf)
+- [Ejercicio adicional: ejemplo de Kitagawa - HTML](../practicals/dia-01/ejemplo-kitagawa/Ejemplo_Kitagawa.html)
 
 ## Datos
 
