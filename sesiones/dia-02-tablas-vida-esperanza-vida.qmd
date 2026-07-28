@@ -35,6 +35,7 @@ Modelación paramétrica de la mortalidad adulta, comparación de leyes de morta
 
 - [Datos del ejercicio de modelación y descomposición](../data/dia-02/mortality-modeling-decomposition-data.RData)
 - [Tabla de mortalidad de Estados Unidos](../data/dia-02/USAfltper_1x1.txt)
+- [Funciones para la práctica del día 2](../practicals/dia-02/mortality-modeling-decomposition/funciones-dia-02.R)
 
 ## Lecturas recomendadas
 

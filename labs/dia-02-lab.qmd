@@ -14,6 +14,7 @@ Ajustar modelos paramétricos de mortalidad adulta, comparar predicciones entre 
 - [Práctica: modelación de la mortalidad y descomposición - HTML](../practicals/dia-02/mortality-modeling-decomposition/dia-02-modelacion-mortalidad-descomposicion-es.html) | [PDF](../practicals/dia-02/mortality-modeling-decomposition/dia-02-modelacion-mortalidad-descomposicion-es.pdf)
 - [Datos del ejercicio de modelación y descomposición](../data/dia-02/mortality-modeling-decomposition-data.RData)
 - [Tabla de mortalidad de Estados Unidos](../data/dia-02/USAfltper_1x1.txt)
+- [Funciones para la práctica del día 2](../practicals/dia-02/mortality-modeling-decomposition/funciones-dia-02.R)
 
 ## Paquetes necesarios
 
