@@ -6,29 +6,64 @@ title: "Lab día 3"
 
 ## Objetivo del lab
 
-Pendiente: objetivo del lab sobre salud, prevalencias y esperanza de vida saludable.
+Calcular la esperanza de vida saludable mediante el método de Sullivan y
+descomponer sus cambios en contribuciones de la mortalidad y la prevalencia
+específicas por edad.
+
+## Materiales
+
+- [Diapositivas: salud, prevalencias y esperanza de vida saludable](../slides/dia-03-salud-sullivan.pdf)
+- [Diapositivas: algoritmo de *stepwise replacement*](../slides/dia-03-stepwise-replacement.pdf)
+- [Práctica del día 3 - HTML](../practicals/dia-03/sullivan-stepwise/dia-03-sullivan-stepwise-es.html) | [PDF](../practicals/dia-03/sullivan-stepwise/dia-03-sullivan-stepwise-es.pdf)
+- [Datos de Sullivan y *stepwise replacement*](../data/dia-03/sullivan-stepwise-data.RData)
+- [Funciones para la descomposición por pasos](../practicals/dia-03/sullivan-stepwise/funciones-sullivan-stepwise.R)
 
 ## Paquetes necesarios
 
-Pendiente: lista de paquetes necesarios.
+- `tidyverse`
+- `viridis`
+- `DemoDecomp`
 
-## Datos
+## Estructura sugerida
 
-Pendiente: descripción de los datos de práctica.
+| Bloque | Actividad |
+|---|---|
+| Clase teórica | Salud, prevalencias y esperanza de vida saludable |
+| Práctica 1 | Cálculo de la esperanza de vida saludable con Sullivan |
+| Interpretación | Comparación de esperanza de vida total y saludable |
+| Clase aplicada | Lógica del algoritmo de *stepwise replacement* |
+| Práctica 2 | Descomposición por edad, mortalidad y prevalencia |
 
-## Ejercicio 1
+## Ejercicio 1: método de Sullivan
 
-Pendiente: instrucciones del ejercicio.
+El ejercicio combina años-persona vividos y prevalencias de limitaciones en la
+actividad para estimar la esperanza de vida saludable de las mujeres de España
+y la República Checa entre 2010 y 2015.
 
-## Ejercicio 2
+Preguntas guía:
 
-Pendiente: instrucciones del ejercicio.
+- ¿Cómo cambia la esperanza de vida saludable entre 2010 y 2015?
+- ¿Qué diferencias se observan entre España y la República Checa?
+- ¿Qué parte de la esperanza de vida total se vive con buena salud?
+- ¿Qué supuestos del método de Sullivan deben considerarse al interpretar los
+  resultados?
 
-## Ejercicio 3
+## Ejercicio 2: descomposición por pasos
 
-Pendiente: instrucciones del ejercicio.
+El segundo ejercicio descompone el cambio en la esperanza de vida saludable de
+las mujeres españolas entre 2010 y 2015. Las contribuciones se separan por edad
+y por componente: mortalidad y prevalencia.
 
-## Preguntas de interpretación
+Preguntas guía:
 
-Pendiente: preguntas para discusión e interpretación.
+- ¿La suma de las contribuciones reproduce la diferencia original?
+- ¿Qué componente explica la mayor parte del cambio?
+- ¿En qué grupos de edad se concentran las contribuciones positivas y
+  negativas?
+- ¿Cómo podría afectar el orden de sustitución a la interpretación?
 
+## Ejercicio para entregar
+
+Descompongan la diferencia en la esperanza de vida saludable entre las mujeres
+de España y de la República Checa en 2010. Comparen las contribuciones de la
+mortalidad y la prevalencia, e identifiquen los grupos de edad con mayor peso.

@@ -11,7 +11,7 @@
     "href": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html",
     "title": "Día 3: Salud, prevalencias y esperanza de vida saludable",
     "section": "",
-    "text": "Método de Sullivan, incorporación de prevalencias por edad, cálculo de esperanza de vida saludable, descomposición de brechas de salud y métodos stepwise.\n\n\n\nSesión: Ana Cristina Gómez Ugarte Valerio\nTaller: Dr. José Manuel Aburto\n\n\n\n\n\nComprender la lógica del método de Sullivan.\nIncorporar prevalencias por edad a una tabla de vida.\nCalcular esperanza de vida saludable.\nDescomponer brechas de salud entre poblaciones o periodos.\nExplorar métodos stepwise para problemas de descomposición.\n\n\n\n\nDisponible próximamente.\n\n\n\nLab del día 3\n\n\n\nEl código se compartirá al final del curso.\n\n\n\nDisponible próximamente.\n\n\n\nDisponible próximamente."
+    "text": "Método de Sullivan, incorporación de prevalencias por edad, cálculo de esperanza de vida saludable, descomposición de brechas de salud y métodos stepwise.\n\n\n\nSesión: Ana Cristina Gómez Ugarte Valerio\nTaller: Dr. José Manuel Aburto\n\n\n\n\n\nComprender la lógica del método de Sullivan.\nIncorporar prevalencias por edad a una tabla de vida.\nCalcular esperanza de vida saludable.\nDescomponer brechas de salud entre poblaciones o periodos.\nExplorar métodos stepwise para problemas de descomposición.\n\n\n\n\n\nDiapositivas: salud, prevalencias y esperanza de vida saludable\nDiapositivas: algoritmo de stepwise replacement\n\n\n\n\nLab del día 3\n\n\n\nPráctica: esperanza de vida saludable y descomposición por pasos - HTML | PDF\n\n\n\n\nDatos de Sullivan y stepwise replacement\nFunciones para la descomposición por pasos\n\n\n\n\nEl código de la práctica está incluido en la versión HTML. La función auxiliar puede descargarse desde la sección anterior.\n\n\n\n\nSullivan, D. F. (1971). A single index of mortality and morbidity.\nAndreev, E. M., Shkolnikov, V. M. y Begun, A. Z. (2002). Algorithm for decomposition of differences between aggregate demographic measures and its application to life expectancies, healthy life expectancies, parity-progression ratios and total fertility rates. Demographic Research, 7, 499-522.\nVan Raalte, A. A. y Nepomuceno, M. R. (2020). Decomposing gaps in healthy life expectancy. En International Handbook of Health Expectancies."
   },
   {
     "objectID": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#docencia",
@@ -32,7 +32,7 @@
     "href": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#slides",
     "title": "Día 3: Salud, prevalencias y esperanza de vida saludable",
     "section": "",
-    "text": "Disponible próximamente."
+    "text": "Diapositivas: salud, prevalencias y esperanza de vida saludable\nDiapositivas: algoritmo de stepwise replacement"
   },
   {
     "objectID": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#lab",
@@ -42,25 +42,32 @@
     "text": "Lab del día 3"
   },
   {
+    "objectID": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#práctica",
+    "href": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#práctica",
+    "title": "Día 3: Salud, prevalencias y esperanza de vida saludable",
+    "section": "",
+    "text": "Práctica: esperanza de vida saludable y descomposición por pasos - HTML | PDF"
+  },
+  {
+    "objectID": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#datos-y-funciones",
+    "href": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#datos-y-funciones",
+    "title": "Día 3: Salud, prevalencias y esperanza de vida saludable",
+    "section": "",
+    "text": "Datos de Sullivan y stepwise replacement\nFunciones para la descomposición por pasos"
+  },
+  {
     "objectID": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#código",
     "href": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#código",
     "title": "Día 3: Salud, prevalencias y esperanza de vida saludable",
     "section": "",
-    "text": "El código se compartirá al final del curso."
-  },
-  {
-    "objectID": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#datos",
-    "href": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#datos",
-    "title": "Día 3: Salud, prevalencias y esperanza de vida saludable",
-    "section": "",
-    "text": "Disponible próximamente."
+    "text": "El código de la práctica está incluido en la versión HTML. La función auxiliar puede descargarse desde la sección anterior."
   },
   {
     "objectID": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#lecturas-recomendadas",
     "href": "sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.html#lecturas-recomendadas",
     "title": "Día 3: Salud, prevalencias y esperanza de vida saludable",
     "section": "",
-    "text": "Disponible próximamente."
+    "text": "Sullivan, D. F. (1971). A single index of mortality and morbidity.\nAndreev, E. M., Shkolnikov, V. M. y Begun, A. Z. (2002). Algorithm for decomposition of differences between aggregate demographic measures and its application to life expectancies, healthy life expectancies, parity-progression ratios and total fertility rates. Demographic Research, 7, 499-522.\nVan Raalte, A. A. y Nepomuceno, M. R. (2020). Decomposing gaps in healthy life expectancy. En International Handbook of Health Expectancies."
   },
   {
     "objectID": "sesiones/dia-05-lee-carter-forecasting.html",
@@ -473,56 +480,56 @@
     "href": "labs/dia-03-lab.html",
     "title": "Lab día 3",
     "section": "",
-    "text": "Pendiente: objetivo del lab sobre salud, prevalencias y esperanza de vida saludable.\n\n\n\nPendiente: lista de paquetes necesarios.\n\n\n\nPendiente: descripción de los datos de práctica.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: preguntas para discusión e interpretación."
+    "text": "Calcular la esperanza de vida saludable mediante el método de Sullivan y descomponer sus cambios en contribuciones de la mortalidad y la prevalencia específicas por edad.\n\n\n\n\nDiapositivas: salud, prevalencias y esperanza de vida saludable\nDiapositivas: algoritmo de stepwise replacement\nPráctica del día 3 - HTML | PDF\nDatos de Sullivan y stepwise replacement\nFunciones para la descomposición por pasos\n\n\n\n\n\ntidyverse\nviridis\nDemoDecomp\n\n\n\n\n\n\n\nBloque\nActividad\n\n\n\n\nClase teórica\nSalud, prevalencias y esperanza de vida saludable\n\n\nPráctica 1\nCálculo de la esperanza de vida saludable con Sullivan\n\n\nInterpretación\nComparación de esperanza de vida total y saludable\n\n\nClase aplicada\nLógica del algoritmo de stepwise replacement\n\n\nPráctica 2\nDescomposición por edad, mortalidad y prevalencia\n\n\n\n\n\n\nEl ejercicio combina años-persona vividos y prevalencias de limitaciones en la actividad para estimar la esperanza de vida saludable de las mujeres de España y la República Checa entre 2010 y 2015.\nPreguntas guía:\n\n¿Cómo cambia la esperanza de vida saludable entre 2010 y 2015?\n¿Qué diferencias se observan entre España y la República Checa?\n¿Qué parte de la esperanza de vida total se vive con buena salud?\n¿Qué supuestos del método de Sullivan deben considerarse al interpretar los resultados?\n\n\n\n\nEl segundo ejercicio descompone el cambio en la esperanza de vida saludable de las mujeres españolas entre 2010 y 2015. Las contribuciones se separan por edad y por componente: mortalidad y prevalencia.\nPreguntas guía:\n\n¿La suma de las contribuciones reproduce la diferencia original?\n¿Qué componente explica la mayor parte del cambio?\n¿En qué grupos de edad se concentran las contribuciones positivas y negativas?\n¿Cómo podría afectar el orden de sustitución a la interpretación?\n\n\n\n\nDescompongan la diferencia en la esperanza de vida saludable entre las mujeres de España y de la República Checa en 2010. Comparen las contribuciones de la mortalidad y la prevalencia, e identifiquen los grupos de edad con mayor peso."
   },
   {
     "objectID": "labs/dia-03-lab.html#objetivo-del-lab",
     "href": "labs/dia-03-lab.html#objetivo-del-lab",
     "title": "Lab día 3",
     "section": "",
-    "text": "Pendiente: objetivo del lab sobre salud, prevalencias y esperanza de vida saludable."
+    "text": "Calcular la esperanza de vida saludable mediante el método de Sullivan y descomponer sus cambios en contribuciones de la mortalidad y la prevalencia específicas por edad."
+  },
+  {
+    "objectID": "labs/dia-03-lab.html#materiales",
+    "href": "labs/dia-03-lab.html#materiales",
+    "title": "Lab día 3",
+    "section": "",
+    "text": "Diapositivas: salud, prevalencias y esperanza de vida saludable\nDiapositivas: algoritmo de stepwise replacement\nPráctica del día 3 - HTML | PDF\nDatos de Sullivan y stepwise replacement\nFunciones para la descomposición por pasos"
   },
   {
     "objectID": "labs/dia-03-lab.html#paquetes-necesarios",
     "href": "labs/dia-03-lab.html#paquetes-necesarios",
     "title": "Lab día 3",
     "section": "",
-    "text": "Pendiente: lista de paquetes necesarios."
+    "text": "tidyverse\nviridis\nDemoDecomp"
   },
   {
-    "objectID": "labs/dia-03-lab.html#datos",
-    "href": "labs/dia-03-lab.html#datos",
+    "objectID": "labs/dia-03-lab.html#estructura-sugerida",
+    "href": "labs/dia-03-lab.html#estructura-sugerida",
     "title": "Lab día 3",
     "section": "",
-    "text": "Pendiente: descripción de los datos de práctica."
+    "text": "Bloque\nActividad\n\n\n\n\nClase teórica\nSalud, prevalencias y esperanza de vida saludable\n\n\nPráctica 1\nCálculo de la esperanza de vida saludable con Sullivan\n\n\nInterpretación\nComparación de esperanza de vida total y saludable\n\n\nClase aplicada\nLógica del algoritmo de stepwise replacement\n\n\nPráctica 2\nDescomposición por edad, mortalidad y prevalencia"
   },
   {
-    "objectID": "labs/dia-03-lab.html#ejercicio-1",
-    "href": "labs/dia-03-lab.html#ejercicio-1",
+    "objectID": "labs/dia-03-lab.html#ejercicio-1-método-de-sullivan",
+    "href": "labs/dia-03-lab.html#ejercicio-1-método-de-sullivan",
     "title": "Lab día 3",
     "section": "",
-    "text": "Pendiente: instrucciones del ejercicio."
+    "text": "El ejercicio combina años-persona vividos y prevalencias de limitaciones en la actividad para estimar la esperanza de vida saludable de las mujeres de España y la República Checa entre 2010 y 2015.\nPreguntas guía:\n\n¿Cómo cambia la esperanza de vida saludable entre 2010 y 2015?\n¿Qué diferencias se observan entre España y la República Checa?\n¿Qué parte de la esperanza de vida total se vive con buena salud?\n¿Qué supuestos del método de Sullivan deben considerarse al interpretar los resultados?"
   },
   {
-    "objectID": "labs/dia-03-lab.html#ejercicio-2",
-    "href": "labs/dia-03-lab.html#ejercicio-2",
+    "objectID": "labs/dia-03-lab.html#ejercicio-2-descomposición-por-pasos",
+    "href": "labs/dia-03-lab.html#ejercicio-2-descomposición-por-pasos",
     "title": "Lab día 3",
     "section": "",
-    "text": "Pendiente: instrucciones del ejercicio."
+    "text": "El segundo ejercicio descompone el cambio en la esperanza de vida saludable de las mujeres españolas entre 2010 y 2015. Las contribuciones se separan por edad y por componente: mortalidad y prevalencia.\nPreguntas guía:\n\n¿La suma de las contribuciones reproduce la diferencia original?\n¿Qué componente explica la mayor parte del cambio?\n¿En qué grupos de edad se concentran las contribuciones positivas y negativas?\n¿Cómo podría afectar el orden de sustitución a la interpretación?"
   },
   {
-    "objectID": "labs/dia-03-lab.html#ejercicio-3",
-    "href": "labs/dia-03-lab.html#ejercicio-3",
+    "objectID": "labs/dia-03-lab.html#ejercicio-para-entregar",
+    "href": "labs/dia-03-lab.html#ejercicio-para-entregar",
     "title": "Lab día 3",
     "section": "",
-    "text": "Pendiente: instrucciones del ejercicio."
-  },
-  {
-    "objectID": "labs/dia-03-lab.html#preguntas-de-interpretación",
-    "href": "labs/dia-03-lab.html#preguntas-de-interpretación",
-    "title": "Lab día 3",
-    "section": "",
-    "text": "Pendiente: preguntas para discusión e interpretación."
+    "text": "Descompongan la diferencia en la esperanza de vida saludable entre las mujeres de España y de la República Checa en 2010. Comparen las contribuciones de la mortalidad y la prevalencia, e identifiquen los grupos de edad con mayor peso."
   },
   {
     "objectID": "preparacion.html",

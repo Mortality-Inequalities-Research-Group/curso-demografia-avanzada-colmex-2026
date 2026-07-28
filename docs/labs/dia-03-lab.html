@@ -158,12 +158,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#lab-día-3" id="toc-lab-día-3" class="nav-link active" data-scroll-target="#lab-día-3">Lab día 3</a>
   <ul class="collapse">
   <li><a href="#objetivo-del-lab" id="toc-objetivo-del-lab" class="nav-link" data-scroll-target="#objetivo-del-lab">Objetivo del lab</a></li>
+  <li><a href="#materiales" id="toc-materiales" class="nav-link" data-scroll-target="#materiales">Materiales</a></li>
   <li><a href="#paquetes-necesarios" id="toc-paquetes-necesarios" class="nav-link" data-scroll-target="#paquetes-necesarios">Paquetes necesarios</a></li>
-  <li><a href="#datos" id="toc-datos" class="nav-link" data-scroll-target="#datos">Datos</a></li>
-  <li><a href="#ejercicio-1" id="toc-ejercicio-1" class="nav-link" data-scroll-target="#ejercicio-1">Ejercicio 1</a></li>
-  <li><a href="#ejercicio-2" id="toc-ejercicio-2" class="nav-link" data-scroll-target="#ejercicio-2">Ejercicio 2</a></li>
-  <li><a href="#ejercicio-3" id="toc-ejercicio-3" class="nav-link" data-scroll-target="#ejercicio-3">Ejercicio 3</a></li>
-  <li><a href="#preguntas-de-interpretación" id="toc-preguntas-de-interpretación" class="nav-link" data-scroll-target="#preguntas-de-interpretación">Preguntas de interpretación</a></li>
+  <li><a href="#estructura-sugerida" id="toc-estructura-sugerida" class="nav-link" data-scroll-target="#estructura-sugerida">Estructura sugerida</a></li>
+  <li><a href="#ejercicio-1-método-de-sullivan" id="toc-ejercicio-1-método-de-sullivan" class="nav-link" data-scroll-target="#ejercicio-1-método-de-sullivan">Ejercicio 1: método de Sullivan</a></li>
+  <li><a href="#ejercicio-2-descomposición-por-pasos" id="toc-ejercicio-2-descomposición-por-pasos" class="nav-link" data-scroll-target="#ejercicio-2-descomposición-por-pasos">Ejercicio 2: descomposición por pasos</a></li>
+  <li><a href="#ejercicio-para-entregar" id="toc-ejercicio-para-entregar" class="nav-link" data-scroll-target="#ejercicio-para-entregar">Ejercicio para entregar</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -194,31 +194,84 @@ ul.task-list li input[type="checkbox"] {
 <h1>Lab día 3</h1>
 <section id="objetivo-del-lab" class="level2">
 <h2 class="anchored" data-anchor-id="objetivo-del-lab">Objetivo del lab</h2>
-<p>Pendiente: objetivo del lab sobre salud, prevalencias y esperanza de vida saludable.</p>
+<p>Calcular la esperanza de vida saludable mediante el método de Sullivan y descomponer sus cambios en contribuciones de la mortalidad y la prevalencia específicas por edad.</p>
+</section>
+<section id="materiales" class="level2">
+<h2 class="anchored" data-anchor-id="materiales">Materiales</h2>
+<ul>
+<li><a href="../slides/dia-03-salud-sullivan.pdf">Diapositivas: salud, prevalencias y esperanza de vida saludable</a></li>
+<li><a href="../slides/dia-03-stepwise-replacement.pdf">Diapositivas: algoritmo de <em>stepwise replacement</em></a></li>
+<li><a href="../practicals/dia-03/sullivan-stepwise/dia-03-sullivan-stepwise-es.html">Práctica del día 3 - HTML</a> | <a href="../practicals/dia-03/sullivan-stepwise/dia-03-sullivan-stepwise-es.pdf">PDF</a></li>
+<li><a href="../data/dia-03/sullivan-stepwise-data.RData">Datos de Sullivan y <em>stepwise replacement</em></a></li>
+<li><a href="../practicals/dia-03/sullivan-stepwise/funciones-sullivan-stepwise.R">Funciones para la descomposición por pasos</a></li>
+</ul>
 </section>
 <section id="paquetes-necesarios" class="level2">
 <h2 class="anchored" data-anchor-id="paquetes-necesarios">Paquetes necesarios</h2>
-<p>Pendiente: lista de paquetes necesarios.</p>
+<ul>
+<li><code>tidyverse</code></li>
+<li><code>viridis</code></li>
+<li><code>DemoDecomp</code></li>
+</ul>
 </section>
-<section id="datos" class="level2">
-<h2 class="anchored" data-anchor-id="datos">Datos</h2>
-<p>Pendiente: descripción de los datos de práctica.</p>
+<section id="estructura-sugerida" class="level2">
+<h2 class="anchored" data-anchor-id="estructura-sugerida">Estructura sugerida</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Bloque</th>
+<th>Actividad</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Clase teórica</td>
+<td>Salud, prevalencias y esperanza de vida saludable</td>
+</tr>
+<tr class="even">
+<td>Práctica 1</td>
+<td>Cálculo de la esperanza de vida saludable con Sullivan</td>
+</tr>
+<tr class="odd">
+<td>Interpretación</td>
+<td>Comparación de esperanza de vida total y saludable</td>
+</tr>
+<tr class="even">
+<td>Clase aplicada</td>
+<td>Lógica del algoritmo de <em>stepwise replacement</em></td>
+</tr>
+<tr class="odd">
+<td>Práctica 2</td>
+<td>Descomposición por edad, mortalidad y prevalencia</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="ejercicio-1" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicio-1">Ejercicio 1</h2>
-<p>Pendiente: instrucciones del ejercicio.</p>
+<section id="ejercicio-1-método-de-sullivan" class="level2">
+<h2 class="anchored" data-anchor-id="ejercicio-1-método-de-sullivan">Ejercicio 1: método de Sullivan</h2>
+<p>El ejercicio combina años-persona vividos y prevalencias de limitaciones en la actividad para estimar la esperanza de vida saludable de las mujeres de España y la República Checa entre 2010 y 2015.</p>
+<p>Preguntas guía:</p>
+<ul>
+<li>¿Cómo cambia la esperanza de vida saludable entre 2010 y 2015?</li>
+<li>¿Qué diferencias se observan entre España y la República Checa?</li>
+<li>¿Qué parte de la esperanza de vida total se vive con buena salud?</li>
+<li>¿Qué supuestos del método de Sullivan deben considerarse al interpretar los resultados?</li>
+</ul>
 </section>
-<section id="ejercicio-2" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicio-2">Ejercicio 2</h2>
-<p>Pendiente: instrucciones del ejercicio.</p>
+<section id="ejercicio-2-descomposición-por-pasos" class="level2">
+<h2 class="anchored" data-anchor-id="ejercicio-2-descomposición-por-pasos">Ejercicio 2: descomposición por pasos</h2>
+<p>El segundo ejercicio descompone el cambio en la esperanza de vida saludable de las mujeres españolas entre 2010 y 2015. Las contribuciones se separan por edad y por componente: mortalidad y prevalencia.</p>
+<p>Preguntas guía:</p>
+<ul>
+<li>¿La suma de las contribuciones reproduce la diferencia original?</li>
+<li>¿Qué componente explica la mayor parte del cambio?</li>
+<li>¿En qué grupos de edad se concentran las contribuciones positivas y negativas?</li>
+<li>¿Cómo podría afectar el orden de sustitución a la interpretación?</li>
+</ul>
 </section>
-<section id="ejercicio-3" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicio-3">Ejercicio 3</h2>
-<p>Pendiente: instrucciones del ejercicio.</p>
-</section>
-<section id="preguntas-de-interpretación" class="level2">
-<h2 class="anchored" data-anchor-id="preguntas-de-interpretación">Preguntas de interpretación</h2>
-<p>Pendiente: preguntas para discusión e interpretación.</p>
+<section id="ejercicio-para-entregar" class="level2">
+<h2 class="anchored" data-anchor-id="ejercicio-para-entregar">Ejercicio para entregar</h2>
+<p>Descompongan la diferencia en la esperanza de vida saludable entre las mujeres de España y de la República Checa en 2010. Comparen las contribuciones de la mortalidad y la prevalencia, e identifiquen los grupos de edad con mayor peso.</p>
 
 
 </section>
