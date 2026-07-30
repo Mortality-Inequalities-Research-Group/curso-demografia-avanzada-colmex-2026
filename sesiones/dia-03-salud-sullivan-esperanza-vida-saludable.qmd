@@ -23,6 +23,7 @@ Método de Sullivan, incorporación de prevalencias por edad, cálculo de espera
 
 - [Diapositivas: salud, prevalencias y esperanza de vida saludable](../slides/dia-03-salud-sullivan.pdf)
 - [Diapositivas: algoritmo de *stepwise replacement*](../slides/dia-03-stepwise-replacement.pdf)
+- [Diapositivas adicionales: mortalidad pospandemia y pérdida parental](../slides/dia-03-diapositivas-adicionales.pdf)
 
 ## Lab
 
