@@ -14,7 +14,7 @@ específicas por edad.
 
 - [Diapositivas: salud, prevalencias y esperanza de vida saludable](../slides/dia-03-salud-sullivan.pdf)
 - [Diapositivas: algoritmo de *stepwise replacement*](../slides/dia-03-stepwise-replacement.pdf)
-- [Diapositivas adicionales: mortalidad pospandemia y pérdida parental](../slides/dia-03-diapositivas-adicionales.pdf)
+- [Diapositivas adicionales: mortalidad pospandemia y áreas pequeñas](../slides/dia-03-diapositivas-adicionales.pdf)
 - [Práctica del día 3 - HTML](../practicals/dia-03/sullivan-stepwise/dia-03-sullivan-stepwise-es.html) | [PDF](../practicals/dia-03/sullivan-stepwise/dia-03-sullivan-stepwise-es.pdf)
 - [Datos de Sullivan y *stepwise replacement*](../data/dia-03/sullivan-stepwise-data.RData)
 - [Funciones para la descomposición por pasos](../practicals/dia-03/sullivan-stepwise/funciones-sullivan-stepwise.R)
