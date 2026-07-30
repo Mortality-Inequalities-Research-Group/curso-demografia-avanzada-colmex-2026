@@ -6,29 +6,54 @@ title: "Lab día 5"
 
 ## Objetivo del lab
 
-Pendiente: objetivo del lab sobre Lee-Carter y forecasting de mortalidad.
+Estimar e interpretar el modelo de Lee-Carter, ajustar el índice temporal para
+reproducir las defunciones observadas y generar proyecciones probabilísticas de
+las tasas de mortalidad y la esperanza de vida.
+
+## Materiales
+
+- [Diapositivas del día 5](../slides/dia-05-lee-carter-es.pdf)
+- [Práctica de Lee-Carter - HTML](../practicals/dia-05/lee-carter/dia-05-lee-carter-es.html) | [PDF](../practicals/dia-05/lee-carter/dia-05-lee-carter-es.pdf)
+- [Datos de mortalidad de Inglaterra y Gales](../data/dia-05/lee-carter-data.RData)
+- [Funciones para construir tablas de vida](../practicals/dia-05/lee-carter/funciones-tabla-vida.R)
+- [Código complementario en R](../practicals/dia-05/lee-carter/codigo-lee-carter-es.R)
 
 ## Paquetes necesarios
 
-Pendiente: lista de paquetes necesarios.
+- `fields`
+- `forecast`
+- `viridis`
 
 ## Datos
 
-Pendiente: descripción de los datos de práctica.
+El archivo `lee-carter-data.RData` contiene las muertes observadas (`Y`), la
+población expuesta al riesgo (`E`) y las tasas de mortalidad en escala
+logarítmica (`LMX`) para Inglaterra y Gales. La práctica utiliza las
+observaciones desde 1970 y proyecta la mortalidad hasta 2040.
 
-## Ejercicio 1
+## Ejercicio 1: estimación del modelo
 
-Pendiente: instrucciones del ejercicio.
+- Estimen el patrón promedio por edad, \(\alpha_x\).
+- Apliquen una descomposición en valores singulares para obtener
+  \(\beta_x\) y \(\kappa_t\).
+- Impongan las restricciones de identificación e interpreten los parámetros.
 
-## Ejercicio 2
+## Ejercicio 2: ajuste y evaluación
 
-Pendiente: instrucciones del ejercicio.
+- Ajusten \(\kappa_t\) para reproducir el número observado de defunciones.
+- Reconstruyan las tasas ajustadas y la esperanza de vida.
+- Comparen la esperanza de vida observada y ajustada.
 
-## Ejercicio 3
+## Ejercicio 3: proyección
 
-Pendiente: instrucciones del ejercicio.
+- Modelen \(\kappa_t\) mediante una caminata aleatoria con deriva.
+- Generen 200 trayectorias futuras y sus intervalos de predicción.
+- Proyecten las tasas de mortalidad por edad y la esperanza de vida.
 
 ## Preguntas de interpretación
 
-Pendiente: preguntas para discusión e interpretación.
-
+- ¿Qué representa cada parámetro del modelo de Lee-Carter?
+- ¿Qué edades muestran un descenso más rápido de la mortalidad?
+- ¿Por qué se ajusta \(\kappa_t\) al número total de defunciones?
+- ¿Qué fuentes de incertidumbre capturan las simulaciones?
+- ¿Qué implica suponer que las tendencias observadas continuarán en el futuro?

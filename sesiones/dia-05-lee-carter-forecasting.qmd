@@ -21,7 +21,7 @@ Introducción al forecasting de mortalidad, interpretación de los parámetros d
 
 ## Slides
 
-Disponible próximamente.
+[Diapositivas: introducción al método de Lee-Carter y su interpretación](../slides/dia-05-lee-carter-es.pdf)
 
 ## Lab
 
@@ -29,12 +29,27 @@ Disponible próximamente.
 
 ## Código
 
-El código se compartirá al final del curso.
+- [Código complementario en R](../practicals/dia-05/lee-carter/codigo-lee-carter-es.R)
+- [Funciones para construir tablas de vida](../practicals/dia-05/lee-carter/funciones-tabla-vida.R)
 
 ## Datos
 
-Disponible próximamente.
+[Datos de mortalidad de Inglaterra y Gales](../data/dia-05/lee-carter-data.RData)
+
+## Práctica
+
+[Práctica: modelación y proyección con Lee-Carter - HTML](../practicals/dia-05/lee-carter/dia-05-lee-carter-es.html) | [PDF](../practicals/dia-05/lee-carter/dia-05-lee-carter-es.pdf)
+
+## Paquetes necesarios
+
+- `fields`
+- `forecast`
+- `viridis`
 
 ## Lecturas recomendadas
 
-Disponible próximamente.
+- Lee, R. D. y Carter, L. R. (1992). Forecasting U.S. mortality.
+  *Journal of the American Statistical Association*, 87(419), 659-671.
+- Basellini, U., Camarda, C. G. y Booth, H. (2023). Thirty years on: A review
+  of the Lee-Carter method for forecasting mortality. *International Journal
+  of Forecasting*, 39(3), 1033-1049.

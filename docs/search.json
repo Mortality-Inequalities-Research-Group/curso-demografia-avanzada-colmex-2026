@@ -74,7 +74,7 @@
     "href": "sesiones/dia-05-lee-carter-forecasting.html",
     "title": "Día 5: Introducción al método de Lee-Carter y su interpretación",
     "section": "",
-    "text": "Introducción al forecasting de mortalidad, interpretación de los parámetros de Lee-Carter e implementación básica en R.\n\n\n\nSesión: Ana Cristina Gómez Ugarte Valerio\nTaller: Dr. José Manuel Aburto\n\n\n\n\n\nIntroducir el forecasting de mortalidad.\nComprender la estructura del modelo Lee-Carter.\nInterpretar los parámetros del modelo.\nImplementar una versión básica del método en R.\nDiscutir alcances, supuestos y límites de la proyección.\n\n\n\n\nDisponible próximamente.\n\n\n\nLab del día 5\n\n\n\nEl código se compartirá al final del curso.\n\n\n\nDisponible próximamente.\n\n\n\nDisponible próximamente."
+    "text": "Introducción al forecasting de mortalidad, interpretación de los parámetros de Lee-Carter e implementación básica en R.\n\n\n\nSesión: Ana Cristina Gómez Ugarte Valerio\nTaller: Dr. José Manuel Aburto\n\n\n\n\n\nIntroducir el forecasting de mortalidad.\nComprender la estructura del modelo Lee-Carter.\nInterpretar los parámetros del modelo.\nImplementar una versión básica del método en R.\nDiscutir alcances, supuestos y límites de la proyección.\n\n\n\n\nDiapositivas: introducción al método de Lee-Carter y su interpretación\n\n\n\nLab del día 5\n\n\n\n\nCódigo complementario en R\nFunciones para construir tablas de vida\n\n\n\n\nDatos de mortalidad de Inglaterra y Gales\n\n\n\nPráctica: modelación y proyección con Lee-Carter - HTML | PDF\n\n\n\n\nfields\nforecast\nviridis\n\n\n\n\n\nLee, R. D. y Carter, L. R. (1992). Forecasting U.S. mortality. Journal of the American Statistical Association, 87(419), 659-671.\nBasellini, U., Camarda, C. G. y Booth, H. (2023). Thirty years on: A review of the Lee-Carter method for forecasting mortality. International Journal of Forecasting, 39(3), 1033-1049."
   },
   {
     "objectID": "sesiones/dia-05-lee-carter-forecasting.html#docencia",
@@ -95,7 +95,7 @@
     "href": "sesiones/dia-05-lee-carter-forecasting.html#slides",
     "title": "Día 5: Introducción al método de Lee-Carter y su interpretación",
     "section": "",
-    "text": "Disponible próximamente."
+    "text": "Diapositivas: introducción al método de Lee-Carter y su interpretación"
   },
   {
     "objectID": "sesiones/dia-05-lee-carter-forecasting.html#lab",
@@ -109,21 +109,35 @@
     "href": "sesiones/dia-05-lee-carter-forecasting.html#código",
     "title": "Día 5: Introducción al método de Lee-Carter y su interpretación",
     "section": "",
-    "text": "El código se compartirá al final del curso."
+    "text": "Código complementario en R\nFunciones para construir tablas de vida"
   },
   {
     "objectID": "sesiones/dia-05-lee-carter-forecasting.html#datos",
     "href": "sesiones/dia-05-lee-carter-forecasting.html#datos",
     "title": "Día 5: Introducción al método de Lee-Carter y su interpretación",
     "section": "",
-    "text": "Disponible próximamente."
+    "text": "Datos de mortalidad de Inglaterra y Gales"
+  },
+  {
+    "objectID": "sesiones/dia-05-lee-carter-forecasting.html#práctica",
+    "href": "sesiones/dia-05-lee-carter-forecasting.html#práctica",
+    "title": "Día 5: Introducción al método de Lee-Carter y su interpretación",
+    "section": "",
+    "text": "Práctica: modelación y proyección con Lee-Carter - HTML | PDF"
+  },
+  {
+    "objectID": "sesiones/dia-05-lee-carter-forecasting.html#paquetes-necesarios",
+    "href": "sesiones/dia-05-lee-carter-forecasting.html#paquetes-necesarios",
+    "title": "Día 5: Introducción al método de Lee-Carter y su interpretación",
+    "section": "",
+    "text": "fields\nforecast\nviridis"
   },
   {
     "objectID": "sesiones/dia-05-lee-carter-forecasting.html#lecturas-recomendadas",
     "href": "sesiones/dia-05-lee-carter-forecasting.html#lecturas-recomendadas",
     "title": "Día 5: Introducción al método de Lee-Carter y su interpretación",
     "section": "",
-    "text": "Disponible próximamente."
+    "text": "Lee, R. D. y Carter, L. R. (1992). Forecasting U.S. mortality. Journal of the American Statistical Association, 87(419), 659-671.\nBasellini, U., Camarda, C. G. y Booth, H. (2023). Thirty years on: A review of the Lee-Carter method for forecasting mortality. International Journal of Forecasting, 39(3), 1033-1049."
   },
   {
     "objectID": "sesiones/dia-02-tablas-vida-esperanza-vida.html",
@@ -186,7 +200,7 @@
     "href": "index.html",
     "title": "Curso de demografía avanzada - Colmex 2026",
     "section": "",
-    "text": "Bienvenida al sitio del curso Técnicas avanzadas de demografía aplicada al estudio de la salud y la población.\nEste taller presencial de 15 horas se realizará en El Colegio de México del 27 al 31 de julio de 2026.\n\n\n\n\nAssociate Professor in Demography - Brass Blacker en el Department of Population Health, Faculty of Epidemiology and Population Health, London School of Hygiene & Tropical Medicine. Su investigación se especializa en demografía formal, desigualdades en longevidad y salud poblacional, con trabajo aplicado sobre mortalidad, violencia, COVID-19 y desigualdades en América Latina y otras regiones.\n\n\n\nDoctoral Student en el Laboratory of Population Dynamics and Sustainable Well-Being del Max Planck Institute for Demographic Research. Su trabajo se centra en la relación entre logro educativo y mortalidad, con investigaciones sobre desigualdades socioeconómicas en mortalidad, medición de desigualdades educativas y aplicaciones a México y otros contextos poblacionales.\n\n\n\n\nEl taller introduce herramientas avanzadas de análisis demográfico aplicadas al estudio de la salud y la población, con énfasis en técnicas de descomposición e introducción al forecasting. A lo largo de cinco sesiones, las y los participantes aprenderán a separar cambios y diferencias demográficas en componentes atribuibles a edad, estructura poblacional, mortalidad, fecundidad, prevalencias de salud y causas de muerte.\nEl curso combina fundamentos conceptuales, discusión metodológica y ejercicios prácticos en R, de modo que cada participante pueda implementar los métodos, producir resultados reproducibles e interpretarlos sustantivamente.\n\n\n\n\nFechas: 27 al 31 de julio de 2026\nDuración: 15 horas\nModalidad: presencial\nSede: El Colegio de México\nCupo: 15-20 personas\n\n\n\n\nEl curso está organizado en cinco sesiones. Cada sesión incluye:\n\nSlides\nLab\nDatos\nLecturas\n\nEl código se compartirá al final del curso para favorecer que las y los estudiantes trabajen los ejercicios directamente en R durante las sesiones.\n\n\n\n\nDía 1: diapositivas de descomposición de Kitagawa\nDía 1: diapositivas de años de vida perdidos\nDía 4: diapositivas de descomposición avanzada\nDía 4: práctica de Venezuela\nDía 4: práctica de México\n\n\n\n\n\nFundamentos de la descomposición demográfica\nModelación de la mortalidad y descomposición\nSalud, prevalencias y esperanza de vida saludable\nDescomposición avanzada y variación de la longevidad\nIntroducción al método de Lee-Carter y su interpretación"
+    "text": "Bienvenida al sitio del curso Técnicas avanzadas de demografía aplicada al estudio de la salud y la población.\nEste taller presencial de 15 horas se realizará en El Colegio de México del 27 al 31 de julio de 2026.\n\n\n\n\nAssociate Professor in Demography - Brass Blacker en el Department of Population Health, Faculty of Epidemiology and Population Health, London School of Hygiene & Tropical Medicine. Su investigación se especializa en demografía formal, desigualdades en longevidad y salud poblacional, con trabajo aplicado sobre mortalidad, violencia, COVID-19 y desigualdades en América Latina y otras regiones.\n\n\n\nDoctoral Student en el Laboratory of Population Dynamics and Sustainable Well-Being del Max Planck Institute for Demographic Research. Su trabajo se centra en la relación entre logro educativo y mortalidad, con investigaciones sobre desigualdades socioeconómicas en mortalidad, medición de desigualdades educativas y aplicaciones a México y otros contextos poblacionales.\n\n\n\n\nEl taller introduce herramientas avanzadas de análisis demográfico aplicadas al estudio de la salud y la población, con énfasis en técnicas de descomposición e introducción al forecasting. A lo largo de cinco sesiones, las y los participantes aprenderán a separar cambios y diferencias demográficas en componentes atribuibles a edad, estructura poblacional, mortalidad, fecundidad, prevalencias de salud y causas de muerte.\nEl curso combina fundamentos conceptuales, discusión metodológica y ejercicios prácticos en R, de modo que cada participante pueda implementar los métodos, producir resultados reproducibles e interpretarlos sustantivamente.\n\n\n\n\nFechas: 27 al 31 de julio de 2026\nDuración: 15 horas\nModalidad: presencial\nSede: El Colegio de México\nCupo: 15-20 personas\n\n\n\n\nEl curso está organizado en cinco sesiones. Cada sesión incluye:\n\nSlides\nLab\nDatos\nLecturas\n\nEl código se compartirá al final del curso para favorecer que las y los estudiantes trabajen los ejercicios directamente en R durante las sesiones.\n\n\n\n\nDía 1: diapositivas de descomposición de Kitagawa\nDía 1: diapositivas de años de vida perdidos\nDía 4: diapositivas de descomposición avanzada\nDía 4: práctica de Venezuela\nDía 4: práctica de México\nDía 5: diapositivas del método de Lee-Carter\nDía 5: práctica de modelación y proyección\n\n\n\n\n\nFundamentos de la descomposición demográfica\nModelación de la mortalidad y descomposición\nSalud, prevalencias y esperanza de vida saludable\nDescomposición avanzada y variación de la longevidad\nIntroducción al método de Lee-Carter y su interpretación"
   },
   {
     "objectID": "index.html#equipo-docente",
@@ -221,7 +235,7 @@
     "href": "index.html#materiales-destacados",
     "title": "Curso de demografía avanzada - Colmex 2026",
     "section": "",
-    "text": "Día 1: diapositivas de descomposición de Kitagawa\nDía 1: diapositivas de años de vida perdidos\nDía 4: diapositivas de descomposición avanzada\nDía 4: práctica de Venezuela\nDía 4: práctica de México"
+    "text": "Día 1: diapositivas de descomposición de Kitagawa\nDía 1: diapositivas de años de vida perdidos\nDía 4: diapositivas de descomposición avanzada\nDía 4: práctica de Venezuela\nDía 4: práctica de México\nDía 5: diapositivas del método de Lee-Carter\nDía 5: práctica de modelación y proyección"
   },
   {
     "objectID": "index.html#sesiones",
@@ -368,56 +382,63 @@
     "href": "labs/dia-05-lab.html",
     "title": "Lab día 5",
     "section": "",
-    "text": "Pendiente: objetivo del lab sobre Lee-Carter y forecasting de mortalidad.\n\n\n\nPendiente: lista de paquetes necesarios.\n\n\n\nPendiente: descripción de los datos de práctica.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: preguntas para discusión e interpretación."
+    "text": "Estimar e interpretar el modelo de Lee-Carter, ajustar el índice temporal para reproducir las defunciones observadas y generar proyecciones probabilísticas de las tasas de mortalidad y la esperanza de vida.\n\n\n\n\nDiapositivas del día 5\nPráctica de Lee-Carter - HTML | PDF\nDatos de mortalidad de Inglaterra y Gales\nFunciones para construir tablas de vida\nCódigo complementario en R\n\n\n\n\n\nfields\nforecast\nviridis\n\n\n\n\nEl archivo lee-carter-data.RData contiene las muertes observadas (Y), la población expuesta al riesgo (E) y las tasas de mortalidad en escala logarítmica (LMX) para Inglaterra y Gales. La práctica utiliza las observaciones desde 1970 y proyecta la mortalidad hasta 2040.\n\n\n\n\nEstimen el patrón promedio por edad, (_x).\nApliquen una descomposición en valores singulares para obtener (_x) y (_t).\nImpongan las restricciones de identificación e interpreten los parámetros.\n\n\n\n\n\nAjusten (_t) para reproducir el número observado de defunciones.\nReconstruyan las tasas ajustadas y la esperanza de vida.\nComparen la esperanza de vida observada y ajustada.\n\n\n\n\n\nModelen (_t) mediante una caminata aleatoria con deriva.\nGeneren 200 trayectorias futuras y sus intervalos de predicción.\nProyecten las tasas de mortalidad por edad y la esperanza de vida.\n\n\n\n\n\n¿Qué representa cada parámetro del modelo de Lee-Carter?\n¿Qué edades muestran un descenso más rápido de la mortalidad?\n¿Por qué se ajusta (_t) al número total de defunciones?\n¿Qué fuentes de incertidumbre capturan las simulaciones?\n¿Qué implica suponer que las tendencias observadas continuarán en el futuro?"
   },
   {
     "objectID": "labs/dia-05-lab.html#objetivo-del-lab",
     "href": "labs/dia-05-lab.html#objetivo-del-lab",
     "title": "Lab día 5",
     "section": "",
-    "text": "Pendiente: objetivo del lab sobre Lee-Carter y forecasting de mortalidad."
+    "text": "Estimar e interpretar el modelo de Lee-Carter, ajustar el índice temporal para reproducir las defunciones observadas y generar proyecciones probabilísticas de las tasas de mortalidad y la esperanza de vida."
+  },
+  {
+    "objectID": "labs/dia-05-lab.html#materiales",
+    "href": "labs/dia-05-lab.html#materiales",
+    "title": "Lab día 5",
+    "section": "",
+    "text": "Diapositivas del día 5\nPráctica de Lee-Carter - HTML | PDF\nDatos de mortalidad de Inglaterra y Gales\nFunciones para construir tablas de vida\nCódigo complementario en R"
   },
   {
     "objectID": "labs/dia-05-lab.html#paquetes-necesarios",
     "href": "labs/dia-05-lab.html#paquetes-necesarios",
     "title": "Lab día 5",
     "section": "",
-    "text": "Pendiente: lista de paquetes necesarios."
+    "text": "fields\nforecast\nviridis"
   },
   {
     "objectID": "labs/dia-05-lab.html#datos",
     "href": "labs/dia-05-lab.html#datos",
     "title": "Lab día 5",
     "section": "",
-    "text": "Pendiente: descripción de los datos de práctica."
+    "text": "El archivo lee-carter-data.RData contiene las muertes observadas (Y), la población expuesta al riesgo (E) y las tasas de mortalidad en escala logarítmica (LMX) para Inglaterra y Gales. La práctica utiliza las observaciones desde 1970 y proyecta la mortalidad hasta 2040."
   },
   {
-    "objectID": "labs/dia-05-lab.html#ejercicio-1",
-    "href": "labs/dia-05-lab.html#ejercicio-1",
+    "objectID": "labs/dia-05-lab.html#ejercicio-1-estimación-del-modelo",
+    "href": "labs/dia-05-lab.html#ejercicio-1-estimación-del-modelo",
     "title": "Lab día 5",
     "section": "",
-    "text": "Pendiente: instrucciones del ejercicio."
+    "text": "Estimen el patrón promedio por edad, (_x).\nApliquen una descomposición en valores singulares para obtener (_x) y (_t).\nImpongan las restricciones de identificación e interpreten los parámetros."
   },
   {
-    "objectID": "labs/dia-05-lab.html#ejercicio-2",
-    "href": "labs/dia-05-lab.html#ejercicio-2",
+    "objectID": "labs/dia-05-lab.html#ejercicio-2-ajuste-y-evaluación",
+    "href": "labs/dia-05-lab.html#ejercicio-2-ajuste-y-evaluación",
     "title": "Lab día 5",
     "section": "",
-    "text": "Pendiente: instrucciones del ejercicio."
+    "text": "Ajusten (_t) para reproducir el número observado de defunciones.\nReconstruyan las tasas ajustadas y la esperanza de vida.\nComparen la esperanza de vida observada y ajustada."
   },
   {
-    "objectID": "labs/dia-05-lab.html#ejercicio-3",
-    "href": "labs/dia-05-lab.html#ejercicio-3",
+    "objectID": "labs/dia-05-lab.html#ejercicio-3-proyección",
+    "href": "labs/dia-05-lab.html#ejercicio-3-proyección",
     "title": "Lab día 5",
     "section": "",
-    "text": "Pendiente: instrucciones del ejercicio."
+    "text": "Modelen (_t) mediante una caminata aleatoria con deriva.\nGeneren 200 trayectorias futuras y sus intervalos de predicción.\nProyecten las tasas de mortalidad por edad y la esperanza de vida."
   },
   {
     "objectID": "labs/dia-05-lab.html#preguntas-de-interpretación",
     "href": "labs/dia-05-lab.html#preguntas-de-interpretación",
     "title": "Lab día 5",
     "section": "",
-    "text": "Pendiente: preguntas para discusión e interpretación."
+    "text": "¿Qué representa cada parámetro del modelo de Lee-Carter?\n¿Qué edades muestran un descenso más rápido de la mortalidad?\n¿Por qué se ajusta (_t) al número total de defunciones?\n¿Qué fuentes de incertidumbre capturan las simulaciones?\n¿Qué implica suponer que las tendencias observadas continuarán en el futuro?"
   },
   {
     "objectID": "labs/dia-04-lab.html",

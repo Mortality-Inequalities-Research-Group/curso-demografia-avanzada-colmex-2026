@@ -158,11 +158,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#lab-día-5" id="toc-lab-día-5" class="nav-link active" data-scroll-target="#lab-día-5">Lab día 5</a>
   <ul class="collapse">
   <li><a href="#objetivo-del-lab" id="toc-objetivo-del-lab" class="nav-link" data-scroll-target="#objetivo-del-lab">Objetivo del lab</a></li>
+  <li><a href="#materiales" id="toc-materiales" class="nav-link" data-scroll-target="#materiales">Materiales</a></li>
   <li><a href="#paquetes-necesarios" id="toc-paquetes-necesarios" class="nav-link" data-scroll-target="#paquetes-necesarios">Paquetes necesarios</a></li>
   <li><a href="#datos" id="toc-datos" class="nav-link" data-scroll-target="#datos">Datos</a></li>
-  <li><a href="#ejercicio-1" id="toc-ejercicio-1" class="nav-link" data-scroll-target="#ejercicio-1">Ejercicio 1</a></li>
-  <li><a href="#ejercicio-2" id="toc-ejercicio-2" class="nav-link" data-scroll-target="#ejercicio-2">Ejercicio 2</a></li>
-  <li><a href="#ejercicio-3" id="toc-ejercicio-3" class="nav-link" data-scroll-target="#ejercicio-3">Ejercicio 3</a></li>
+  <li><a href="#ejercicio-1-estimación-del-modelo" id="toc-ejercicio-1-estimación-del-modelo" class="nav-link" data-scroll-target="#ejercicio-1-estimación-del-modelo">Ejercicio 1: estimación del modelo</a></li>
+  <li><a href="#ejercicio-2-ajuste-y-evaluación" id="toc-ejercicio-2-ajuste-y-evaluación" class="nav-link" data-scroll-target="#ejercicio-2-ajuste-y-evaluación">Ejercicio 2: ajuste y evaluación</a></li>
+  <li><a href="#ejercicio-3-proyección" id="toc-ejercicio-3-proyección" class="nav-link" data-scroll-target="#ejercicio-3-proyección">Ejercicio 3: proyección</a></li>
   <li><a href="#preguntas-de-interpretación" id="toc-preguntas-de-interpretación" class="nav-link" data-scroll-target="#preguntas-de-interpretación">Preguntas de interpretación</a></li>
   </ul></li>
   </ul>
@@ -194,31 +195,63 @@ ul.task-list li input[type="checkbox"] {
 <h1>Lab día 5</h1>
 <section id="objetivo-del-lab" class="level2">
 <h2 class="anchored" data-anchor-id="objetivo-del-lab">Objetivo del lab</h2>
-<p>Pendiente: objetivo del lab sobre Lee-Carter y forecasting de mortalidad.</p>
+<p>Estimar e interpretar el modelo de Lee-Carter, ajustar el índice temporal para reproducir las defunciones observadas y generar proyecciones probabilísticas de las tasas de mortalidad y la esperanza de vida.</p>
+</section>
+<section id="materiales" class="level2">
+<h2 class="anchored" data-anchor-id="materiales">Materiales</h2>
+<ul>
+<li><a href="../slides/dia-05-lee-carter-es.pdf">Diapositivas del día 5</a></li>
+<li><a href="../practicals/dia-05/lee-carter/dia-05-lee-carter-es.html">Práctica de Lee-Carter - HTML</a> | <a href="../practicals/dia-05/lee-carter/dia-05-lee-carter-es.pdf">PDF</a></li>
+<li><a href="../data/dia-05/lee-carter-data.RData">Datos de mortalidad de Inglaterra y Gales</a></li>
+<li><a href="../practicals/dia-05/lee-carter/funciones-tabla-vida.R">Funciones para construir tablas de vida</a></li>
+<li><a href="../practicals/dia-05/lee-carter/codigo-lee-carter-es.R">Código complementario en R</a></li>
+</ul>
 </section>
 <section id="paquetes-necesarios" class="level2">
 <h2 class="anchored" data-anchor-id="paquetes-necesarios">Paquetes necesarios</h2>
-<p>Pendiente: lista de paquetes necesarios.</p>
+<ul>
+<li><code>fields</code></li>
+<li><code>forecast</code></li>
+<li><code>viridis</code></li>
+</ul>
 </section>
 <section id="datos" class="level2">
 <h2 class="anchored" data-anchor-id="datos">Datos</h2>
-<p>Pendiente: descripción de los datos de práctica.</p>
+<p>El archivo <code>lee-carter-data.RData</code> contiene las muertes observadas (<code>Y</code>), la población expuesta al riesgo (<code>E</code>) y las tasas de mortalidad en escala logarítmica (<code>LMX</code>) para Inglaterra y Gales. La práctica utiliza las observaciones desde 1970 y proyecta la mortalidad hasta 2040.</p>
 </section>
-<section id="ejercicio-1" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicio-1">Ejercicio 1</h2>
-<p>Pendiente: instrucciones del ejercicio.</p>
+<section id="ejercicio-1-estimación-del-modelo" class="level2">
+<h2 class="anchored" data-anchor-id="ejercicio-1-estimación-del-modelo">Ejercicio 1: estimación del modelo</h2>
+<ul>
+<li>Estimen el patrón promedio por edad, (_x).</li>
+<li>Apliquen una descomposición en valores singulares para obtener (_x) y (_t).</li>
+<li>Impongan las restricciones de identificación e interpreten los parámetros.</li>
+</ul>
 </section>
-<section id="ejercicio-2" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicio-2">Ejercicio 2</h2>
-<p>Pendiente: instrucciones del ejercicio.</p>
+<section id="ejercicio-2-ajuste-y-evaluación" class="level2">
+<h2 class="anchored" data-anchor-id="ejercicio-2-ajuste-y-evaluación">Ejercicio 2: ajuste y evaluación</h2>
+<ul>
+<li>Ajusten (_t) para reproducir el número observado de defunciones.</li>
+<li>Reconstruyan las tasas ajustadas y la esperanza de vida.</li>
+<li>Comparen la esperanza de vida observada y ajustada.</li>
+</ul>
 </section>
-<section id="ejercicio-3" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicio-3">Ejercicio 3</h2>
-<p>Pendiente: instrucciones del ejercicio.</p>
+<section id="ejercicio-3-proyección" class="level2">
+<h2 class="anchored" data-anchor-id="ejercicio-3-proyección">Ejercicio 3: proyección</h2>
+<ul>
+<li>Modelen (_t) mediante una caminata aleatoria con deriva.</li>
+<li>Generen 200 trayectorias futuras y sus intervalos de predicción.</li>
+<li>Proyecten las tasas de mortalidad por edad y la esperanza de vida.</li>
+</ul>
 </section>
 <section id="preguntas-de-interpretación" class="level2">
 <h2 class="anchored" data-anchor-id="preguntas-de-interpretación">Preguntas de interpretación</h2>
-<p>Pendiente: preguntas para discusión e interpretación.</p>
+<ul>
+<li>¿Qué representa cada parámetro del modelo de Lee-Carter?</li>
+<li>¿Qué edades muestran un descenso más rápido de la mortalidad?</li>
+<li>¿Por qué se ajusta (_t) al número total de defunciones?</li>
+<li>¿Qué fuentes de incertidumbre capturan las simulaciones?</li>
+<li>¿Qué implica suponer que las tendencias observadas continuarán en el futuro?</li>
+</ul>
 
 
 </section>

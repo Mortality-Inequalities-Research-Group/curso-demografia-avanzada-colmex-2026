@@ -50,6 +50,8 @@ El código se compartirá al final del curso para favorecer que las y los estudi
 - [Día 4: diapositivas de descomposición avanzada](slides/dia-04-descomposicion-avanzada-es.pdf)
 - [Día 4: práctica de Venezuela](practicals/dia-04/descomposicion-venezuela/dia-04-descomposicion-venezuela-es.html)
 - [Día 4: práctica de México](practicals/dia-04/variacion-longevidad-mexico/dia-04-variacion-longevidad-mexico-es.html)
+- [Día 5: diapositivas del método de Lee-Carter](slides/dia-05-lee-carter-es.pdf)
+- [Día 5: práctica de modelación y proyección](practicals/dia-05/lee-carter/dia-05-lee-carter-es.html)
 
 ## Sesiones
 
