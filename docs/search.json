@@ -186,7 +186,7 @@
     "href": "index.html",
     "title": "Curso de demografía avanzada - Colmex 2026",
     "section": "",
-    "text": "Bienvenida al sitio del curso Técnicas avanzadas de demografía aplicada al estudio de la salud y la población.\nEste taller presencial de 15 horas se realizará en El Colegio de México del 27 al 31 de julio de 2026.\n\n\n\n\nAssociate Professor in Demography - Brass Blacker en el Department of Population Health, Faculty of Epidemiology and Population Health, London School of Hygiene & Tropical Medicine. Su investigación se especializa en demografía formal, desigualdades en longevidad y salud poblacional, con trabajo aplicado sobre mortalidad, violencia, COVID-19 y desigualdades en América Latina y otras regiones.\n\n\n\nDoctoral Student en el Laboratory of Population Dynamics and Sustainable Well-Being del Max Planck Institute for Demographic Research. Su trabajo se centra en la relación entre logro educativo y mortalidad, con investigaciones sobre desigualdades socioeconómicas en mortalidad, medición de desigualdades educativas y aplicaciones a México y otros contextos poblacionales.\n\n\n\n\nEl taller introduce herramientas avanzadas de análisis demográfico aplicadas al estudio de la salud y la población, con énfasis en técnicas de descomposición e introducción al forecasting. A lo largo de cinco sesiones, las y los participantes aprenderán a separar cambios y diferencias demográficas en componentes atribuibles a edad, estructura poblacional, mortalidad, fecundidad, prevalencias de salud y causas de muerte.\nEl curso combina fundamentos conceptuales, discusión metodológica y ejercicios prácticos en R, de modo que cada participante pueda implementar los métodos, producir resultados reproducibles e interpretarlos sustantivamente.\n\n\n\n\nFechas: 27 al 31 de julio de 2026\nDuración: 15 horas\nModalidad: presencial\nSede: El Colegio de México\nCupo: 15-20 personas\n\n\n\n\nEl curso está organizado en cinco sesiones. Cada sesión incluye:\n\nSlides\nLab\nDatos\nLecturas\n\nEl código se compartirá al final del curso para favorecer que las y los estudiantes trabajen los ejercicios directamente en R durante las sesiones.\n\n\n\n\nDía 1: diapositivas de descomposición de Kitagawa\nDía 1: diapositivas de años de vida perdidos\n\n\n\n\n\nFundamentos de la descomposición demográfica\nModelación de la mortalidad y descomposición\nSalud, prevalencias y esperanza de vida saludable\nMétodos avanzados, robustez e interpretación\nIntroducción al método de Lee-Carter y su interpretación"
+    "text": "Bienvenida al sitio del curso Técnicas avanzadas de demografía aplicada al estudio de la salud y la población.\nEste taller presencial de 15 horas se realizará en El Colegio de México del 27 al 31 de julio de 2026.\n\n\n\n\nAssociate Professor in Demography - Brass Blacker en el Department of Population Health, Faculty of Epidemiology and Population Health, London School of Hygiene & Tropical Medicine. Su investigación se especializa en demografía formal, desigualdades en longevidad y salud poblacional, con trabajo aplicado sobre mortalidad, violencia, COVID-19 y desigualdades en América Latina y otras regiones.\n\n\n\nDoctoral Student en el Laboratory of Population Dynamics and Sustainable Well-Being del Max Planck Institute for Demographic Research. Su trabajo se centra en la relación entre logro educativo y mortalidad, con investigaciones sobre desigualdades socioeconómicas en mortalidad, medición de desigualdades educativas y aplicaciones a México y otros contextos poblacionales.\n\n\n\n\nEl taller introduce herramientas avanzadas de análisis demográfico aplicadas al estudio de la salud y la población, con énfasis en técnicas de descomposición e introducción al forecasting. A lo largo de cinco sesiones, las y los participantes aprenderán a separar cambios y diferencias demográficas en componentes atribuibles a edad, estructura poblacional, mortalidad, fecundidad, prevalencias de salud y causas de muerte.\nEl curso combina fundamentos conceptuales, discusión metodológica y ejercicios prácticos en R, de modo que cada participante pueda implementar los métodos, producir resultados reproducibles e interpretarlos sustantivamente.\n\n\n\n\nFechas: 27 al 31 de julio de 2026\nDuración: 15 horas\nModalidad: presencial\nSede: El Colegio de México\nCupo: 15-20 personas\n\n\n\n\nEl curso está organizado en cinco sesiones. Cada sesión incluye:\n\nSlides\nLab\nDatos\nLecturas\n\nEl código se compartirá al final del curso para favorecer que las y los estudiantes trabajen los ejercicios directamente en R durante las sesiones.\n\n\n\n\nDía 1: diapositivas de descomposición de Kitagawa\nDía 1: diapositivas de años de vida perdidos\nDía 4: diapositivas de descomposición avanzada\nDía 4: práctica de Venezuela\nDía 4: práctica de México\n\n\n\n\n\nFundamentos de la descomposición demográfica\nModelación de la mortalidad y descomposición\nSalud, prevalencias y esperanza de vida saludable\nDescomposición avanzada y variación de la longevidad\nIntroducción al método de Lee-Carter y su interpretación"
   },
   {
     "objectID": "index.html#equipo-docente",
@@ -221,28 +221,28 @@
     "href": "index.html#materiales-destacados",
     "title": "Curso de demografía avanzada - Colmex 2026",
     "section": "",
-    "text": "Día 1: diapositivas de descomposición de Kitagawa\nDía 1: diapositivas de años de vida perdidos"
+    "text": "Día 1: diapositivas de descomposición de Kitagawa\nDía 1: diapositivas de años de vida perdidos\nDía 4: diapositivas de descomposición avanzada\nDía 4: práctica de Venezuela\nDía 4: práctica de México"
   },
   {
     "objectID": "index.html#sesiones",
     "href": "index.html#sesiones",
     "title": "Curso de demografía avanzada - Colmex 2026",
     "section": "",
-    "text": "Fundamentos de la descomposición demográfica\nModelación de la mortalidad y descomposición\nSalud, prevalencias y esperanza de vida saludable\nMétodos avanzados, robustez e interpretación\nIntroducción al método de Lee-Carter y su interpretación"
+    "text": "Fundamentos de la descomposición demográfica\nModelación de la mortalidad y descomposición\nSalud, prevalencias y esperanza de vida saludable\nDescomposición avanzada y variación de la longevidad\nIntroducción al método de Lee-Carter y su interpretación"
   },
   {
     "objectID": "bibliografia.html",
     "href": "bibliografia.html",
     "title": "Bibliografía",
     "section": "",
-    "text": "Esta página reúne las referencias generales del curso. Las lecturas específicas de cada sesión se indicarán en las páginas correspondientes.\n\n\n\nDía 1: lecturas sobre descomposición demográfica.\nDía 2: lecturas sobre tablas de vida y esperanza de vida.\nDía 3: lecturas sobre el método de Sullivan y esperanza de vida saludable.\nDía 4: lecturas sobre métodos avanzados, robustez e interpretación.\nDía 5: lecturas sobre Lee-Carter y forecasting de mortalidad.\n\n\n\n\n\nAburto, José Manuel, and Hiram Beltrán-Sánchez. 2019. “Upsurge of Homicides and Its Impact on Life Expectancy and Life Span Inequality in Mexico, 2005-2015.” American Journal of Public Health 109(3): 483-489.\nAburto, José Manuel, Francisco Villavicencio, Ugofilippo Basellini, Søren Kjærgaard, and James W. Vaupel. 2020. “Dynamics of Life Expectancy and Life Span Equality.” Proceedings of the National Academy of Sciences 117(10): 5250-5259.\nArriaga, Eduardo E. 1984. “Measuring and Explaining the Change in Life Expectancies.” Demography 21(1): 83-96.\nBasellini, U., Camarda, C. G., & Booth, H. 2023. “Thirty Years On: A Review of the Lee-Carter Method for Forecasting Mortality.” International Journal of Forecasting 39(3): 1033-1049. https://doi.org/10.1016/j.ijforecast.2022.11.002\nBooth, H. 2006. “Demographic Forecasting: 1980 to 2005 in Review.” International Journal of Forecasting 22(3): 547-581. https://doi.org/10.1016/j.ijforecast.2006.04.001\nHoriuchi, Shiro, John R. Wilmoth, and Scott D. Pletcher. 2008. “A Decomposition Method Based on a Model of Continuous Change.” Demography 45(4): 785-801.\nKeyfitz, Nathan. 1977. “What Difference Would It Make If Cancer Were Eradicated? An Examination of the Taeuber Paradox.” Demography 14(4): 411-418.\nKitagawa, Evelyn M. 1955. “Components of a Difference Between Two Rates.” Journal of the American Statistical Association 50(272): 1168-1194.\nLee, R. D., & Carter, L. R. 1992. “Forecasting U.S. Mortality.” Journal of the American Statistical Association 87(419): 659-671. https://doi.org/10.1080/01621459.1992.10475265\nPreston, Samuel H., Patrick Heuveline, and Michel Guillot. 2001. Demography: Measuring and Modeling Population Processes. Malden, MA: Blackwell Publishers.\nSullivan, D. F. 1971. “A Single Index of Mortality and Morbidity.” HSMHA Health Reports 86(4): 347-354.\nVaupel, James W., and Vladimir Canudas-Romo. 2002. “Decomposing Demographic Change into Direct vs. Compositional Components.” Demographic Research 7(1): 1-14.\nVaupel, James W., and Vladimir Canudas-Romo. 2003. “Decomposing Change in Life Expectancy: A Bouquet of Formulas in Honor of Nathan Keyfitz’s 90th Birthday.” Demography 40(2): 201-216.\nvan Raalte, Alyson A., and Marília R. Nepomuceno. 2020. “Decomposing Gaps in Healthy Life Expectancy.” In International Handbook of Health Expectancies, edited by Carol Jagger et al., 107-122. Cham: Springer.\nYang, Yang. 2008. “Long and Happy Living: Trends and Patterns of Happy Life Expectancy in the U.S., 1970-2000.” Social Science Research 37(4): 1235-1252."
+    "text": "Esta página reúne las referencias generales del curso. Las lecturas específicas de cada sesión se indicarán en las páginas correspondientes.\n\n\n\nDía 1: lecturas sobre descomposición demográfica.\nDía 2: lecturas sobre tablas de vida y esperanza de vida.\nDía 3: lecturas sobre el método de Sullivan y esperanza de vida saludable.\nDía 4: lecturas sobre descomposición integral lineal y variación de la longevidad.\nDía 5: lecturas sobre Lee-Carter y forecasting de mortalidad.\n\n\n\n\n\nAburto, José Manuel, and Hiram Beltrán-Sánchez. 2019. “Upsurge of Homicides and Its Impact on Life Expectancy and Life Span Inequality in Mexico, 2005-2015.” American Journal of Public Health 109(3): 483-489.\nAburto, José Manuel, Francisco Villavicencio, Ugofilippo Basellini, Søren Kjærgaard, and James W. Vaupel. 2020. “Dynamics of Life Expectancy and Life Span Equality.” Proceedings of the National Academy of Sciences 117(10): 5250-5259.\nArriaga, Eduardo E. 1984. “Measuring and Explaining the Change in Life Expectancies.” Demography 21(1): 83-96.\nBasellini, U., Camarda, C. G., & Booth, H. 2023. “Thirty Years On: A Review of the Lee-Carter Method for Forecasting Mortality.” International Journal of Forecasting 39(3): 1033-1049. https://doi.org/10.1016/j.ijforecast.2022.11.002\nBooth, H. 2006. “Demographic Forecasting: 1980 to 2005 in Review.” International Journal of Forecasting 22(3): 547-581. https://doi.org/10.1016/j.ijforecast.2006.04.001\nHoriuchi, Shiro, John R. Wilmoth, and Scott D. Pletcher. 2008. “A Decomposition Method Based on a Model of Continuous Change.” Demography 45(4): 785-801.\nKeyfitz, Nathan. 1977. “What Difference Would It Make If Cancer Were Eradicated? An Examination of the Taeuber Paradox.” Demography 14(4): 411-418.\nKitagawa, Evelyn M. 1955. “Components of a Difference Between Two Rates.” Journal of the American Statistical Association 50(272): 1168-1194.\nLee, R. D., & Carter, L. R. 1992. “Forecasting U.S. Mortality.” Journal of the American Statistical Association 87(419): 659-671. https://doi.org/10.1080/01621459.1992.10475265\nPreston, Samuel H., Patrick Heuveline, and Michel Guillot. 2001. Demography: Measuring and Modeling Population Processes. Malden, MA: Blackwell Publishers.\nSullivan, D. F. 1971. “A Single Index of Mortality and Morbidity.” HSMHA Health Reports 86(4): 347-354.\nVaupel, James W., and Vladimir Canudas-Romo. 2002. “Decomposing Demographic Change into Direct vs. Compositional Components.” Demographic Research 7(1): 1-14.\nVaupel, James W., and Vladimir Canudas-Romo. 2003. “Decomposing Change in Life Expectancy: A Bouquet of Formulas in Honor of Nathan Keyfitz’s 90th Birthday.” Demography 40(2): 201-216.\nvan Raalte, Alyson A., and Marília R. Nepomuceno. 2020. “Decomposing Gaps in Healthy Life Expectancy.” In International Handbook of Health Expectancies, edited by Carol Jagger et al., 107-122. Cham: Springer.\nYang, Yang. 2008. “Long and Happy Living: Trends and Patterns of Happy Life Expectancy in the U.S., 1970-2000.” Social Science Research 37(4): 1235-1252."
   },
   {
     "objectID": "bibliografia.html#lecturas-por-sesión",
     "href": "bibliografia.html#lecturas-por-sesión",
     "title": "Bibliografía",
     "section": "",
-    "text": "Día 1: lecturas sobre descomposición demográfica.\nDía 2: lecturas sobre tablas de vida y esperanza de vida.\nDía 3: lecturas sobre el método de Sullivan y esperanza de vida saludable.\nDía 4: lecturas sobre métodos avanzados, robustez e interpretación.\nDía 5: lecturas sobre Lee-Carter y forecasting de mortalidad."
+    "text": "Día 1: lecturas sobre descomposición demográfica.\nDía 2: lecturas sobre tablas de vida y esperanza de vida.\nDía 3: lecturas sobre el método de Sullivan y esperanza de vida saludable.\nDía 4: lecturas sobre descomposición integral lineal y variación de la longevidad.\nDía 5: lecturas sobre Lee-Carter y forecasting de mortalidad."
   },
   {
     "objectID": "bibliografia.html#referencias",
@@ -424,56 +424,56 @@
     "href": "labs/dia-04-lab.html",
     "title": "Lab día 4",
     "section": "",
-    "text": "Pendiente: objetivo del lab sobre métodos avanzados, robustez e interpretación.\n\n\n\nPendiente: lista de paquetes necesarios.\n\n\n\nPendiente: descripción de los datos de práctica.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: instrucciones del ejercicio.\n\n\n\nPendiente: preguntas para discusión e interpretación."
+    "text": "Aplicar métodos avanzados de descomposición para identificar contribuciones por edad y causa de muerte a los cambios en la esperanza de vida y en la variación de la longevidad.\n\n\n\n\nDiapositivas del día 4\nPráctica de Venezuela - HTML | PDF\nDatos de Venezuela\nFunciones para Venezuela\nPráctica de México - HTML | PDF\nDatos de México\nFunciones para México\n\n\n\n\n\nDemoDecomp\nggplot2\ntidyr\ntidyverse\n\n\n\n\n\n\n\n\n\n\n\nBloque\nActividad\n\n\n\n\nClase teórica\nEliminación de causas y variación de la longevidad\n\n\nPráctica 1\nDescomposición de la esperanza de vida en Venezuela\n\n\nInterpretación\nContribuciones por edad y causa de muerte\n\n\nClase aplicada\nMétodo integral lineal y reemplazo por pasos\n\n\nPráctica 2\nDescomposición de la disparidad de la longevidad en México\n\n\n\n\n\n\nLa primera práctica aplica el método integral lineal de Horiuchi a la esperanza de vida de los hombres de Venezuela entre 1996 y 2013. El análisis comienza con una descomposición por edad y se extiende a contribuciones conjuntas por edad y causa de muerte.\nPreguntas guía:\n\n¿Qué edades explican la mayor parte del cambio en la esperanza de vida?\n¿Qué combinación de edad y causa presenta la mayor contribución negativa?\n¿Qué papel tienen los homicidios y otras causas violentas?\n¿La suma de las contribuciones reproduce la diferencia observada?\n\n\n\n\nLa segunda práctica descompone el cambio en la disparidad de la duración de la vida de los hombres de México entre 2005 y 2015. Se comparan el método integral lineal y el reemplazo por pasos, y se extiende el análisis por causa de muerte.\nPreguntas guía:\n\n¿Qué edades contribuyen a aumentar o reducir la disparidad?\n¿Las diferencias entre métodos cambian la interpretación sustantiva?\n¿Qué causas explican el cambio en la variación de la longevidad?\n¿Cómo cambian los resultados al agregar las edades en grupos quinquenales?\n\n\n\n\nComparen conjuntamente los cambios en esperanza de vida y variación de la longevidad. Expliquen por qué una mejora en la esperanza de vida puede coincidir con un aumento o una reducción de la desigualdad en las edades a la muerte."
   },
   {
     "objectID": "labs/dia-04-lab.html#objetivo-del-lab",
     "href": "labs/dia-04-lab.html#objetivo-del-lab",
     "title": "Lab día 4",
     "section": "",
-    "text": "Pendiente: objetivo del lab sobre métodos avanzados, robustez e interpretación."
+    "text": "Aplicar métodos avanzados de descomposición para identificar contribuciones por edad y causa de muerte a los cambios en la esperanza de vida y en la variación de la longevidad."
+  },
+  {
+    "objectID": "labs/dia-04-lab.html#materiales",
+    "href": "labs/dia-04-lab.html#materiales",
+    "title": "Lab día 4",
+    "section": "",
+    "text": "Diapositivas del día 4\nPráctica de Venezuela - HTML | PDF\nDatos de Venezuela\nFunciones para Venezuela\nPráctica de México - HTML | PDF\nDatos de México\nFunciones para México"
   },
   {
     "objectID": "labs/dia-04-lab.html#paquetes-necesarios",
     "href": "labs/dia-04-lab.html#paquetes-necesarios",
     "title": "Lab día 4",
     "section": "",
-    "text": "Pendiente: lista de paquetes necesarios."
+    "text": "DemoDecomp\nggplot2\ntidyr\ntidyverse"
   },
   {
-    "objectID": "labs/dia-04-lab.html#datos",
-    "href": "labs/dia-04-lab.html#datos",
+    "objectID": "labs/dia-04-lab.html#estructura-sugerida",
+    "href": "labs/dia-04-lab.html#estructura-sugerida",
     "title": "Lab día 4",
     "section": "",
-    "text": "Pendiente: descripción de los datos de práctica."
+    "text": "Bloque\nActividad\n\n\n\n\nClase teórica\nEliminación de causas y variación de la longevidad\n\n\nPráctica 1\nDescomposición de la esperanza de vida en Venezuela\n\n\nInterpretación\nContribuciones por edad y causa de muerte\n\n\nClase aplicada\nMétodo integral lineal y reemplazo por pasos\n\n\nPráctica 2\nDescomposición de la disparidad de la longevidad en México"
   },
   {
-    "objectID": "labs/dia-04-lab.html#ejercicio-1",
-    "href": "labs/dia-04-lab.html#ejercicio-1",
+    "objectID": "labs/dia-04-lab.html#práctica-1-esperanza-de-vida-en-venezuela",
+    "href": "labs/dia-04-lab.html#práctica-1-esperanza-de-vida-en-venezuela",
     "title": "Lab día 4",
     "section": "",
-    "text": "Pendiente: instrucciones del ejercicio."
+    "text": "La primera práctica aplica el método integral lineal de Horiuchi a la esperanza de vida de los hombres de Venezuela entre 1996 y 2013. El análisis comienza con una descomposición por edad y se extiende a contribuciones conjuntas por edad y causa de muerte.\nPreguntas guía:\n\n¿Qué edades explican la mayor parte del cambio en la esperanza de vida?\n¿Qué combinación de edad y causa presenta la mayor contribución negativa?\n¿Qué papel tienen los homicidios y otras causas violentas?\n¿La suma de las contribuciones reproduce la diferencia observada?"
   },
   {
-    "objectID": "labs/dia-04-lab.html#ejercicio-2",
-    "href": "labs/dia-04-lab.html#ejercicio-2",
+    "objectID": "labs/dia-04-lab.html#práctica-2-variación-de-la-longevidad-en-méxico",
+    "href": "labs/dia-04-lab.html#práctica-2-variación-de-la-longevidad-en-méxico",
     "title": "Lab día 4",
     "section": "",
-    "text": "Pendiente: instrucciones del ejercicio."
+    "text": "La segunda práctica descompone el cambio en la disparidad de la duración de la vida de los hombres de México entre 2005 y 2015. Se comparan el método integral lineal y el reemplazo por pasos, y se extiende el análisis por causa de muerte.\nPreguntas guía:\n\n¿Qué edades contribuyen a aumentar o reducir la disparidad?\n¿Las diferencias entre métodos cambian la interpretación sustantiva?\n¿Qué causas explican el cambio en la variación de la longevidad?\n¿Cómo cambian los resultados al agregar las edades en grupos quinquenales?"
   },
   {
-    "objectID": "labs/dia-04-lab.html#ejercicio-3",
-    "href": "labs/dia-04-lab.html#ejercicio-3",
+    "objectID": "labs/dia-04-lab.html#extensión",
+    "href": "labs/dia-04-lab.html#extensión",
     "title": "Lab día 4",
     "section": "",
-    "text": "Pendiente: instrucciones del ejercicio."
-  },
-  {
-    "objectID": "labs/dia-04-lab.html#preguntas-de-interpretación",
-    "href": "labs/dia-04-lab.html#preguntas-de-interpretación",
-    "title": "Lab día 4",
-    "section": "",
-    "text": "Pendiente: preguntas para discusión e interpretación."
+    "text": "Comparen conjuntamente los cambios en esperanza de vida y variación de la longevidad. Expliquen por qué una mejora en la esperanza de vida puede coincidir con un aumento o una reducción de la desigualdad en las edades a la muerte."
   },
   {
     "objectID": "labs/dia-03-lab.html",
@@ -571,7 +571,7 @@
     "href": "programa.html",
     "title": "Programa",
     "section": "",
-    "text": "Este taller introduce herramientas avanzadas de análisis demográfico aplicadas al estudio de la salud y la población, con énfasis en técnicas de descomposición e introducción al forecasting. A lo largo de cinco sesiones, las y los participantes aprenderán a separar cambios y diferencias demográficas en componentes atribuibles a edad, estructura poblacional, mortalidad, fecundidad, prevalencias de salud y causas de muerte.\nEl curso combina fundamentos conceptuales, discusión metodológica y ejercicios prácticos en R, de modo que cada participante pueda implementar los métodos, producir resultados reproducibles e interpretarlos sustantivamente. Se trabajará con aplicaciones a fecundidad, esperanza de vida, esperanza de vida saludable, causas de muerte y desigualdad en la duración de la vida.\nEl taller es presencial y tiene una duración total de 15 horas, distribuidas en cinco sesiones del 27 al 31 de julio de 2026 en El Colegio de México.\n\n\n\n\n\nAssociate Professor in Demography - Brass Blacker en el Department of Population Health, Faculty of Epidemiology and Population Health, London School of Hygiene & Tropical Medicine. Su investigación se especializa en demografía formal, desigualdades en longevidad y salud poblacional, con trabajo aplicado sobre mortalidad, violencia, COVID-19 y desigualdades en América Latina y otras regiones.\n\n\n\nDoctoral Student en el Laboratory of Population Dynamics and Sustainable Well-Being del Max Planck Institute for Demographic Research. Su trabajo se centra en la relación entre logro educativo y mortalidad, con investigaciones sobre desigualdades socioeconómicas en mortalidad, medición de desigualdades educativas y aplicaciones a México y otros contextos poblacionales.\n\n\n\n\nProporcionar a las y los participantes una base conceptual y práctica para aplicar técnicas de descomposición en demografía y salud poblacional, con énfasis en la implementación computacional, la interpretación sustantiva y la comunicación clara de resultados.\n\n\n\n\nDistinguir entre cambios temporales, diferencias entre poblaciones y contrastes contrafactuales en demografía.\nAplicar la descomposición de Kitagawa para separar efectos de tasas específicas y estructura poblacional.\nConstruir e interpretar tablas de vida y descomponer cambios en esperanza de vida por edad.\nCalcular esperanza de vida saludable mediante el método de Sullivan y descomponer brechas asociadas a mortalidad y prevalencias.\nAnalizar cambios por edad y causa de muerte, incluyendo ejercicios con tablas de vida de causa eliminada y riesgos competitivos.\nAplicar métodos stepwise y de descomposición lineal integral, evaluando la sensibilidad de los resultados al orden de reemplazo.\nElaborar gráficos, tablas e interpretaciones reproducibles en R.\n\n\n\n\nCada sesión combina exposición conceptual, discusión metodológica y trabajo aplicado en laboratorio.\n\n\n\nDía\nTema\nDocencia\nMateriales\n\n\n\n\n1\nFundamentos de la descomposición demográfica\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n2\nModelación de la mortalidad y descomposición\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n3\nSalud, prevalencias y esperanza de vida saludable\nAna Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto\nSesión\n\n\n4\nMétodos avanzados, robustez e interpretación\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n5\nIntroducción al método de Lee-Carter y su interpretación\nAna Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto\nSesión"
+    "text": "Este taller introduce herramientas avanzadas de análisis demográfico aplicadas al estudio de la salud y la población, con énfasis en técnicas de descomposición e introducción al forecasting. A lo largo de cinco sesiones, las y los participantes aprenderán a separar cambios y diferencias demográficas en componentes atribuibles a edad, estructura poblacional, mortalidad, fecundidad, prevalencias de salud y causas de muerte.\nEl curso combina fundamentos conceptuales, discusión metodológica y ejercicios prácticos en R, de modo que cada participante pueda implementar los métodos, producir resultados reproducibles e interpretarlos sustantivamente. Se trabajará con aplicaciones a fecundidad, esperanza de vida, esperanza de vida saludable, causas de muerte y desigualdad en la duración de la vida.\nEl taller es presencial y tiene una duración total de 15 horas, distribuidas en cinco sesiones del 27 al 31 de julio de 2026 en El Colegio de México.\n\n\n\n\n\nAssociate Professor in Demography - Brass Blacker en el Department of Population Health, Faculty of Epidemiology and Population Health, London School of Hygiene & Tropical Medicine. Su investigación se especializa en demografía formal, desigualdades en longevidad y salud poblacional, con trabajo aplicado sobre mortalidad, violencia, COVID-19 y desigualdades en América Latina y otras regiones.\n\n\n\nDoctoral Student en el Laboratory of Population Dynamics and Sustainable Well-Being del Max Planck Institute for Demographic Research. Su trabajo se centra en la relación entre logro educativo y mortalidad, con investigaciones sobre desigualdades socioeconómicas en mortalidad, medición de desigualdades educativas y aplicaciones a México y otros contextos poblacionales.\n\n\n\n\nProporcionar a las y los participantes una base conceptual y práctica para aplicar técnicas de descomposición en demografía y salud poblacional, con énfasis en la implementación computacional, la interpretación sustantiva y la comunicación clara de resultados.\n\n\n\n\nDistinguir entre cambios temporales, diferencias entre poblaciones y contrastes contrafactuales en demografía.\nAplicar la descomposición de Kitagawa para separar efectos de tasas específicas y estructura poblacional.\nConstruir e interpretar tablas de vida y descomponer cambios en esperanza de vida por edad.\nCalcular esperanza de vida saludable mediante el método de Sullivan y descomponer brechas asociadas a mortalidad y prevalencias.\nAnalizar cambios por edad y causa de muerte, incluyendo ejercicios con tablas de vida de causa eliminada y riesgos competitivos.\nAplicar métodos stepwise y de descomposición lineal integral, evaluando la sensibilidad de los resultados al orden de reemplazo.\nElaborar gráficos, tablas e interpretaciones reproducibles en R.\n\n\n\n\nCada sesión combina exposición conceptual, discusión metodológica y trabajo aplicado en laboratorio.\n\n\n\nDía\nTema\nDocencia\nMateriales\n\n\n\n\n1\nFundamentos de la descomposición demográfica\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n2\nModelación de la mortalidad y descomposición\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n3\nSalud, prevalencias y esperanza de vida saludable\nAna Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto\nSesión\n\n\n4\nDescomposición avanzada y variación de la longevidad\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n5\nIntroducción al método de Lee-Carter y su interpretación\nAna Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto\nSesión"
   },
   {
     "objectID": "programa.html#descripción",
@@ -606,14 +606,14 @@
     "href": "programa.html#organización",
     "title": "Programa",
     "section": "",
-    "text": "Cada sesión combina exposición conceptual, discusión metodológica y trabajo aplicado en laboratorio.\n\n\n\nDía\nTema\nDocencia\nMateriales\n\n\n\n\n1\nFundamentos de la descomposición demográfica\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n2\nModelación de la mortalidad y descomposición\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n3\nSalud, prevalencias y esperanza de vida saludable\nAna Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto\nSesión\n\n\n4\nMétodos avanzados, robustez e interpretación\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n5\nIntroducción al método de Lee-Carter y su interpretación\nAna Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto\nSesión"
+    "text": "Cada sesión combina exposición conceptual, discusión metodológica y trabajo aplicado en laboratorio.\n\n\n\nDía\nTema\nDocencia\nMateriales\n\n\n\n\n1\nFundamentos de la descomposición demográfica\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n2\nModelación de la mortalidad y descomposición\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n3\nSalud, prevalencias y esperanza de vida saludable\nAna Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto\nSesión\n\n\n4\nDescomposición avanzada y variación de la longevidad\nJosé Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio\nSesión\n\n\n5\nIntroducción al método de Lee-Carter y su interpretación\nAna Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto\nSesión"
   },
   {
     "objectID": "calendario.html",
     "href": "calendario.html",
     "title": "Calendario",
     "section": "",
-    "text": "El taller se realizará del lunes 27 al viernes 31 de julio de 2026.\n\n\n\nFecha\nSesión\nTema\n\n\n\n\n27 de julio de 2026\nDía 1\nFundamentos de la descomposición demográfica\n\n\n28 de julio de 2026\nDía 2\nModelación de la mortalidad y descomposición\n\n\n29 de julio de 2026\nDía 3\nSalud, prevalencias y esperanza de vida saludable\n\n\n30 de julio de 2026\nDía 4\nMétodos avanzados, robustez e interpretación\n\n\n31 de julio de 2026\nDía 5\nIntroducción al método de Lee-Carter y su interpretación\n\n\n\n\n\nCurso presencial de 15 horas en El Colegio de México."
+    "text": "El taller se realizará del lunes 27 al viernes 31 de julio de 2026.\n\n\n\nFecha\nSesión\nTema\n\n\n\n\n27 de julio de 2026\nDía 1\nFundamentos de la descomposición demográfica\n\n\n28 de julio de 2026\nDía 2\nModelación de la mortalidad y descomposición\n\n\n29 de julio de 2026\nDía 3\nSalud, prevalencias y esperanza de vida saludable\n\n\n30 de julio de 2026\nDía 4\nDescomposición avanzada y variación de la longevidad\n\n\n31 de julio de 2026\nDía 5\nIntroducción al método de Lee-Carter y su interpretación\n\n\n\n\n\nCurso presencial de 15 horas en El Colegio de México."
   },
   {
     "objectID": "calendario.html#formato",
@@ -681,58 +681,72 @@
   {
     "objectID": "sesiones/dia-04-metodos-avanzados-robustez.html",
     "href": "sesiones/dia-04-metodos-avanzados-robustez.html",
-    "title": "Día 4: Métodos avanzados, robustez e interpretación",
+    "title": "Día 4: Descomposición avanzada y variación de la longevidad",
     "section": "",
-    "text": "Descomposición lineal integral, dependencia del orden de reemplazo, ejercicios de sensibilidad e interpretación de resultados.\n\n\n\nSesión: Dr. José Manuel Aburto\nTaller: Ana Cristina Gómez Ugarte Valerio\n\n\n\n\n\nIntroducir la descomposición lineal integral.\nEvaluar la dependencia del orden de reemplazo.\nDiseñar ejercicios de sensibilidad.\nComparar resultados entre métodos de descomposición.\nFortalecer la interpretación sustantiva de los resultados.\n\n\n\n\nDisponible próximamente.\n\n\n\nLab del día 4\n\n\n\nEl código se compartirá al final del curso.\n\n\n\nDisponible próximamente.\n\n\n\nDisponible próximamente."
+    "text": "Tablas de vida con eliminación de causas, medidas de variación de las edades a la muerte, descomposición integral lineal y comparación con el método de reemplazo por pasos.\n\n\n\nSesión: Dr. José Manuel Aburto\nTaller: Ana Cristina Gómez Ugarte Valerio\n\n\n\n\n\nComprender la lógica de las tablas de vida con eliminación de causas.\nComparar indicadores de variación de la longevidad, como (e^), la desviación estándar y el coeficiente de Gini.\nAplicar el método integral lineal de Horiuchi.\nDescomponer cambios demográficos por edad y causa de muerte.\nComparar la descomposición integral lineal con el reemplazo por pasos.\n\n\n\n\nDiapositivas: descomposición avanzada y variación de la longevidad\n\n\n\nLab del día 4\n\n\n\n\nDescomposición de la esperanza de vida en Venezuela - HTML | PDF\nVariación de la longevidad en México - HTML | PDF\n\n\n\n\n\n\n\nDatos de mortalidad por edad y causa\nFunciones para la descomposición de Venezuela\n\n\n\n\n\nDatos de mortalidad por edad y causa\nFunciones para la variación de la longevidad\n\n\n\n\n\n\nDemoDecomp\nggplot2\ntidyr\ntidyverse\n\n\n\n\nEl código completo está incluido en las versiones HTML. Descarguen también el archivo de datos y el archivo de funciones correspondiente, conservando los nombres originales.\n\n\n\n\nHoriuchi, S., Wilmoth, J. R. y Pletcher, S. D. (2008). A decomposition method based on a model of continuous change. Demography, 45(4), 785-801.\nAndreev, E. M., Shkolnikov, V. M. y Begun, A. Z. (2002). Algorithm for decomposition of differences between aggregate demographic measures and its application to life expectancies, healthy life expectancies, parity-progression ratios and total fertility rates. Demographic Research, 7, 499-522.\nvan Raalte, A. A. y Caswell, H. (2013). Perturbation analysis of indices of lifespan variability. Demography, 50, 1615-1640."
   },
   {
     "objectID": "sesiones/dia-04-metodos-avanzados-robustez.html#docencia",
     "href": "sesiones/dia-04-metodos-avanzados-robustez.html#docencia",
-    "title": "Día 4: Métodos avanzados, robustez e interpretación",
+    "title": "Día 4: Descomposición avanzada y variación de la longevidad",
     "section": "",
     "text": "Sesión: Dr. José Manuel Aburto\nTaller: Ana Cristina Gómez Ugarte Valerio"
   },
   {
     "objectID": "sesiones/dia-04-metodos-avanzados-robustez.html#objetivos-de-la-sesión",
     "href": "sesiones/dia-04-metodos-avanzados-robustez.html#objetivos-de-la-sesión",
-    "title": "Día 4: Métodos avanzados, robustez e interpretación",
+    "title": "Día 4: Descomposición avanzada y variación de la longevidad",
     "section": "",
-    "text": "Introducir la descomposición lineal integral.\nEvaluar la dependencia del orden de reemplazo.\nDiseñar ejercicios de sensibilidad.\nComparar resultados entre métodos de descomposición.\nFortalecer la interpretación sustantiva de los resultados."
+    "text": "Comprender la lógica de las tablas de vida con eliminación de causas.\nComparar indicadores de variación de la longevidad, como (e^), la desviación estándar y el coeficiente de Gini.\nAplicar el método integral lineal de Horiuchi.\nDescomponer cambios demográficos por edad y causa de muerte.\nComparar la descomposición integral lineal con el reemplazo por pasos."
   },
   {
     "objectID": "sesiones/dia-04-metodos-avanzados-robustez.html#slides",
     "href": "sesiones/dia-04-metodos-avanzados-robustez.html#slides",
-    "title": "Día 4: Métodos avanzados, robustez e interpretación",
+    "title": "Día 4: Descomposición avanzada y variación de la longevidad",
     "section": "",
-    "text": "Disponible próximamente."
+    "text": "Diapositivas: descomposición avanzada y variación de la longevidad"
   },
   {
     "objectID": "sesiones/dia-04-metodos-avanzados-robustez.html#lab",
     "href": "sesiones/dia-04-metodos-avanzados-robustez.html#lab",
-    "title": "Día 4: Métodos avanzados, robustez e interpretación",
+    "title": "Día 4: Descomposición avanzada y variación de la longevidad",
     "section": "",
     "text": "Lab del día 4"
   },
   {
-    "objectID": "sesiones/dia-04-metodos-avanzados-robustez.html#código",
-    "href": "sesiones/dia-04-metodos-avanzados-robustez.html#código",
-    "title": "Día 4: Métodos avanzados, robustez e interpretación",
+    "objectID": "sesiones/dia-04-metodos-avanzados-robustez.html#prácticas",
+    "href": "sesiones/dia-04-metodos-avanzados-robustez.html#prácticas",
+    "title": "Día 4: Descomposición avanzada y variación de la longevidad",
     "section": "",
-    "text": "El código se compartirá al final del curso."
+    "text": "Descomposición de la esperanza de vida en Venezuela - HTML | PDF\nVariación de la longevidad en México - HTML | PDF"
   },
   {
-    "objectID": "sesiones/dia-04-metodos-avanzados-robustez.html#datos",
-    "href": "sesiones/dia-04-metodos-avanzados-robustez.html#datos",
-    "title": "Día 4: Métodos avanzados, robustez e interpretación",
+    "objectID": "sesiones/dia-04-metodos-avanzados-robustez.html#datos-y-funciones",
+    "href": "sesiones/dia-04-metodos-avanzados-robustez.html#datos-y-funciones",
+    "title": "Día 4: Descomposición avanzada y variación de la longevidad",
     "section": "",
-    "text": "Disponible próximamente."
+    "text": "Datos de mortalidad por edad y causa\nFunciones para la descomposición de Venezuela\n\n\n\n\n\nDatos de mortalidad por edad y causa\nFunciones para la variación de la longevidad"
+  },
+  {
+    "objectID": "sesiones/dia-04-metodos-avanzados-robustez.html#paquetes-necesarios",
+    "href": "sesiones/dia-04-metodos-avanzados-robustez.html#paquetes-necesarios",
+    "title": "Día 4: Descomposición avanzada y variación de la longevidad",
+    "section": "",
+    "text": "DemoDecomp\nggplot2\ntidyr\ntidyverse"
+  },
+  {
+    "objectID": "sesiones/dia-04-metodos-avanzados-robustez.html#código",
+    "href": "sesiones/dia-04-metodos-avanzados-robustez.html#código",
+    "title": "Día 4: Descomposición avanzada y variación de la longevidad",
+    "section": "",
+    "text": "El código completo está incluido en las versiones HTML. Descarguen también el archivo de datos y el archivo de funciones correspondiente, conservando los nombres originales."
   },
   {
     "objectID": "sesiones/dia-04-metodos-avanzados-robustez.html#lecturas-recomendadas",
     "href": "sesiones/dia-04-metodos-avanzados-robustez.html#lecturas-recomendadas",
-    "title": "Día 4: Métodos avanzados, robustez e interpretación",
+    "title": "Día 4: Descomposición avanzada y variación de la longevidad",
     "section": "",
-    "text": "Disponible próximamente."
+    "text": "Horiuchi, S., Wilmoth, J. R. y Pletcher, S. D. (2008). A decomposition method based on a model of continuous change. Demography, 45(4), 785-801.\nAndreev, E. M., Shkolnikov, V. M. y Begun, A. Z. (2002). Algorithm for decomposition of differences between aggregate demographic measures and its application to life expectancies, healthy life expectancies, parity-progression ratios and total fertility rates. Demographic Research, 7, 499-522.\nvan Raalte, A. A. y Caswell, H. (2013). Perturbation analysis of indices of lifespan variability. Demography, 50, 1615-1640."
   },
   {
     "objectID": "practicals/dia-01/kitagawa-gfr/kitagawa-gfr-es.html",

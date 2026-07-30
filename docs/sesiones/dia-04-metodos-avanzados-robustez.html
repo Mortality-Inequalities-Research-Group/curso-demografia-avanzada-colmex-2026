@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Día 4: Métodos avanzados, robustez e interpretación – Curso de demografía avanzada - Colmex 2026</title>
+<title>Día 4: Descomposición avanzada y variación de la longevidad – Curso de demografía avanzada - Colmex 2026</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -131,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="../sesiones/dia-04-metodos-avanzados-robustez.html">
- <span class="dropdown-text">Día 4: Métodos avanzados y robustez</span></a>
+ <span class="dropdown-text">Día 4: Descomposición avanzada y variación de la longevidad</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../sesiones/dia-05-lee-carter-forecasting.html">
@@ -155,14 +155,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#métodos-avanzados-robustez-e-interpretación" id="toc-métodos-avanzados-robustez-e-interpretación" class="nav-link active" data-scroll-target="#métodos-avanzados-robustez-e-interpretación">Métodos avanzados, robustez e interpretación</a>
+  <li><a href="#descomposición-avanzada-y-variación-de-la-longevidad" id="toc-descomposición-avanzada-y-variación-de-la-longevidad" class="nav-link active" data-scroll-target="#descomposición-avanzada-y-variación-de-la-longevidad">Descomposición avanzada y variación de la longevidad</a>
   <ul class="collapse">
   <li><a href="#docencia" id="toc-docencia" class="nav-link" data-scroll-target="#docencia">Docencia</a></li>
   <li><a href="#objetivos-de-la-sesión" id="toc-objetivos-de-la-sesión" class="nav-link" data-scroll-target="#objetivos-de-la-sesión">Objetivos de la sesión</a></li>
   <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
   <li><a href="#lab" id="toc-lab" class="nav-link" data-scroll-target="#lab">Lab</a></li>
+  <li><a href="#prácticas" id="toc-prácticas" class="nav-link" data-scroll-target="#prácticas">Prácticas</a></li>
+  <li><a href="#datos-y-funciones" id="toc-datos-y-funciones" class="nav-link" data-scroll-target="#datos-y-funciones">Datos y funciones</a>
+  <ul class="collapse">
+  <li><a href="#venezuela" id="toc-venezuela" class="nav-link" data-scroll-target="#venezuela">Venezuela</a></li>
+  <li><a href="#méxico" id="toc-méxico" class="nav-link" data-scroll-target="#méxico">México</a></li>
+  </ul></li>
+  <li><a href="#paquetes-necesarios" id="toc-paquetes-necesarios" class="nav-link" data-scroll-target="#paquetes-necesarios">Paquetes necesarios</a></li>
   <li><a href="#código" id="toc-código" class="nav-link" data-scroll-target="#código">Código</a></li>
-  <li><a href="#datos" id="toc-datos" class="nav-link" data-scroll-target="#datos">Datos</a></li>
   <li><a href="#lecturas-recomendadas" id="toc-lecturas-recomendadas" class="nav-link" data-scroll-target="#lecturas-recomendadas">Lecturas recomendadas</a></li>
   </ul></li>
   </ul>
@@ -173,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Día 4: Métodos avanzados, robustez e interpretación</h1>
+<h1 class="title">Día 4: Descomposición avanzada y variación de la longevidad</h1>
 </div>
 
 
@@ -190,9 +196,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="métodos-avanzados-robustez-e-interpretación" class="level1">
-<h1>Métodos avanzados, robustez e interpretación</h1>
-<p>Descomposición lineal integral, dependencia del orden de reemplazo, ejercicios de sensibilidad e interpretación de resultados.</p>
+<section id="descomposición-avanzada-y-variación-de-la-longevidad" class="level1">
+<h1>Descomposición avanzada y variación de la longevidad</h1>
+<p>Tablas de vida con eliminación de causas, medidas de variación de las edades a la muerte, descomposición integral lineal y comparación con el método de reemplazo por pasos.</p>
 <section id="docencia" class="level2">
 <h2 class="anchored" data-anchor-id="docencia">Docencia</h2>
 <ul>
@@ -203,32 +209,65 @@ ul.task-list li input[type="checkbox"] {
 <section id="objetivos-de-la-sesión" class="level2">
 <h2 class="anchored" data-anchor-id="objetivos-de-la-sesión">Objetivos de la sesión</h2>
 <ul>
-<li>Introducir la descomposición lineal integral.</li>
-<li>Evaluar la dependencia del orden de reemplazo.</li>
-<li>Diseñar ejercicios de sensibilidad.</li>
-<li>Comparar resultados entre métodos de descomposición.</li>
-<li>Fortalecer la interpretación sustantiva de los resultados.</li>
+<li>Comprender la lógica de las tablas de vida con eliminación de causas.</li>
+<li>Comparar indicadores de variación de la longevidad, como (e^), la desviación estándar y el coeficiente de Gini.</li>
+<li>Aplicar el método integral lineal de Horiuchi.</li>
+<li>Descomponer cambios demográficos por edad y causa de muerte.</li>
+<li>Comparar la descomposición integral lineal con el reemplazo por pasos.</li>
 </ul>
 </section>
 <section id="slides" class="level2">
 <h2 class="anchored" data-anchor-id="slides">Slides</h2>
-<p>Disponible próximamente.</p>
+<p><a href="../slides/dia-04-descomposicion-avanzada-es.pdf">Diapositivas: descomposición avanzada y variación de la longevidad</a></p>
 </section>
 <section id="lab" class="level2">
 <h2 class="anchored" data-anchor-id="lab">Lab</h2>
 <p><a href="../labs/dia-04-lab.html">Lab del día 4</a></p>
 </section>
+<section id="prácticas" class="level2">
+<h2 class="anchored" data-anchor-id="prácticas">Prácticas</h2>
+<ul>
+<li><a href="../practicals/dia-04/descomposicion-venezuela/dia-04-descomposicion-venezuela-es.html">Descomposición de la esperanza de vida en Venezuela - HTML</a> | <a href="../practicals/dia-04/descomposicion-venezuela/dia-04-descomposicion-venezuela-es.pdf">PDF</a></li>
+<li><a href="../practicals/dia-04/variacion-longevidad-mexico/dia-04-variacion-longevidad-mexico-es.html">Variación de la longevidad en México - HTML</a> | <a href="../practicals/dia-04/variacion-longevidad-mexico/dia-04-variacion-longevidad-mexico-es.pdf">PDF</a></li>
+</ul>
+</section>
+<section id="datos-y-funciones" class="level2">
+<h2 class="anchored" data-anchor-id="datos-y-funciones">Datos y funciones</h2>
+<section id="venezuela" class="level3">
+<h3 class="anchored" data-anchor-id="venezuela">Venezuela</h3>
+<ul>
+<li><a href="../data/dia-04/descomposicion-venezuela-data.RData">Datos de mortalidad por edad y causa</a></li>
+<li><a href="../practicals/dia-04/descomposicion-venezuela/funciones-descomposicion-venezuela.R">Funciones para la descomposición de Venezuela</a></li>
+</ul>
+</section>
+<section id="méxico" class="level3">
+<h3 class="anchored" data-anchor-id="méxico">México</h3>
+<ul>
+<li><a href="../data/dia-04/variacion-longevidad-mexico-data.RData">Datos de mortalidad por edad y causa</a></li>
+<li><a href="../practicals/dia-04/variacion-longevidad-mexico/funciones-variacion-longevidad-mexico.R">Funciones para la variación de la longevidad</a></li>
+</ul>
+</section>
+</section>
+<section id="paquetes-necesarios" class="level2">
+<h2 class="anchored" data-anchor-id="paquetes-necesarios">Paquetes necesarios</h2>
+<ul>
+<li><code>DemoDecomp</code></li>
+<li><code>ggplot2</code></li>
+<li><code>tidyr</code></li>
+<li><code>tidyverse</code></li>
+</ul>
+</section>
 <section id="código" class="level2">
 <h2 class="anchored" data-anchor-id="código">Código</h2>
-<p>El código se compartirá al final del curso.</p>
-</section>
-<section id="datos" class="level2">
-<h2 class="anchored" data-anchor-id="datos">Datos</h2>
-<p>Disponible próximamente.</p>
+<p>El código completo está incluido en las versiones HTML. Descarguen también el archivo de datos y el archivo de funciones correspondiente, conservando los nombres originales.</p>
 </section>
 <section id="lecturas-recomendadas" class="level2">
 <h2 class="anchored" data-anchor-id="lecturas-recomendadas">Lecturas recomendadas</h2>
-<p>Disponible próximamente.</p>
+<ul>
+<li>Horiuchi, S., Wilmoth, J. R. y Pletcher, S. D. (2008). A decomposition method based on a model of continuous change. <em>Demography</em>, 45(4), 785-801.</li>
+<li>Andreev, E. M., Shkolnikov, V. M. y Begun, A. Z. (2002). Algorithm for decomposition of differences between aggregate demographic measures and its application to life expectancies, healthy life expectancies, parity-progression ratios and total fertility rates. <em>Demographic Research</em>, 7, 499-522.</li>
+<li>van Raalte, A. A. y Caswell, H. (2013). Perturbation analysis of indices of lifespan variability. <em>Demography</em>, 50, 1615-1640.</li>
+</ul>
 
 
 </section>

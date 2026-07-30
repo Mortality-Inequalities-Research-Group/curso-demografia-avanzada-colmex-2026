@@ -1,10 +1,12 @@
 ---
-title: "Día 4: Métodos avanzados, robustez e interpretación"
+title: "Día 4: Descomposición avanzada y variación de la longevidad"
 ---
 
-# Métodos avanzados, robustez e interpretación
+# Descomposición avanzada y variación de la longevidad
 
-Descomposición lineal integral, dependencia del orden de reemplazo, ejercicios de sensibilidad e interpretación de resultados.
+Tablas de vida con eliminación de causas, medidas de variación de las edades a
+la muerte, descomposición integral lineal y comparación con el método de
+reemplazo por pasos.
 
 ## Docencia
 
@@ -13,28 +15,59 @@ Descomposición lineal integral, dependencia del orden de reemplazo, ejercicios 
 
 ## Objetivos de la sesión
 
-- Introducir la descomposición lineal integral.
-- Evaluar la dependencia del orden de reemplazo.
-- Diseñar ejercicios de sensibilidad.
-- Comparar resultados entre métodos de descomposición.
-- Fortalecer la interpretación sustantiva de los resultados.
+- Comprender la lógica de las tablas de vida con eliminación de causas.
+- Comparar indicadores de variación de la longevidad, como
+  \(e^\dagger\), la desviación estándar y el coeficiente de Gini.
+- Aplicar el método integral lineal de Horiuchi.
+- Descomponer cambios demográficos por edad y causa de muerte.
+- Comparar la descomposición integral lineal con el reemplazo por pasos.
 
 ## Slides
 
-Disponible próximamente.
+[Diapositivas: descomposición avanzada y variación de la longevidad](../slides/dia-04-descomposicion-avanzada-es.pdf)
 
 ## Lab
 
 [Lab del día 4](../labs/dia-04-lab.qmd)
 
+## Prácticas
+
+- [Descomposición de la esperanza de vida en Venezuela - HTML](../practicals/dia-04/descomposicion-venezuela/dia-04-descomposicion-venezuela-es.html) | [PDF](../practicals/dia-04/descomposicion-venezuela/dia-04-descomposicion-venezuela-es.pdf)
+- [Variación de la longevidad en México - HTML](../practicals/dia-04/variacion-longevidad-mexico/dia-04-variacion-longevidad-mexico-es.html) | [PDF](../practicals/dia-04/variacion-longevidad-mexico/dia-04-variacion-longevidad-mexico-es.pdf)
+
+## Datos y funciones
+
+### Venezuela
+
+- [Datos de mortalidad por edad y causa](../data/dia-04/descomposicion-venezuela-data.RData)
+- [Funciones para la descomposición de Venezuela](../practicals/dia-04/descomposicion-venezuela/funciones-descomposicion-venezuela.R)
+
+### México
+
+- [Datos de mortalidad por edad y causa](../data/dia-04/variacion-longevidad-mexico-data.RData)
+- [Funciones para la variación de la longevidad](../practicals/dia-04/variacion-longevidad-mexico/funciones-variacion-longevidad-mexico.R)
+
+## Paquetes necesarios
+
+- `DemoDecomp`
+- `ggplot2`
+- `tidyr`
+- `tidyverse`
+
 ## Código
 
-El código se compartirá al final del curso.
-
-## Datos
-
-Disponible próximamente.
+El código completo está incluido en las versiones HTML. Descarguen también el
+archivo de datos y el archivo de funciones correspondiente, conservando los
+nombres originales.
 
 ## Lecturas recomendadas
 
-Disponible próximamente.
+- Horiuchi, S., Wilmoth, J. R. y Pletcher, S. D. (2008). A decomposition
+  method based on a model of continuous change. *Demography*, 45(4), 785-801.
+- Andreev, E. M., Shkolnikov, V. M. y Begun, A. Z. (2002). Algorithm for
+  decomposition of differences between aggregate demographic measures and its
+  application to life expectancies, healthy life expectancies,
+  parity-progression ratios and total fertility rates. *Demographic Research*,
+  7, 499-522.
+- van Raalte, A. A. y Caswell, H. (2013). Perturbation analysis of indices of
+  lifespan variability. *Demography*, 50, 1615-1640.

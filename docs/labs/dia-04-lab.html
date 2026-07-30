@@ -131,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="../sesiones/dia-04-metodos-avanzados-robustez.html">
- <span class="dropdown-text">Día 4: Métodos avanzados y robustez</span></a>
+ <span class="dropdown-text">Día 4: Descomposición avanzada y variación de la longevidad</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../sesiones/dia-05-lee-carter-forecasting.html">
@@ -158,12 +158,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#lab-día-4" id="toc-lab-día-4" class="nav-link active" data-scroll-target="#lab-día-4">Lab día 4</a>
   <ul class="collapse">
   <li><a href="#objetivo-del-lab" id="toc-objetivo-del-lab" class="nav-link" data-scroll-target="#objetivo-del-lab">Objetivo del lab</a></li>
+  <li><a href="#materiales" id="toc-materiales" class="nav-link" data-scroll-target="#materiales">Materiales</a></li>
   <li><a href="#paquetes-necesarios" id="toc-paquetes-necesarios" class="nav-link" data-scroll-target="#paquetes-necesarios">Paquetes necesarios</a></li>
-  <li><a href="#datos" id="toc-datos" class="nav-link" data-scroll-target="#datos">Datos</a></li>
-  <li><a href="#ejercicio-1" id="toc-ejercicio-1" class="nav-link" data-scroll-target="#ejercicio-1">Ejercicio 1</a></li>
-  <li><a href="#ejercicio-2" id="toc-ejercicio-2" class="nav-link" data-scroll-target="#ejercicio-2">Ejercicio 2</a></li>
-  <li><a href="#ejercicio-3" id="toc-ejercicio-3" class="nav-link" data-scroll-target="#ejercicio-3">Ejercicio 3</a></li>
-  <li><a href="#preguntas-de-interpretación" id="toc-preguntas-de-interpretación" class="nav-link" data-scroll-target="#preguntas-de-interpretación">Preguntas de interpretación</a></li>
+  <li><a href="#estructura-sugerida" id="toc-estructura-sugerida" class="nav-link" data-scroll-target="#estructura-sugerida">Estructura sugerida</a></li>
+  <li><a href="#práctica-1-esperanza-de-vida-en-venezuela" id="toc-práctica-1-esperanza-de-vida-en-venezuela" class="nav-link" data-scroll-target="#práctica-1-esperanza-de-vida-en-venezuela">Práctica 1: esperanza de vida en Venezuela</a></li>
+  <li><a href="#práctica-2-variación-de-la-longevidad-en-méxico" id="toc-práctica-2-variación-de-la-longevidad-en-méxico" class="nav-link" data-scroll-target="#práctica-2-variación-de-la-longevidad-en-méxico">Práctica 2: variación de la longevidad en México</a></li>
+  <li><a href="#extensión" id="toc-extensión" class="nav-link" data-scroll-target="#extensión">Extensión</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -194,31 +194,91 @@ ul.task-list li input[type="checkbox"] {
 <h1>Lab día 4</h1>
 <section id="objetivo-del-lab" class="level2">
 <h2 class="anchored" data-anchor-id="objetivo-del-lab">Objetivo del lab</h2>
-<p>Pendiente: objetivo del lab sobre métodos avanzados, robustez e interpretación.</p>
+<p>Aplicar métodos avanzados de descomposición para identificar contribuciones por edad y causa de muerte a los cambios en la esperanza de vida y en la variación de la longevidad.</p>
+</section>
+<section id="materiales" class="level2">
+<h2 class="anchored" data-anchor-id="materiales">Materiales</h2>
+<ul>
+<li><a href="../slides/dia-04-descomposicion-avanzada-es.pdf">Diapositivas del día 4</a></li>
+<li><a href="../practicals/dia-04/descomposicion-venezuela/dia-04-descomposicion-venezuela-es.html">Práctica de Venezuela - HTML</a> | <a href="../practicals/dia-04/descomposicion-venezuela/dia-04-descomposicion-venezuela-es.pdf">PDF</a></li>
+<li><a href="../data/dia-04/descomposicion-venezuela-data.RData">Datos de Venezuela</a></li>
+<li><a href="../practicals/dia-04/descomposicion-venezuela/funciones-descomposicion-venezuela.R">Funciones para Venezuela</a></li>
+<li><a href="../practicals/dia-04/variacion-longevidad-mexico/dia-04-variacion-longevidad-mexico-es.html">Práctica de México - HTML</a> | <a href="../practicals/dia-04/variacion-longevidad-mexico/dia-04-variacion-longevidad-mexico-es.pdf">PDF</a></li>
+<li><a href="../data/dia-04/variacion-longevidad-mexico-data.RData">Datos de México</a></li>
+<li><a href="../practicals/dia-04/variacion-longevidad-mexico/funciones-variacion-longevidad-mexico.R">Funciones para México</a></li>
+</ul>
 </section>
 <section id="paquetes-necesarios" class="level2">
 <h2 class="anchored" data-anchor-id="paquetes-necesarios">Paquetes necesarios</h2>
-<p>Pendiente: lista de paquetes necesarios.</p>
+<ul>
+<li><code>DemoDecomp</code></li>
+<li><code>ggplot2</code></li>
+<li><code>tidyr</code></li>
+<li><code>tidyverse</code></li>
+</ul>
 </section>
-<section id="datos" class="level2">
-<h2 class="anchored" data-anchor-id="datos">Datos</h2>
-<p>Pendiente: descripción de los datos de práctica.</p>
+<section id="estructura-sugerida" class="level2">
+<h2 class="anchored" data-anchor-id="estructura-sugerida">Estructura sugerida</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Bloque</th>
+<th>Actividad</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Clase teórica</td>
+<td>Eliminación de causas y variación de la longevidad</td>
+</tr>
+<tr class="even">
+<td>Práctica 1</td>
+<td>Descomposición de la esperanza de vida en Venezuela</td>
+</tr>
+<tr class="odd">
+<td>Interpretación</td>
+<td>Contribuciones por edad y causa de muerte</td>
+</tr>
+<tr class="even">
+<td>Clase aplicada</td>
+<td>Método integral lineal y reemplazo por pasos</td>
+</tr>
+<tr class="odd">
+<td>Práctica 2</td>
+<td>Descomposición de la disparidad de la longevidad en México</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="ejercicio-1" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicio-1">Ejercicio 1</h2>
-<p>Pendiente: instrucciones del ejercicio.</p>
+<section id="práctica-1-esperanza-de-vida-en-venezuela" class="level2">
+<h2 class="anchored" data-anchor-id="práctica-1-esperanza-de-vida-en-venezuela">Práctica 1: esperanza de vida en Venezuela</h2>
+<p>La primera práctica aplica el método integral lineal de Horiuchi a la esperanza de vida de los hombres de Venezuela entre 1996 y 2013. El análisis comienza con una descomposición por edad y se extiende a contribuciones conjuntas por edad y causa de muerte.</p>
+<p>Preguntas guía:</p>
+<ul>
+<li>¿Qué edades explican la mayor parte del cambio en la esperanza de vida?</li>
+<li>¿Qué combinación de edad y causa presenta la mayor contribución negativa?</li>
+<li>¿Qué papel tienen los homicidios y otras causas violentas?</li>
+<li>¿La suma de las contribuciones reproduce la diferencia observada?</li>
+</ul>
 </section>
-<section id="ejercicio-2" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicio-2">Ejercicio 2</h2>
-<p>Pendiente: instrucciones del ejercicio.</p>
+<section id="práctica-2-variación-de-la-longevidad-en-méxico" class="level2">
+<h2 class="anchored" data-anchor-id="práctica-2-variación-de-la-longevidad-en-méxico">Práctica 2: variación de la longevidad en México</h2>
+<p>La segunda práctica descompone el cambio en la disparidad de la duración de la vida de los hombres de México entre 2005 y 2015. Se comparan el método integral lineal y el reemplazo por pasos, y se extiende el análisis por causa de muerte.</p>
+<p>Preguntas guía:</p>
+<ul>
+<li>¿Qué edades contribuyen a aumentar o reducir la disparidad?</li>
+<li>¿Las diferencias entre métodos cambian la interpretación sustantiva?</li>
+<li>¿Qué causas explican el cambio en la variación de la longevidad?</li>
+<li>¿Cómo cambian los resultados al agregar las edades en grupos quinquenales?</li>
+</ul>
 </section>
-<section id="ejercicio-3" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicio-3">Ejercicio 3</h2>
-<p>Pendiente: instrucciones del ejercicio.</p>
-</section>
-<section id="preguntas-de-interpretación" class="level2">
-<h2 class="anchored" data-anchor-id="preguntas-de-interpretación">Preguntas de interpretación</h2>
-<p>Pendiente: preguntas para discusión e interpretación.</p>
+<section id="extensión" class="level2">
+<h2 class="anchored" data-anchor-id="extensión">Extensión</h2>
+<p>Comparen conjuntamente los cambios en esperanza de vida y variación de la longevidad. Expliquen por qué una mejora en la esperanza de vida puede coincidir con un aumento o una reducción de la desigualdad en las edades a la muerte.</p>
 
 
 </section>

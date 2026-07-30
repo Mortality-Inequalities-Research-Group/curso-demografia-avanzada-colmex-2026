@@ -47,13 +47,16 @@ El código se compartirá al final del curso para favorecer que las y los estudi
 
 - [Día 1: diapositivas de descomposición de Kitagawa](slides/dia-01-kitagawa.pdf)
 - [Día 1: diapositivas de años de vida perdidos](slides/dia-01-years-life-lost.pdf)
+- [Día 4: diapositivas de descomposición avanzada](slides/dia-04-descomposicion-avanzada-es.pdf)
+- [Día 4: práctica de Venezuela](practicals/dia-04/descomposicion-venezuela/dia-04-descomposicion-venezuela-es.html)
+- [Día 4: práctica de México](practicals/dia-04/variacion-longevidad-mexico/dia-04-variacion-longevidad-mexico-es.html)
 
 ## Sesiones
 
 1. [Fundamentos de la descomposición demográfica](sesiones/dia-01-fundamentos-descomposicion.qmd)
 2. [Modelación de la mortalidad y descomposición](sesiones/dia-02-tablas-vida-esperanza-vida.qmd)
 3. [Salud, prevalencias y esperanza de vida saludable](sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.qmd)
-4. [Métodos avanzados, robustez e interpretación](sesiones/dia-04-metodos-avanzados-robustez.qmd)
+4. [Descomposición avanzada y variación de la longevidad](sesiones/dia-04-metodos-avanzados-robustez.qmd)
 5. [Introducción al método de Lee-Carter y su interpretación](sesiones/dia-05-lee-carter-forecasting.qmd)
 
 ## Instituciones y financiamiento

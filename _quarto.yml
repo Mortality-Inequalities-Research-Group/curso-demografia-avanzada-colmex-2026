@@ -24,7 +24,7 @@ website:
             href: sesiones/dia-02-tablas-vida-esperanza-vida.qmd
           - text: "Día 3: Salud y esperanza de vida saludable"
             href: sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.qmd
-          - text: "Día 4: Métodos avanzados y robustez"
+          - text: "Día 4: Descomposición avanzada y variación de la longevidad"
             href: sesiones/dia-04-metodos-avanzados-robustez.qmd
           - text: "Día 5: Lee-Carter y forecasting"
             href: sesiones/dia-05-lee-carter-forecasting.qmd

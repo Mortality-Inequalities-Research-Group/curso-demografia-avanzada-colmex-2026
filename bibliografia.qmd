@@ -11,7 +11,7 @@ Esta página reúne las referencias generales del curso. Las lecturas específic
 - Día 1: lecturas sobre descomposición demográfica.
 - Día 2: lecturas sobre tablas de vida y esperanza de vida.
 - Día 3: lecturas sobre el método de Sullivan y esperanza de vida saludable.
-- Día 4: lecturas sobre métodos avanzados, robustez e interpretación.
+- Día 4: lecturas sobre descomposición integral lineal y variación de la longevidad.
 - Día 5: lecturas sobre Lee-Carter y forecasting de mortalidad.
 
 ## Referencias

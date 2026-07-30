@@ -6,29 +6,66 @@ title: "Lab día 4"
 
 ## Objetivo del lab
 
-Pendiente: objetivo del lab sobre métodos avanzados, robustez e interpretación.
+Aplicar métodos avanzados de descomposición para identificar contribuciones por
+edad y causa de muerte a los cambios en la esperanza de vida y en la variación
+de la longevidad.
+
+## Materiales
+
+- [Diapositivas del día 4](../slides/dia-04-descomposicion-avanzada-es.pdf)
+- [Práctica de Venezuela - HTML](../practicals/dia-04/descomposicion-venezuela/dia-04-descomposicion-venezuela-es.html) | [PDF](../practicals/dia-04/descomposicion-venezuela/dia-04-descomposicion-venezuela-es.pdf)
+- [Datos de Venezuela](../data/dia-04/descomposicion-venezuela-data.RData)
+- [Funciones para Venezuela](../practicals/dia-04/descomposicion-venezuela/funciones-descomposicion-venezuela.R)
+- [Práctica de México - HTML](../practicals/dia-04/variacion-longevidad-mexico/dia-04-variacion-longevidad-mexico-es.html) | [PDF](../practicals/dia-04/variacion-longevidad-mexico/dia-04-variacion-longevidad-mexico-es.pdf)
+- [Datos de México](../data/dia-04/variacion-longevidad-mexico-data.RData)
+- [Funciones para México](../practicals/dia-04/variacion-longevidad-mexico/funciones-variacion-longevidad-mexico.R)
 
 ## Paquetes necesarios
 
-Pendiente: lista de paquetes necesarios.
+- `DemoDecomp`
+- `ggplot2`
+- `tidyr`
+- `tidyverse`
 
-## Datos
+## Estructura sugerida
 
-Pendiente: descripción de los datos de práctica.
+| Bloque | Actividad |
+|---|---|
+| Clase teórica | Eliminación de causas y variación de la longevidad |
+| Práctica 1 | Descomposición de la esperanza de vida en Venezuela |
+| Interpretación | Contribuciones por edad y causa de muerte |
+| Clase aplicada | Método integral lineal y reemplazo por pasos |
+| Práctica 2 | Descomposición de la disparidad de la longevidad en México |
 
-## Ejercicio 1
+## Práctica 1: esperanza de vida en Venezuela
 
-Pendiente: instrucciones del ejercicio.
+La primera práctica aplica el método integral lineal de Horiuchi a la esperanza
+de vida de los hombres de Venezuela entre 1996 y 2013. El análisis comienza con
+una descomposición por edad y se extiende a contribuciones conjuntas por edad y
+causa de muerte.
 
-## Ejercicio 2
+Preguntas guía:
 
-Pendiente: instrucciones del ejercicio.
+- ¿Qué edades explican la mayor parte del cambio en la esperanza de vida?
+- ¿Qué combinación de edad y causa presenta la mayor contribución negativa?
+- ¿Qué papel tienen los homicidios y otras causas violentas?
+- ¿La suma de las contribuciones reproduce la diferencia observada?
 
-## Ejercicio 3
+## Práctica 2: variación de la longevidad en México
 
-Pendiente: instrucciones del ejercicio.
+La segunda práctica descompone el cambio en la disparidad de la duración de la
+vida de los hombres de México entre 2005 y 2015. Se comparan el método integral
+lineal y el reemplazo por pasos, y se extiende el análisis por causa de muerte.
 
-## Preguntas de interpretación
+Preguntas guía:
 
-Pendiente: preguntas para discusión e interpretación.
+- ¿Qué edades contribuyen a aumentar o reducir la disparidad?
+- ¿Las diferencias entre métodos cambian la interpretación sustantiva?
+- ¿Qué causas explican el cambio en la variación de la longevidad?
+- ¿Cómo cambian los resultados al agregar las edades en grupos quinquenales?
 
+## Extensión
+
+Comparen conjuntamente los cambios en esperanza de vida y variación de la
+longevidad. Expliquen por qué una mejora en la esperanza de vida puede coincidir
+con un aumento o una reducción de la desigualdad en las edades a la muerte.

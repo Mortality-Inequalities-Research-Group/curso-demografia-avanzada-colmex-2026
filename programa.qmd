@@ -45,5 +45,5 @@ Cada sesión combina exposición conceptual, discusión metodológica y trabajo 
 | 1 | Fundamentos de la descomposición demográfica | José Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio | [Sesión](sesiones/dia-01-fundamentos-descomposicion.qmd) |
 | 2 | Modelación de la mortalidad y descomposición | José Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio | [Sesión](sesiones/dia-02-tablas-vida-esperanza-vida.qmd) |
 | 3 | Salud, prevalencias y esperanza de vida saludable | Ana Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto | [Sesión](sesiones/dia-03-salud-sullivan-esperanza-vida-saludable.qmd) |
-| 4 | Métodos avanzados, robustez e interpretación | José Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio | [Sesión](sesiones/dia-04-metodos-avanzados-robustez.qmd) |
+| 4 | Descomposición avanzada y variación de la longevidad | José Manuel Aburto; taller con Ana Cristina Gómez Ugarte Valerio | [Sesión](sesiones/dia-04-metodos-avanzados-robustez.qmd) |
 | 5 | Introducción al método de Lee-Carter y su interpretación | Ana Cristina Gómez Ugarte Valerio; taller con José Manuel Aburto | [Sesión](sesiones/dia-05-lee-carter-forecasting.qmd) |
