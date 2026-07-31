@@ -74,7 +74,7 @@
     "href": "sesiones/dia-05-lee-carter-forecasting.html",
     "title": "Día 5: Introducción al método de Lee-Carter y su interpretación",
     "section": "",
-    "text": "Introducción al forecasting de mortalidad, interpretación de los parámetros de Lee-Carter e implementación básica en R.\n\n\n\nSesión: Ana Cristina Gómez Ugarte Valerio\nTaller: Dr. José Manuel Aburto\n\n\n\n\n\nIntroducir el forecasting de mortalidad.\nComprender la estructura del modelo Lee-Carter.\nInterpretar los parámetros del modelo.\nImplementar una versión básica del método en R.\nDiscutir alcances, supuestos y límites de la proyección.\n\n\n\n\nDiapositivas: introducción al método de Lee-Carter y su interpretación\n\n\n\nLab del día 5\n\n\n\n\nCódigo complementario en R\nFunciones para construir tablas de vida\n\n\n\n\nDatos de mortalidad de Inglaterra y Gales\n\n\n\nPráctica: modelación y proyección con Lee-Carter - HTML | PDF\n\n\n\n\nfields\nforecast\nviridis\n\n\n\n\n\nLee, R. D. y Carter, L. R. (1992). Forecasting U.S. mortality. Journal of the American Statistical Association, 87(419), 659-671.\nBasellini, U., Camarda, C. G. y Booth, H. (2023). Thirty years on: A review of the Lee-Carter method for forecasting mortality. International Journal of Forecasting, 39(3), 1033-1049."
+    "text": "Introducción al forecasting de mortalidad, interpretación de los parámetros de Lee-Carter e implementación básica en R.\n\n\n\nSesión: Ana Cristina Gómez Ugarte Valerio\nTaller: Dr. José Manuel Aburto\n\n\n\n\n\nIntroducir el forecasting de mortalidad.\nComprender la estructura del modelo Lee-Carter.\nInterpretar los parámetros del modelo.\nImplementar una versión básica del método en R.\nDiscutir alcances, supuestos y límites de la proyección.\n\n\n\n\nDiapositivas: introducción al método de Lee-Carter y su interpretación\n\n\n\nLab del día 5\n\n\n\n\nCódigo complementario en R\nFunciones para construir tablas de vida\n\n\n\n\nDatos de mortalidad de Inglaterra y Gales\n\n\n\nPráctica: modelación y proyección con Lee-Carter - HTML | PDF\n\n\n\nIdentidad entre el área bajo \\(\\ell(x)\\) y la edad a la muerte: demostración mediante integración por partes - Samara Rodríguez (PDF)\n\n\n\n\nfields\nforecast\nviridis\n\n\n\n\n\nLee, R. D. y Carter, L. R. (1992). Forecasting U.S. mortality. Journal of the American Statistical Association, 87(419), 659-671.\nBasellini, U., Camarda, C. G. y Booth, H. (2023). Thirty years on: A review of the Lee-Carter method for forecasting mortality. International Journal of Forecasting, 39(3), 1033-1049."
   },
   {
     "objectID": "sesiones/dia-05-lee-carter-forecasting.html#docencia",
@@ -124,6 +124,13 @@
     "title": "Día 5: Introducción al método de Lee-Carter y su interpretación",
     "section": "",
     "text": "Práctica: modelación y proyección con Lee-Carter - HTML | PDF"
+  },
+  {
+    "objectID": "sesiones/dia-05-lee-carter-forecasting.html#solución-elaborada-por-una-estudiante",
+    "href": "sesiones/dia-05-lee-carter-forecasting.html#solución-elaborada-por-una-estudiante",
+    "title": "Día 5: Introducción al método de Lee-Carter y su interpretación",
+    "section": "",
+    "text": "Identidad entre el área bajo \\(\\ell(x)\\) y la edad a la muerte: demostración mediante integración por partes - Samara Rodríguez (PDF)"
   },
   {
     "objectID": "sesiones/dia-05-lee-carter-forecasting.html#paquetes-necesarios",
@@ -382,7 +389,7 @@
     "href": "labs/dia-05-lab.html",
     "title": "Lab día 5",
     "section": "",
-    "text": "Estimar e interpretar el modelo de Lee-Carter, ajustar el índice temporal para reproducir las defunciones observadas y generar proyecciones probabilísticas de las tasas de mortalidad y la esperanza de vida.\n\n\n\n\nDiapositivas del día 5\nPráctica de Lee-Carter - HTML | PDF\nDatos de mortalidad de Inglaterra y Gales\nFunciones para construir tablas de vida\nCódigo complementario en R\n\n\n\n\n\nfields\nforecast\nviridis\n\n\n\n\nEl archivo lee-carter-data.RData contiene las muertes observadas (Y), la población expuesta al riesgo (E) y las tasas de mortalidad en escala logarítmica (LMX) para Inglaterra y Gales. La práctica utiliza las observaciones desde 1970 y proyecta la mortalidad hasta 2040.\n\n\n\n\nEstimen el patrón promedio por edad, (_x).\nApliquen una descomposición en valores singulares para obtener (_x) y (_t).\nImpongan las restricciones de identificación e interpreten los parámetros.\n\n\n\n\n\nAjusten (_t) para reproducir el número observado de defunciones.\nReconstruyan las tasas ajustadas y la esperanza de vida.\nComparen la esperanza de vida observada y ajustada.\n\n\n\n\n\nModelen (_t) mediante una caminata aleatoria con deriva.\nGeneren 200 trayectorias futuras y sus intervalos de predicción.\nProyecten las tasas de mortalidad por edad y la esperanza de vida.\n\n\n\n\n\n¿Qué representa cada parámetro del modelo de Lee-Carter?\n¿Qué edades muestran un descenso más rápido de la mortalidad?\n¿Por qué se ajusta (_t) al número total de defunciones?\n¿Qué fuentes de incertidumbre capturan las simulaciones?\n¿Qué implica suponer que las tendencias observadas continuarán en el futuro?"
+    "text": "Estimar e interpretar el modelo de Lee-Carter, ajustar el índice temporal para reproducir las defunciones observadas y generar proyecciones probabilísticas de las tasas de mortalidad y la esperanza de vida.\n\n\n\n\nDiapositivas del día 5\nPráctica de Lee-Carter - HTML | PDF\nDatos de mortalidad de Inglaterra y Gales\nFunciones para construir tablas de vida\nCódigo complementario en R\n\n\n\n\n\nIdentidad entre el área bajo \\(\\ell(x)\\) y la edad a la muerte: demostración mediante integración por partes - Samara Rodríguez (PDF)\n\n\n\n\n\nfields\nforecast\nviridis\n\n\n\n\nEl archivo lee-carter-data.RData contiene las muertes observadas (Y), la población expuesta al riesgo (E) y las tasas de mortalidad en escala logarítmica (LMX) para Inglaterra y Gales. La práctica utiliza las observaciones desde 1970 y proyecta la mortalidad hasta 2040.\n\n\n\n\nEstimen el patrón promedio por edad, (_x).\nApliquen una descomposición en valores singulares para obtener (_x) y (_t).\nImpongan las restricciones de identificación e interpreten los parámetros.\n\n\n\n\n\nAjusten (_t) para reproducir el número observado de defunciones.\nReconstruyan las tasas ajustadas y la esperanza de vida.\nComparen la esperanza de vida observada y ajustada.\n\n\n\n\n\nModelen (_t) mediante una caminata aleatoria con deriva.\nGeneren 200 trayectorias futuras y sus intervalos de predicción.\nProyecten las tasas de mortalidad por edad y la esperanza de vida.\n\n\n\n\n\n¿Qué representa cada parámetro del modelo de Lee-Carter?\n¿Qué edades muestran un descenso más rápido de la mortalidad?\n¿Por qué se ajusta (_t) al número total de defunciones?\n¿Qué fuentes de incertidumbre capturan las simulaciones?\n¿Qué implica suponer que las tendencias observadas continuarán en el futuro?"
   },
   {
     "objectID": "labs/dia-05-lab.html#objetivo-del-lab",
@@ -397,6 +404,13 @@
     "title": "Lab día 5",
     "section": "",
     "text": "Diapositivas del día 5\nPráctica de Lee-Carter - HTML | PDF\nDatos de mortalidad de Inglaterra y Gales\nFunciones para construir tablas de vida\nCódigo complementario en R"
+  },
+  {
+    "objectID": "labs/dia-05-lab.html#solución-elaborada-por-una-estudiante",
+    "href": "labs/dia-05-lab.html#solución-elaborada-por-una-estudiante",
+    "title": "Lab día 5",
+    "section": "",
+    "text": "Identidad entre el área bajo \\(\\ell(x)\\) y la edad a la muerte: demostración mediante integración por partes - Samara Rodríguez (PDF)"
   },
   {
     "objectID": "labs/dia-05-lab.html#paquetes-necesarios",

@@ -18,6 +18,10 @@ las tasas de mortalidad y la esperanza de vida.
 - [Funciones para construir tablas de vida](../practicals/dia-05/lee-carter/funciones-tabla-vida.R)
 - [Código complementario en R](../practicals/dia-05/lee-carter/codigo-lee-carter-es.R)
 
+## Solución elaborada por una estudiante
+
+- [Identidad entre el área bajo $\ell(x)$ y la edad a la muerte: demostración mediante integración por partes - Samara Rodríguez (PDF)](../soluciones/dia-05/identidad-area-lx-edad-muerte-samara-rodriguez.pdf)
+
 ## Paquetes necesarios
 
 - `fields`

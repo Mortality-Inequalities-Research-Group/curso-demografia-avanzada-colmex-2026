@@ -40,6 +40,10 @@ Introducción al forecasting de mortalidad, interpretación de los parámetros d
 
 [Práctica: modelación y proyección con Lee-Carter - HTML](../practicals/dia-05/lee-carter/dia-05-lee-carter-es.html) | [PDF](../practicals/dia-05/lee-carter/dia-05-lee-carter-es.pdf)
 
+## Solución elaborada por una estudiante
+
+[Identidad entre el área bajo $\ell(x)$ y la edad a la muerte: demostración mediante integración por partes - Samara Rodríguez (PDF)](../soluciones/dia-05/identidad-area-lx-edad-muerte-samara-rodriguez.pdf)
+
 ## Paquetes necesarios
 
 - `fields`
